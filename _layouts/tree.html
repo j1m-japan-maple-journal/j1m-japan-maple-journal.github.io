@@ -1,0 +1,145 @@
+---
+layout: page
+---
+
+<div class="tree-header card" style="padding:1.25rem; margin-bottom:1.5rem;">
+  <h1 class="mb-2">{{ page.title }}</h1>
+
+  <p style="margin-bottom:0.4rem;">
+    {% if page.code %}
+      <strong>Kód:</strong> <code>{{ page.code }}</code>
+    {% endif %}
+  </p>
+
+  {% if page.species %}
+  <p style="margin-bottom:0.4rem;">
+    <strong>Faj:</strong>
+    {% if page.species.latin %}<em>{{ page.species.latin }}</em>{% endif %}
+    {% if page.species.cultivar %} — '{{ page.species.cultivar }}'{% endif %}
+  </p>
+  {% endif %}
+
+  {% if page.origin %}
+  <p style="margin-bottom:0.4rem;">
+    <strong>Eredet:</strong>
+    {% if page.origin.type %}{{ page.origin.type }}{% endif %}
+    {% if page.origin.date %} • {{ page.origin.date }}{% endif %}
+    {% if page.origin.source %} • {{ page.origin.source }}{% endif %}
+  </p>
+  {% endif %}
+
+  {% if page.stage or page.status %}
+  <p style="margin-bottom:0;">
+    {% if page.stage %}<strong>Fejlettségi szint:</strong> {{ page.stage }}{% endif %}
+    {% if page.stage and page.status %} • {% endif %}
+    {% if page.status %}<strong>Státusz:</strong> {{ page.status }}{% endif %}
+  </p>
+  {% endif %}
+</div>
+
+{% if page.hero_image %}
+<div class="tree-hero card" style="padding:0.75rem; margin-bottom:1.5rem; text-align:center;">
+  <img src="{{ page.hero_image | relative_url }}" alt="{{ page.title }}"
+       style="max-width:100%; border-radius:12px;">
+</div>
+{% endif %}
+
+{% if page.measurements %}
+<div class="card" style="padding:1rem; margin-bottom:1.5rem;">
+  <h2 class="h4 mb-3">Mérések</h2>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Dátum</th>
+          <th>Magasság (cm)</th>
+          <th>Nebari (mm)</th>
+          <th>Törzs (mm)</th>
+          <th>Korona szélesség (cm)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for m in page.measurements %}
+        <tr>
+          <td>{{ m.date }}</td>
+          <td>{{ m.height_cm }}</td>
+          <td>{{ m.nebari_mm }}</td>
+          <td>{{ m.trunk_mm }}</td>
+          <td>{{ m.canopy_width_cm }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endif %}
+
+{% if page.work_log %}
+<div class="card" style="padding:1rem; margin-bottom:1.5rem;">
+  <h2 class="h4 mb-3">Munkalap / Napló</h2>
+  <ul style="list-style:none; padding-left:0;">
+    {% for w in page.work_log %}
+    <li style="margin-bottom:1rem; border-bottom:1px solid #e0e0e0; padding-bottom:0.75rem;">
+      <div>
+        <strong>{{ w.date }}{% if w.season %} ({{ w.season }}){% endif %}</strong>
+        {% if w.category %} — <em>{{ w.category }}</em>{% endif %}
+      </div>
+      <div>{{ w.description }}</div>
+      {% if w.result %}
+      <div style="font-size:0.9em; color:gray; margin-top:0.2rem;">
+        Eredmény: {{ w.result }}
+      </div>
+      {% endif %}
+
+      {% if w.photos %}
+      <div style="margin-top:0.4rem;">
+        {% for photo in w.photos %}
+          <img src="{{ photo | relative_url }}" alt="{{ page.title }} munkafotó"
+               style="max-width:180px; margin-top:0.25rem; margin-right:0.35rem; border-radius:8px;">
+        {% endfor %}
+      </div>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if page.health_log %}
+<div class="card" style="padding:1rem; margin-bottom:1.5rem;">
+  <h2 class="h4 mb-3">Egészség / problémák</h2>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Dátum</th>
+          <th>Probléma</th>
+          <th>Kezelés</th>
+          <th>Eredmény</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for h in page.health_log %}
+        <tr>
+          <td>{{ h.date }}</td>
+          <td>{{ h.issue }}</td>
+          <td>{{ h.treatment }}</td>
+          <td>{{ h.outcome }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endif %}
+
+{% if page.vision %}
+<div class="card" style="padding:1rem; margin-bottom:1.5rem;">
+  <h2 class="h4 mb-3">Vízió</h2>
+  <p>{{ page.vision }}</p>
+</div>
+{% endif %}
+
+<div class="card" style="padding:1.25rem; margin-top:1.5rem;">
+  {{ content }}
+</div>

@@ -7,24 +7,75 @@ order: 2
 
 # Gyűjtemény
 
-Az alábbi listában találod a jelenlegi fák adatlapjait.  
-Kattints bármelyik névre a részletes történethez, mérésekhez és munkanaplóhoz.
+Az alábbi listában találod a fák adatlapjait.  
+Kattints bármelyikre a történet, mérések és napló megtekintéséhez.
 
-{% assign trees = site.pages | where: "layout", "tree" | sort: "title" %}
+<style>
+.tree-card {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background: var(--card-bg);
+  box-shadow: var(--shadow-sm);
+  transition: 0.2s ease;
+}
+
+.tree-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.tree-thumb {
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 1rem;
+  background: #333;
+}
+
+.tree-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.tree-info p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+</style>
+
+{% assign all_tree_pages = site.pages | where: "layout", "tree" %}
+{% assign trees = all_tree_pages | where_exp: "t", "t.url contains '/trees/'" | sort: "title" %}
 
 {% if trees.size > 0 %}
-<ul>
-  {% for tree in trees %}
-  <li>
-    <a href="{{ tree.url | relative_url }}">{{ tree.title }}</a>
-    {% if tree.species %}
-      — <em>{{ tree.species.latin }}</em>
-      {% if tree.species.cultivar %} '{{ tree.species.cultivar }}'{% endif %}
-    {% endif %}
-    {% if tree.code %} • <code>{{ tree.code }}</code>{% endif %}
-  </li>
-  {% endfor %}
-</ul>
+{% for tree in trees %}
+<a href="{{ tree.url | relative_url }}" style="text-decoration:none; color:inherit;">
+  <div class="tree-card">
+    <img
+      class="tree-thumb"
+      src="{{ tree.thumb_image | default: tree.hero_image | relative_url }}"
+      alt="{{ tree.title }}"
+    >
+    <div class="tree-info">
+      <h3>{{ tree.title }}</h3>
+      {% if tree.species %}
+      <p>
+        <em>{{ tree.species.latin }}</em>
+        {% if tree.species.cultivar %} ‘{{ tree.species.cultivar }}’{% endif %}
+      </p>
+      {% endif %}
+      {% if tree.code %}
+      <p>Kód: <code>{{ tree.code }}</code></p>
+      {% endif %}
+    </div>
+  </div>
+</a>
+{% endfor %}
 {% else %}
 <p>Még nincs fa a gyűjteményben – kezd az első adatlap létrehozásával! 🌱</p>
 {% endif %}
+
