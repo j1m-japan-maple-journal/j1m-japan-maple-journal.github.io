@@ -53,29 +53,34 @@ Kattints bármelyikre a történet, mérések és napló megtekintéséhez.
 
 {% if trees.size > 0 %}
 {% for tree in trees %}
-<a href="{{ tree.url | relative_url }}" style="text-decoration:none; color:inherit;">
-  <div class="tree-card">
-    <img
-      class="tree-thumb"
-      src="{{ tree.thumb_image | default: tree.hero_image | relative_url }}"
-      alt="{{ tree.title }}"
-    >
-    <div class="tree-info">
-      <h3>{{ tree.title }}</h3>
-      {% if tree.species %}
-      <p>
-        <em>{{ tree.species.latin }}</em>
-        {% if tree.species.cultivar %} ‘{{ tree.species.cultivar }}’{% endif %}
-      </p>
-      {% endif %}
-      {% if tree.code %}
-      <p>Kód: <code>{{ tree.code }}</code></p>
-      {% endif %}
-    </div>
+<div class="tree-card">
+  <img
+    class="tree-thumb"
+    src="{{ tree.thumb_image | default: tree.hero_image | relative_url }}"
+    alt="{{ tree.title }}"
+  >
+  <div class="tree-info">
+    <h3>
+      <a href="{{ tree.url | relative_url }}" style="text-decoration:none; color:inherit;">
+        {{ tree.title }}
+      </a>
+    </h3>
+
+    {% if tree.species %}
+    <p>
+      <em>{{ tree.species.latin }}</em>
+      {% if tree.species.cultivar %} ‘{{ tree.species.cultivar }}’{% endif %}
+    </p>
+    {% endif %}
+
+    {% if tree.code %}
+    <p>Kód: <code>{{ tree.code }}</code></p>
+    {% endif %}
   </div>
-</a>
+</div>
 {% endfor %}
 {% else %}
 <p>Még nincs fa a gyűjteményben – kezd az első adatlap létrehozásával! 🌱</p>
 {% endif %}
+
 

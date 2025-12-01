@@ -15,6 +15,9 @@ origin:
 stage: "pre-bonsai"
 status: "active"
 
+hero_image: "/assets/trees/akatsuki-1/hero.jpg"
+thumb_image: "/assets/trees/akatsuki-1/hero.jpg"
+
 measurements:
   - date: "2025-10-10"
     height_cm: 42
