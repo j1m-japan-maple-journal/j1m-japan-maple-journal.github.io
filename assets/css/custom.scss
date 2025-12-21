@@ -1,0 +1,109 @@
+/* =========================
+   Tree Timeline (Vertical)
+   ========================= */
+
+.tree-timeline {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 2rem;
+  border-left: 2px solid var(--border-color);
+}
+
+.tree-event {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.tree-event::before {
+  content: "";
+  position: absolute;
+  left: -1.1rem;
+  top: 0.4rem;
+  width: 12px;
+  height: 12px;
+  background: var(--main-color);
+  border-radius: 50%;
+}
+
+.tree-event-card {
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.tree-event-header {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 0.3rem;
+}
+
+.tree-event-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.tree-event-result {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 0.4rem;
+}
+
+.tree-event-photos {
+  margin-top: 0.6rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tree-event-photos img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.tree-timeline {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 2rem;
+  border-left: 2px solid var(--border-color);
+}
+
+.tree-event {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.tree-event-dot {
+  position: absolute;
+  left: -1.05rem;
+  top: 1.2rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.tree-event-card {
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.tree-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.tree-gallery img {
+  width: 100%;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.tree-gallery img:hover {
+  transform: scale(1.04);
+}

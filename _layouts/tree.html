@@ -2,70 +2,99 @@
 layout: page
 ---
 
-<div class="tree-header card" style="padding:1.25rem; margin-bottom:1.5rem;">
-  <h1 class="mb-2">{{ page.title }}</h1>
+{% assign timeline_colors =
+  "átültetés:#22c55e,
+   metszés:#ef4444,
+   drótozás:#3b82f6,
+   légbujtás:#a855f7,
+   védekezés:#f59e0b,
+   teleltetés:#06b6d4,
+   egyéb:#6b7280" | split: "," %}
 
-  <p style="margin-bottom:0.4rem;">
-    {% if page.code %}
-      <strong>Kód:</strong> <code>{{ page.code }}</code>
-    {% endif %}
-  </p>
+{% assign color = "#999" %}
+{% for item in timeline_colors %}
+  {% assign pair = item | split: ":" %}
+  {% if pair[0] == event.type %}
+    {% assign color = pair[1] %}
+  {% endif %}
+{% endfor %}
+
+<div class="tree-header card">
+  <h1 class="tree-title">{{ page.title }}</h1>
+
+  {% if page.code %}
+  <div class="tree-code-badge">
+    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+      <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+    </svg>
+    {{ page.code }}
+  </div>
+  {% endif %}
 
   {% if page.species %}
-  <p style="margin-bottom:0.4rem;">
-    <strong>Faj:</strong>
-    {% if page.species.latin %}<em>{{ page.species.latin }}</em>{% endif %}
-    {% if page.species.cultivar %} — '{{ page.species.cultivar }}'{% endif %}
-  </p>
+  <div class="tree-meta-row">
+    <span class="meta-label">🌱 Faj:</span>
+    <span class="meta-value">
+      {% if page.species.latin %}<em>{{ page.species.latin }}</em>{% endif %}
+      {% if page.species.cultivar %}<span class="cultivar-badge">{{ page.species.cultivar }}</span>{% endif %}
+    </span>
+  </div>
   {% endif %}
 
   {% if page.origin %}
-  <p style="margin-bottom:0.4rem;">
-    <strong>Eredet:</strong>
-    {% if page.origin.type %}{{ page.origin.type }}{% endif %}
-    {% if page.origin.date %} • {{ page.origin.date }}{% endif %}
-    {% if page.origin.source %} • {{ page.origin.source }}{% endif %}
-  </p>
+  <div class="tree-meta-row">
+    <span class="meta-label">📍 Eredet:</span>
+    <span class="meta-value">
+      {% if page.origin.type %}{{ page.origin.type }}{% endif %}
+      {% if page.origin.date %} • {{ page.origin.date }}{% endif %}
+      {% if page.origin.source %} • {{ page.origin.source }}{% endif %}
+    </span>
+  </div>
   {% endif %}
 
   {% if page.stage or page.status %}
-  <p style="margin-bottom:0;">
-    {% if page.stage %}<strong>Fejlettségi szint:</strong> {{ page.stage }}{% endif %}
-    {% if page.stage and page.status %} • {% endif %}
-    {% if page.status %}<strong>Státusz:</strong> {{ page.status }}{% endif %}
-  </p>
+  <div class="tree-badges">
+    {% if page.stage %}<span class="badge badge-stage">{{ page.stage }}</span>{% endif %}
+    {% if page.status %}<span class="badge badge-status badge-{{ page.status }}">{{ page.status }}</span>{% endif %}
+  </div>
   {% endif %}
 </div>
 
 {% if page.hero_image %}
-<div class="tree-hero card" style="padding:0.75rem; margin-bottom:1.5rem; text-align:center;">
-  <img src="{{ page.hero_image | relative_url }}" alt="{{ page.title }}"
-       style="max-width:100%; border-radius:12px;">
+<div class="tree-hero card">
+  <img src="{{ page.hero_image | relative_url }}" alt="{{ page.title }}" class="hero-image">
 </div>
 {% endif %}
 
 {% if page.measurements %}
-<div class="card" style="padding:1rem; margin-bottom:1.5rem;">
-  <h2 class="h4 mb-3">Mérések</h2>
+<div class="card measurements-card">
+  <h2 class="section-title">
+    <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+    </svg>
+    Mérések
+  </h2>
   <div class="table-wrapper">
-    <table>
+    <table class="measurements-table">
       <thead>
         <tr>
-          <th>Dátum</th>
-          <th>Magasság (cm)</th>
-          <th>Nebari (mm)</th>
-          <th>Törzs (mm)</th>
-          <th>Korona szélesség (cm)</th>
+          <th>📅 Dátum</th>
+          <th>📏 Magasság</th>
+          <th>🌳 Nebari</th>
+          <th>🪵 Törzs</th>
+          <th>☘️ Korona</th>
         </tr>
       </thead>
       <tbody>
         {% for m in page.measurements %}
         <tr>
-          <td>{{ m.date }}</td>
-          <td>{{ m.height_cm }}</td>
-          <td>{{ m.nebari_mm }}</td>
-          <td>{{ m.trunk_mm }}</td>
-          <td>{{ m.canopy_width_cm }}</td>
+          <td><strong>{{ m.date }}</strong></td>
+          <td><span class="measurement-value">{{ m.height_cm }}</span> <span class="unit">cm</span></td>
+          <td><span class="measurement-value">{{ m.nebari_mm }}</span> <span class="unit">mm</span></td>
+          <td><span class="measurement-value">{{ m.trunk_mm }}</span> <span class="unit">mm</span></td>
+          <td><span class="measurement-value">{{ m.canopy_width_cm }}</span> <span class="unit">cm</span></td>
         </tr>
         {% endfor %}
       </tbody>
@@ -75,56 +104,117 @@ layout: page
 {% endif %}
 
 {% if page.work_log %}
-<div class="card" style="padding:1rem; margin-bottom:1.5rem;">
-  <h2 class="h4 mb-3">Munkalap / Napló</h2>
-  <ul style="list-style:none; padding-left:0;">
-    {% for w in page.work_log %}
-    <li style="margin-bottom:1rem; border-bottom:1px solid #e0e0e0; padding-bottom:0.75rem;">
-      <div>
-        <strong>{{ w.date }}{% if w.season %} ({{ w.season }}){% endif %}</strong>
-        {% if w.category %} — <em>{{ w.category }}</em>{% endif %}
-      </div>
-      <div>{{ w.description }}</div>
-      {% if w.result %}
-      <div style="font-size:0.9em; color:gray; margin-top:0.2rem;">
-        Eredmény: {{ w.result }}
-      </div>
+<div class="card timeline-card">
+  <h2 class="section-title">
+    <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+      <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+    </svg>
+    Napló / Idővonal
+  </h2>
+
+  <div class="tree-timeline">
+    {% assign entries = page.work_log | sort: "date" | reverse %}
+
+    {% for entry in entries %}
+
+      {% assign color = "#6b7280" %}
+      {% assign icon = "🔧" %}
+      {% for item in timeline_colors %}
+        {% assign pair = item | split: ":" %}
+        {% if pair[0] == entry.category %}
+          {% assign color = pair[1] %}
+        {% endif %}
+      {% endfor %}
+
+      {% if entry.category == "átültetés" %}{% assign icon = "🪴" %}
+      {% elsif entry.category == "metszés" %}{% assign icon = "✂️" %}
+      {% elsif entry.category == "drótozás" %}{% assign icon = "🔗" %}
+      {% elsif entry.category == "légbujtás" %}{% assign icon = "🌱" %}
+      {% elsif entry.category == "védekezés" %}{% assign icon = "🛡️" %}
+      {% elsif entry.category == "teleltetés" %}{% assign icon = "❄️" %}
       {% endif %}
 
-      {% if w.photos %}
-      <div style="margin-top:0.4rem;">
-        {% for photo in w.photos %}
-          <img src="{{ photo | relative_url }}" alt="{{ page.title }} munkafotó"
-               style="max-width:180px; margin-top:0.25rem; margin-right:0.35rem; border-radius:8px;">
-        {% endfor %}
+      <div class="tree-event">
+        <div class="tree-event-dot" style="background: {{ color }}">
+          <span class="event-icon">{{ icon }}</span>
+        </div>
+
+        <div class="tree-event-card" style="border-left-color: {{ color }}">
+          <div class="tree-event-header">
+            <span class="event-date">{{ entry.date }}</span>
+            {% if entry.season %}<span class="event-season">{{ entry.season | capitalize }}</span>{% endif %}
+          </div>
+
+          <div class="tree-event-title" style="color: {{ color }}">
+            {{ entry.category | capitalize }}
+          </div>
+
+          <div class="tree-event-description">
+            {{ entry.description }}
+          </div>
+
+          {% if entry.result %}
+          <div class="tree-event-result">
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+            </svg>
+            {{ entry.result }}
+          </div>
+          {% endif %}
+
+          {% if entry.photos %}
+          <div class="tree-event-photos">
+            {% for photo in entry.photos %}
+              <img src="{{ photo | relative_url }}" alt="work photo" class="event-photo">
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
       </div>
-      {% endif %}
-    </li>
     {% endfor %}
-  </ul>
+  </div>
+</div>
+{% endif %}
+
+{% if page.gallery %}
+<h2>📷 Galéria</h2>
+
+<div class="tree-gallery">
+  {% for img in page.gallery %}
+    <a href="{{ img.image | relative_url }}" class="tree-lightbox">
+      <img src="{{ img.image | relative_url }}" alt="{{ img.caption }}">
+    </a>
+  {% endfor %}
 </div>
 {% endif %}
 
 {% if page.health_log %}
-<div class="card" style="padding:1rem; margin-bottom:1.5rem;">
-  <h2 class="h4 mb-3">Egészség / problémák</h2>
+<div class="card health-card">
+  <h2 class="section-title">
+    <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+      <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+    </svg>
+    Egészség / problémák
+  </h2>
   <div class="table-wrapper">
-    <table>
+    <table class="health-table">
       <thead>
         <tr>
-          <th>Dátum</th>
-          <th>Probléma</th>
-          <th>Kezelés</th>
-          <th>Eredmény</th>
+          <th>📅 Dátum</th>
+          <th>🐛 Probléma</th>
+          <th>💊 Kezelés</th>
+          <th>✅ Eredmény</th>
         </tr>
       </thead>
       <tbody>
         {% for h in page.health_log %}
         <tr>
-          <td>{{ h.date }}</td>
-          <td>{{ h.issue }}</td>
+          <td><strong>{{ h.date }}</strong></td>
+          <td><span class="issue-badge">{{ h.issue }}</span></td>
           <td>{{ h.treatment }}</td>
-          <td>{{ h.outcome }}</td>
+          <td><span class="outcome-text">{{ h.outcome }}</span></td>
         </tr>
         {% endfor %}
       </tbody>
@@ -134,12 +224,601 @@ layout: page
 {% endif %}
 
 {% if page.vision %}
-<div class="card" style="padding:1rem; margin-bottom:1.5rem;">
-  <h2 class="h4 mb-3">Vízió</h2>
-  <p>{{ page.vision }}</p>
+<div class="card vision-card">
+  <h2 class="section-title">
+    <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+      <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+    </svg>
+    Vízió
+  </h2>
+  <p class="vision-text">{{ page.vision }}</p>
 </div>
 {% endif %}
 
 <div class="card" style="padding:1.25rem; margin-top:1.5rem;">
   {{ content }}
 </div>
+
+<div id="tree-lightbox-overlay">
+  <img id="tree-lightbox-img">
+</div>
+
+<style>
+/* === Tree Page Enhanced Styles === */
+
+/* Header Card */
+.tree-header {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, var(--bg-secondary, #f9fafb) 0%, var(--bg-primary, #ffffff) 100%);
+  border: 1px solid var(--border-color, #e5e7eb);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tree-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.tree-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text-primary, #1f2937);
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tree-code-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--bg-tertiary, #f3f4f6);
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #6b7280);
+  margin-bottom: 1rem;
+  transition: all 0.2s ease;
+}
+
+.tree-code-badge:hover {
+  background: #22c55e;
+  color: white;
+  transform: scale(1.05);
+}
+
+.tree-meta-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-light, #f3f4f6);
+  transition: background 0.2s ease;
+}
+
+.tree-meta-row:hover {
+  background: var(--bg-hover, #f9fafb);
+  padding-left: 0.5rem;
+  margin-left: -0.5rem;
+  border-radius: 6px;
+}
+
+.meta-label {
+  font-weight: 600;
+  color: var(--text-secondary, #6b7280);
+  min-width: 120px;
+}
+
+.meta-value {
+  color: var(--text-primary, #1f2937);
+}
+
+.cultivar-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+  color: white;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.cultivar-badge:hover {
+  transform: scale(1.1);
+}
+
+.tree-badges {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  cursor: default;
+}
+
+.badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.badge-stage {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+}
+
+.badge-status {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+}
+
+.badge-active {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.badge-deceased {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+}
+
+/* Hero Image */
+.tree-hero {
+  padding: 0.75rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.tree-hero:hover {
+  transform: scale(1.02);
+}
+
+.hero-image {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+/* Section Titles */
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary, #1f2937);
+  padding-bottom: 0.75rem;
+  border-bottom: 3px solid var(--border-color, #e5e7eb);
+}
+
+.section-title svg {
+  color: #22c55e;
+  transition: transform 0.3s ease;
+}
+
+.section-title:hover svg {
+  transform: rotate(360deg);
+}
+
+/* Measurements Card */
+.measurements-card {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  animation: fadeInUp 0.5s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.measurements-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.measurements-table thead th {
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  border: none;
+}
+
+.measurements-table thead th:first-child {
+  border-radius: 8px 0 0 0;
+}
+
+.measurements-table thead th:last-child {
+  border-radius: 0 8px 0 0;
+}
+
+.measurements-table tbody tr {
+  transition: all 0.2s ease;
+}
+
+.measurements-table tbody tr:hover {
+  background: var(--bg-hover, #f0fdf4);
+  transform: scale(1.01);
+}
+
+.measurements-table tbody td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-light, #f3f4f6);
+}
+
+.measurement-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #22c55e;
+}
+
+.unit {
+  font-size: 0.875rem;
+  color: var(--text-secondary, #6b7280);
+  margin-left: 0.25rem;
+}
+
+/* Timeline Card */
+.timeline-card {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  animation: fadeInUp 0.6s ease;
+}
+
+.tree-timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.tree-timeline::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, #22c55e 0%, transparent 100%);
+}
+
+.tree-event {
+  position: relative;
+  margin-bottom: 2rem;
+  animation: slideInLeft 0.5s ease;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.tree-event-dot {
+  position: absolute;
+  left: -30px;
+  top: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.tree-event:hover .tree-event-dot {
+  transform: scale(1.2) rotate(360deg);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.event-icon {
+  font-size: 1.25rem;
+}
+
+.tree-event-card {
+  background: var(--bg-primary, #ffffff);
+  border: 1px solid var(--border-color, #e5e7eb);
+  border-left: 4px solid;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-left: 2rem;
+  transition: all 0.3s ease;
+}
+
+.tree-event-card:hover {
+  transform: translateX(8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.tree-event-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.event-date {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-primary, #1f2937);
+}
+
+.event-season {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: var(--bg-tertiary, #f3f4f6);
+  border-radius: 12px;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #6b7280);
+  transition: all 0.2s ease;
+}
+
+.event-season:hover {
+  background: #22c55e;
+  color: white;
+}
+
+.tree-event-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.tree-event-description {
+  color: var(--text-secondary, #4b5563);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.tree-event-result {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: #f0fdf4;
+  border-radius: 8px;
+  color: #15803d;
+  font-weight: 500;
+  margin-top: 0.75rem;
+  transition: all 0.2s ease;
+}
+
+.tree-event-result:hover {
+  background: #dcfce7;
+  transform: translateX(4px);
+}
+
+.tree-event-result svg {
+  flex-shrink: 0;
+  color: #22c55e;
+}
+
+.tree-event-photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.event-photo {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.event-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Health Table */
+.health-card {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  animation: fadeInUp 0.7s ease;
+}
+
+.health-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.health-table thead th {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  border: none;
+}
+
+.health-table thead th:first-child {
+  border-radius: 8px 0 0 0;
+}
+
+.health-table thead th:last-child {
+  border-radius: 0 8px 0 0;
+}
+
+.health-table tbody tr {
+  transition: all 0.2s ease;
+}
+
+.health-table tbody tr:hover {
+  background: #fffbeb;
+  transform: scale(1.01);
+}
+
+.health-table tbody td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-light, #f3f4f6);
+}
+
+.issue-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: #fee2e2;
+  color: #991b1b;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.issue-badge:hover {
+  background: #ef4444;
+  color: white;
+}
+
+.outcome-text {
+  color: #15803d;
+  font-weight: 500;
+}
+
+/* Vision Card */
+.vision-card {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%);
+  border-left: 4px solid #22c55e;
+  animation: fadeInUp 0.8s ease;
+}
+
+.vision-text {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--text-secondary, #4b5563);
+  font-style: italic;
+}
+
+/* Lightbox */
+#tree-lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  animation: fadeIn 0.3s ease;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#tree-lightbox-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
+  animation: zoomIn 0.3s ease;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tree-title {
+    font-size: 1.5rem;
+  }
+
+  .tree-header {
+    padding: 1.5rem;
+  }
+
+  .measurements-table,
+  .health-table {
+    font-size: 0.875rem;
+  }
+
+  .tree-timeline {
+    padding-left: 1rem;
+  }
+
+  .tree-event-card {
+    margin-left: 1rem;
+  }
+
+  .tree-event-dot {
+    left: -24px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .section-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* Card hover effects */
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+</style>

@@ -33,6 +33,7 @@ location:
   microclimate_notes: "szélcsatorna, korai fagy, erős déli nap stb."
 
 hero_image: "/assets/trees/TREE-CODE/2025-autumn-front.jpg"
+thumb_image: "/assets/trees/TREE-CODE/2025-autumn-front.jpg"
 
 measurements:
   - date: "YYYY-MM-DD"
