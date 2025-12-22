@@ -14,7 +14,7 @@ timezone: Europe/Budapest
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: "J1M – Japán Juhar Krónikák" # the main title
+title: "Japán Juhar Krónikák" # the main title
 
 tagline: "Japán juharok, bonsaiok és történeteik" # it will display as the subtitle
 
@@ -171,6 +171,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  tudas:
+    output: true
+    permalink: /tudastar/:name/
 
 defaults:
   - scope:

@@ -1,0 +1,34 @@
+---
+layout: page
+---
+
+{% include page-section.html %}
+
+<div class="page-sections-wrapper">
+  {{ content }}
+</div>
+
+<script>
+// Wrap each section (h2 + content until next h2) in a page-section div
+document.addEventListener('DOMContentLoaded', function() {
+  const wrapper = document.querySelector('.page-sections-wrapper');
+  if (!wrapper) return;
+
+  const content = wrapper.innerHTML;
+  const sections = content.split(/<hr\s*\/?>/gi);
+
+  let wrappedContent = '';
+  sections.forEach((section, index) => {
+    const trimmedSection = section.trim();
+    if (trimmedSection) {
+      wrappedContent += '<div class="page-section">' + trimmedSection;
+      if (index < sections.length - 1) {
+        wrappedContent += '<hr>';
+      }
+      wrappedContent += '</div>';
+    }
+  });
+
+  wrapper.innerHTML = wrappedContent;
+});
+</script>

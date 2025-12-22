@@ -2,10 +2,8 @@
 layout: page
 title: "Gyűjtemény"
 icon: fas fa-leaf
-order: 2
+order: 3
 ---
-
-# Gyűjtemény
 
 Az alábbi listában találod a fák adatlapjait.  
 Kattints bármelyikre a történet, mérések és napló megtekintéséhez.

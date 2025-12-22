@@ -2,10 +2,8 @@
 layout: page
 title: "Blog & Hírek"
 icon: fas fa-newspaper
-order: 3
+order: 2
 ---
-
-# Blog & Hírek
 
 Kövess nyomon minden újdonságot, tapasztalatot és történetet a japán juharok világából!
 
