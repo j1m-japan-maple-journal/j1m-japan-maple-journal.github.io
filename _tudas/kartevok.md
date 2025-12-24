@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Japán juhar kártevői és betegségei
+description: Japán juhar kártevői, betegségei és azok hatékony kezelési módjai.
 ---
 
 | Kártevő / Betegség | Típus | Típus jelek és tünetek | Érintett növényrészek | Védekezés és kezelés |

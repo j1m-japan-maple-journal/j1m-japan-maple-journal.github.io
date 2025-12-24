@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Japán juhar bonsai fejlődési szakaszok és döntési pontok
+description: Japán juhar bonsai fejlődési szakaszok és kritikus döntési pontok az évek során.
 ---
 
 | Fázis | Fázis megnevezése | Fő célkitűzés | Kritikus sikertényezők |

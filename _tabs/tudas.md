@@ -12,14 +12,14 @@ Hasznos információk, útmutatók és szakmai tudás a bonsai gondozásról.
 .knowledge-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 1.5rem;
+  gap: 2rem;
   margin-top: 2rem;
 }
 
 .knowledge-card {
   background: var(--card-bg, #ffffff);
   border-radius: 12px;
-  padding: 1.5rem;
+  overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
   border: 1px solid var(--border-color, #e5e7eb);
@@ -29,6 +29,16 @@ Hasznos információk, útmutatók és szakmai tudás a bonsai gondozásról.
 .knowledge-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.knowledge-header {
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+}
+
+.knowledge-content {
+  padding: 1.5rem;
 }
 
 .knowledge-card h3 {
@@ -48,7 +58,7 @@ Hasznos információk, útmutatók és szakmai tudás a bonsai gondozásról.
   color: #22c55e;
 }
 
-.knowledge-excerpt {
+.knowledge-description {
   font-size: 1rem;
   line-height: 1.6;
   color: var(--text-secondary, #4b5563);
@@ -68,6 +78,16 @@ Hasznos információk, útmutatók és szakmai tudás a bonsai gondozásról.
 .knowledge-read-more:hover {
   gap: 0.75rem;
   color: #16a34a;
+}
+
+.knowledge-read-more svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+}
+
+.knowledge-read-more:hover svg {
+  transform: translateX(4px);
 }
 
 .no-knowledge-message {
@@ -98,7 +118,11 @@ Hasznos információk, útmutatók és szakmai tudás a bonsai gondozásról.
 @media (max-width: 768px) {
   .knowledge-grid {
     grid-template-columns: 1fr;
-    gap: 1.25rem;
+    gap: 1.5rem;
+  }
+
+  .knowledge-header {
+    height: 50px;
   }
 }
 </style>
@@ -109,19 +133,28 @@ Hasznos információk, útmutatók és szakmai tudás a bonsai gondozásról.
 <div class="knowledge-grid">
   {% for article in knowledge_articles %}
   <article class="knowledge-card">
-    <h3>
-      <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
-    </h3>
+    <div class="knowledge-header"></div>
 
-    {% if article.excerpt %}
-    <div class="knowledge-excerpt">
-      {{ article.excerpt | strip_html | truncatewords: 20 }}
+    <div class="knowledge-content">
+      <h3>
+        <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
+      </h3>
+
+      <div class="knowledge-description">
+        {% if article.description %}
+          {{ article.description }}
+        {% else %}
+          Description here
+        {% endif %}
+      </div>
+
+      <a href="{{ article.url | relative_url }}" class="knowledge-read-more">
+        Tovább olvasom
+        <svg fill="currentColor" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg>
+      </a>
     </div>
-    {% endif %}
-
-    <a href="{{ article.url | relative_url }}" class="knowledge-read-more">
-      Tovább olvasom →
-    </a>
   </article>
   {% endfor %}
 </div>

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Gyakori hibák és következmények
+description: Tanuljunk a hibákból! Gyakori gondozási hibák és következményeik összegyűjtve.
 ---
 
 Tanuljunk a hibákból! Itt gyűjtöm össze a leggyakoribb gondozási hibákat és azok következményeit.

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Japán juhar fajták és karakterük
+description: Ismerd meg a különböző japán juhar fajtákat, növekedési formájukat, lombszínüket és bonsai alkalmasságukat.
 ---
 
 | Fajta neve | Várható magasság | Lombszín (tavasz–nyár–ősz) | Növekedési forma | Bonsai alkalmasság | Fényigény |

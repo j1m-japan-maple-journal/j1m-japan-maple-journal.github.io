@@ -31,7 +31,7 @@ Kövess nyomon minden újdonságot, tapasztalatot és történetet a japán juha
 
 .blog-post-image {
   width: 100%;
-  height: 200px;
+  height: 50px;
   object-fit: cover;
   background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
 }
@@ -157,6 +157,10 @@ Kövess nyomon minden újdonságot, tapasztalatot és történetet a japán juha
   .blog-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .blog-post-image {
+    height: 50px;
   }
 
   .blog-post-title {
