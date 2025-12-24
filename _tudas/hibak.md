@@ -4,340 +4,108 @@ title: Gyakori hibák és következmények
 description: Tanuljunk a hibákból! Gyakori gondozási hibák és következményeik összegyűjtve.
 ---
 
-Tanuljunk a hibákból! Itt gyűjtöm össze a leggyakoribb gondozási hibákat és azok következményeit.
 
 <style>
-/* Évszak szekció stílus */
-.season-section {
-  margin: 3rem 0;
-  animation: fadeInUp 0.6s ease;
-}
-
-.season-header {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: var(--text-primary, #1f2937);
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid #22c55e;
-}
-
-/* Táblázat konténer */
-.error-table-container {
-  overflow-x: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-  background: var(--card-bg, #ffffff);
-  animation: fadeInUp 0.7s ease;
-}
-
-/* Táblázat alap stílus */
-.error-table {
+/* Táblázat wrapper horizontal scrollhoz */
+.table-wrapper {
   width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  font-size: 1rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1rem 0;
 }
 
-/* Fejléc stílus */
-.error-table thead {
-  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
-  color: white;
+/* Táblázat alapbeállítások */
+.table-wrapper table {
+  width: 100%;
+  min-width: 900px; /* Minimum szélesség a scrollozáshoz */
+  table-layout: auto;
+  word-wrap: break-word;
 }
 
-.error-table thead th {
-  padding: 1.25rem 1.5rem;
-  text-align: left;
-  font-weight: 600;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.error-table thead th:first-child {
-  border-top-left-radius: 12px;
-}
-
-.error-table thead th:last-child {
-  border-top-right-radius: 12px;
-}
-
-/* Sor stílus */
-.error-table tbody tr {
-  transition: all 0.3s ease;
-  border-bottom: 1px solid var(--border-color, #e5e7eb);
-}
-
-.error-table tbody tr:hover {
-  background: linear-gradient(90deg, rgba(34, 197, 94, 0.05) 0%, rgba(34, 197, 94, 0.02) 100%);
-  transform: scale(1.01);
-  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.1);
-}
-
-.error-table tbody tr:last-child {
-  border-bottom: none;
-}
-
-/* Cella stílus */
-.error-table tbody td {
-  padding: 1.25rem 1.5rem;
-  color: var(--text-primary, #1f2937);
+.table-wrapper table td,
+.table-wrapper table th {
+  white-space: normal !important;
+  word-break: break-word;
+  vertical-align: top;
+  padding: 0.75rem !important;
   line-height: 1.6;
 }
 
-/* Hiba oszlop (piros hangsúly) */
-.error-table tbody td:first-child {
-  font-weight: 600;
-  color: #dc2626;
-  position: relative;
-  padding-left: 2rem;
+/* Első oszlop minimum szélessége */
+.table-wrapper table td:first-child,
+.table-wrapper table th:first-child {
+  min-width: 80px;
+  white-space: nowrap;
 }
 
-.error-table tbody td:first-child::before {
-  content: "⚠️";
-  position: absolute;
-  left: 0.75rem;
-  font-size: 1.2rem;
-}
-
-/* Következmény oszlop (narancssárga hangsúly) */
-.error-table tbody td:nth-child(2) {
-  color: #ea580c;
-  font-weight: 500;
-}
-
-/* Javítás oszlop (zöld hangsúly) */
-.error-table tbody td:last-child {
-  color: #16a34a;
-  font-weight: 600;
-  position: relative;
-  padding-left: 2rem;
-}
-
-.error-table tbody td:last-child::before {
-  content: "✓";
-  position: absolute;
-  left: 0.75rem;
-  font-size: 1.2rem;
-  color: #22c55e;
-}
-
-/* Animációk */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Reszponzív design */
+/* Mobilon kisebb padding és betűméret */
 @media (max-width: 768px) {
-  .error-table {
-    font-size: 0.9rem;
+  .table-wrapper table td,
+  .table-wrapper table th {
+    padding: 0.5rem !important;
+    font-size: 0.85rem;
   }
 
-  .error-table thead th,
-  .error-table tbody td {
-    padding: 1rem;
+  .table-wrapper {
+    margin: 0.5rem -1rem; /* Kiterjesztés az oldal szélére */
+    padding: 0 1rem;
   }
-
-  .season-header {
-    font-size: 1.5rem;
-  }
-}
-
-/* Megjegyzés box stílus */
-.note-box {
-  background: linear-gradient(135deg, #fef3c7 0%, #fef9e7 100%);
-  border-left: 4px solid #f59e0b;
-  padding: 1.25rem 1.5rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-  animation: fadeInUp 0.8s ease;
-}
-
-.note-box strong {
-  color: #b45309;
-  display: block;
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
-}
-
-.note-box p {
-  margin: 0;
-  color: #78350f;
-  line-height: 1.6;
 }
 </style>
 
+<div class="table-wrapper" markdown="block">
+
+# Japán juhar bonsai gondozási hibák évszakonként
+
 ## 🌱 Tavasz
 
-<div class="error-table-container">
-  <table class="error-table">
-    <thead>
-      <tr>
-        <th>🚫 Hiba</th>
-        <th>💔 Következmény</th>
-        <th>🩹 Javítás</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Túl korai átültetés (fagyveszély)</td>
-        <td>Gyökérsérülés, lassú indulás</td>
-        <td>Várakozás április végéig</td>
-      </tr>
-      <tr>
-        <td>Túl erős metszés</td>
-        <td>Visszaszáradás, gyenge növekedés</td>
-        <td>Türelem, regeneráció 1 év</td>
-      </tr>
-      <tr>
-        <td>Tápanyaghiány</td>
-        <td>Sárguló levelek, gyenge hajtások</td>
-        <td>Bonsai tápoldattal öntözés 2 hetente</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+| 🚫 Hiba | 💔 Következmény | 🩹 Javítás |
+|---------|-----------------|------------|
+| Túl korai átültetés (fagyveszély) | Gyökérsérülés, lassú indulás. A friss gyökerek fagykárt szenvednek, a fa meggyengül és hónapokig nem fejlődik normálisan. | Várakozás április végéig, amikor az éjszakai fagy veszélye elmúlt. Csak akkor ültessünk át, ha a talaj hőmérséklete is eléri a 10°C-ot. |
+| Túl erős metszés | Visszaszáradás, gyenge növekedés. A fa túl sok energiát veszít, a sebek nem gyógyulnak be rendesen, és az új hajtások vékonyak, erőtlenek lesznek. | Türelem, regeneráció 1 év. Árnyékoljuk a fát, öntözzük rendszeresen, és ne terheljük további metszéssel. Hagyjuk, hogy természetesen regenerálódjon. |
+| Tápanyaghiány | Sárguló levelek, gyenge hajtások. A levelek elveszítik élénk színüket, a növekedés lelassul, az új hajtások rövidek és vékonyak maradnak. | Bonsai tápoldattal öntözés 2 hetente tavasszal és nyár elején. Nitrogénben gazdag tápanyagot használjunk a levélnövekedés serkentésére. |
 
-<div class="note-box">
-  <strong>💡 Jó tanács:</strong>
-  <p>Tavasszal mindig várjuk meg, amíg az éjszakai hőmérséklet tartósan 5°C fölé emelkedik, mielőtt nagyobb beavatkozásokat végzünk.</p>
-</div>
+**💡 Jó tanács:**
+Tavasszal mindig várjuk meg, amíg az éjszakai hőmérséklet tartósan 5°C fölé emelkedik, mielőtt nagyobb beavatkozásokat végzünk.
 
 ---
 
 ## ☀️ Nyár
 
-<div class="error-table-container">
-  <table class="error-table">
-    <thead>
-      <tr>
-        <th>🚫 Hiba</th>
-        <th>💔 Következmény</th>
-        <th>🩹 Javítás</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Túl erős metszés</td>
-        <td>Visszaszáradás, stressz</td>
-        <td>Türelem, árnyékolás, 1 év regeneráció</td>
-      </tr>
-      <tr>
-        <td>Nyári átültetés</td>
-        <td>Súlyos levélhullás, sokk</td>
-        <td>Árnyék, gyakori permetezés, türelem 1 év</td>
-      </tr>
-      <tr>
-        <td>Elégtelen öntözés (kiszáradás)</td>
-        <td>Levélperzselődés, ágak elhalása</td>
-        <td>Fokozatos vízpótlás, soha ne árasztás</td>
-      </tr>
-      <tr>
-        <td>Túlöntözés (pangó víz)</td>
-        <td>Gyökérrothadás, levélfoltok</td>
-        <td>Jó drénázs biztosítása, ritkább öntözés</td>
-      </tr>
-      <tr>
-        <td>Délutáni öntözés (forró levélen)</td>
-        <td>Napégés, levélfoltok</td>
-        <td>Csak reggel vagy este öntözzünk</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+| 🚫 Hiba | 💔 Következmény | 🩹 Javítás |
+|---------|-----------------|------------|
+| Túl erős metszés | Visszaszáradás, stressz. A nyári hőségben a sebek gyorsan kiszáradnak, a fa nem tudja pótolni az elvesztett lombtömeget, és súlyos stresszállapotba kerül. | Türelem, árnyékolás, 1 év regeneráció. 50-70%-os árnyékoló háló használata, rendszeres permetezés. Nyáron csak finomítási metszést végezzünk, strukturális metszést ne! |
+| Nyári átültetés | Súlyos levélhullás, sokk. A gyökerek sérülése és a párolgás együttes hatása miatt a fa nem tud elegendő vizet felvenni, levélszáradás, ágak elhalása következik be. | Árnyék, gyakori permetezés, türelem 1 év. Teljesen árnyékos helyre tesszük, naponta 2-3x permetezünk, minimális öntözés. A regeneráció sok hónapot vehet igénybe. |
+| Elégtelen öntözés (kiszáradás) | Levélperzselődés, ágak elhalása. A levelek barnulnak, ropogóssá válnak, a vékonyabb ágak véglegesen elszáradnak. A gyökércsúcsok elpusztulnak. | Fokozatos vízpótlás, soha ne árasztás. Először csak enyhén nedvesítsük, majd fokozatosan növeljük. Hirtelen vízárasztás további sokkot okozhat. Naponta 2x öntözés szükséges. |
+| Túlöntözés (pangó víz) | Gyökérrothadás, levélfoltok. Az oxigénhiány miatt a gyökerek rothadni kezdenek, barna foltok jelennek meg a leveleken, a fa elkezd hanyatlani. | Jó drénázs biztosítása, ritkább öntözés. Cseréljük ki a földkeveréket drénázst biztosító akadama-pumice keverékre. Csak akkor öntözzünk, ha a talaj felső rétege megszáradt. |
+| Délutáni öntözés (forró levélen) | Napégés, levélfoltok. A vízcsepp nagyítóüvegként működik, a leveleken barnás-fekete égési foltok keletkeznek, melyek visszafordíthatatlanok. | Csak reggel vagy este öntözzünk, amikor a nap nem süt a levelekre. Ideális időpont a korai reggeli órák (6-8 óra) vagy az esti órák (19-20 óra után). |
 
-<div class="note-box">
-  <strong>💡 Jó tanács:</strong>
-  <p>Nyáron a japán juharok különösen érzékenyek. A déli tűző nap ellen használjunk árnyékoló hálót (50-70%), és soha ne metszünk erősen!</p>
-</div>
+**💡 Jó tanács:**
+Nyáron a japán juharok különösen érzékenyek. A déli tűző nap ellen használjunk árnyékoló hálót (50-70%), és soha ne metszünk erősen!
 
 ---
 
 ## 🍂 Ősz
 
-<div class="error-table-container">
-  <table class="error-table">
-    <thead>
-      <tr>
-        <th>🚫 Hiba</th>
-        <th>💔 Következmény</th>
-        <th>🩹 Javítás</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Túl későn beszüntetett trágyázás</td>
-        <td>Nem érik be a hajtások, fagykár</td>
-        <td>Augusztus végétől ne trágyázzunk</td>
-      </tr>
-      <tr>
-        <td>Túl korai téli elhelyezés</td>
-        <td>Korai rügyduzzadás tavasszal</td>
-        <td>Csak tartós 0°C alatti hőnél be</td>
-      </tr>
-      <tr>
-        <td>Levélhullás előtti átültetés</td>
-        <td>Gyökérsérülés, lassú regeneráció</td>
-        <td>Tavaszig várakozás</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+| 🚫 Hiba | 💔 Következmény | 🩹 Javítás |
+|---------|-----------------|------------|
+| Túl későn beszüntetett trágyázás | Nem érik be a hajtások, fagykár. Az új, zsenge hajtások nem fásodnak be időben, így télen megfagynak. A fa gyengébben áll ellen a hidegnek. | Augusztus végétől ne trágyázzunk. Az utolsó trágyázás legyen július végén-augusztus elején, hogy a fa szeptember közepére befejezze a növekedést és felkészüljön a télre. |
+| Túl korai téli elhelyezés | Korai rügyduzzadás tavasszal. Ha túl korán bevisszük melegbe, a fa nem kap elegendő hideget (vernalizáció), tavasszal rendetlenül, korán fakad és gyengén indul. | Csak tartós 0°C alatti hőnél be. A japán juharnak szüksége van a hidegre (0-5°C) legalább 6-8 hétig. Csak ha tartósan -5°C alá menne a hőmérséklet, vigyük be. |
+| Levélhullás előtti átültetés | Gyökérsérülés, lassú regeneráció. A fa még nem vonult pihenőbe teljesen, az átültetés megzavarja a téli felkészülést. A sérült gyökerek nem gyógyulnak be télre. | Tavaszig várakozás. Októberben már ne nyúljunk a gyökerekhez. Az átültetés ideális időpontja március vége-április eleje, amikor a rügyek épp duzzadni kezdenek. |
 
-<div class="note-box">
-  <strong>💡 Jó tanács:</strong>
-  <p>Az ősz a pihenés időszaka. Hagyjuk a fát természetes módon felkészülni a télre: ne metszünk, ne trágyázunk szeptember után.</p>
-</div>
+**💡 Jó tanács:**
+Az ősz a pihenés időszaka. Hagyjuk a fát természetes módon felkészülni a télre: ne metszünk, ne trágyázunk szeptember után.
 
 ---
 
 ## ❄️ Tél
 
-<div class="error-table-container">
-  <table class="error-table">
-    <thead>
-      <tr>
-        <th>🚫 Hiba</th>
-        <th>💔 Következmény</th>
-        <th>🩹 Javítás</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Fűtetlen helyiségben tartás</td>
-        <td>Kiszáradás, ágvégsérülés</td>
-        <td>Szellőztetett, de fagymentes hely</td>
-      </tr>
-      <tr>
-        <td>Túl meleg téli elhelyezés</td>
-        <td>Korai rügyfakadás</td>
-        <td>Hűvös hely (0-5°C ideális)</td>
-      </tr>
-      <tr>
-        <td>Elégtelen téli öntözés</td>
-        <td>Gyökér kiszáradása</td>
-        <td>Havi 1-2x öntözés, ellenőrizni a földet</td>
-      </tr>
-      <tr>
-        <td>Téli metszés túl korán</td>
-        <td>Fagykár a friss sebeknél</td>
-        <td>Február vége / március eleje a legjobb</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+| 🚫 Hiba | 💔 Következmény | 🩹 Javítás |
+|---------|-----------------|------------|
+| Fűtetlen helyiségben tartás | Kiszáradás, ágvégsérülés. A fűtetlen helyiségben (pince, garázs) gyakran túl száraz a levegő, a talaj kőkeményre fagy, a vékony ágvégek elfagynak és elhalnak. | Szellőztetett, de fagymentes hely. Ideális a védett erkély vagy fűtetlen télikert, ahol 0-5°C van. A cserép oldalait burkoljuk be, a talajt védjük mulccsal. |
+| Túl meleg téli elhelyezés | Korai rügyfakadás. Ha 10°C feletti helyen tároljuk, a fa azt hiszi, tavasz van, korán rügyezik, de a növekedés gyenge lesz, mert nem kapta meg a szükséges pihenőidőt. | Hűvös hely (0-5°C ideális). Fűtetlen folyosó, télikert, vagy védett szabadtéri hely. A japán juharnak évente 6-8 hét hideget kell kapnia a megfelelő tavaszi induláshoz. |
+| Elégtelen téli öntözés | Gyökér kiszáradása. Télen a fa ugyan alszik, de a gyökerek élnek és lélegeznek. A kiszáradt gyökerek elhalnak, tavasszal a fa nem indul, vagy csak gyengén. | Havi 1-2x öntözés, ellenőrizni a földet. Ne hagyjuk teljesen kiszáradni! Ujjpróba: ha 2-3 cm mélyen is száraz, öntözni kell. Kevés vizet adjunk, de rendszeresen. |
+| Téli metszés túl korán | Fagykár a friss sebeknél. A december-januári metszés után a sebek nem tudnak begyógyulni, a fagy behatolhat a fa szövetébe, és a seb körül visszaszáradás következik be. | Február vége / március eleje a legjobb. Várakozás a legerősebb fagyokkal, amikor már enyhülés várható. Használjunk sebzárót a nagyobb vágási felületeken. |
 
-<div class="note-box">
-  <strong>💡 Jó tanács:</strong>
-  <p>A téli pihenőidőszak kritikus. A japán juharoknak szükségük van a hidegre (0-5°C), de védjük őket az erős fagytól és a kiszáradástól!</p>
-</div>
+**💡 Jó tanács:**
+A téli pihenőidőszak kritikus. A japán juharoknak szükségük van a hidegre (0-5°C), de védjük őket az erős fagytól és a kiszáradástól!
