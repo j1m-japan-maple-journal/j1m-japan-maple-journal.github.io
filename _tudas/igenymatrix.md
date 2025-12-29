@@ -46,7 +46,9 @@ description: Ismerd meg a különböző japán juhar fajtákat, növekedési for
 }
 </style>
 
-<div class="table-wrapper" markdown="block">
+### Japán juhar fajták összehasonlítása
+
+Átfogó fajtakatalógus japán juharokhoz (Acer palmatum) a várható magasság, lombszín változás, növekedési forma, bonsai alkalmasság és fényigény szerint. Segít kiválasztani a számodra legmegfelelőbb fajtát, legyen szó kertbe ültetésről vagy bonsai nevelésről. Megtudhatod, melyik fajta milyen színekben pompázik tavasszal, nyáron és ősszel.
 
 | Fajta neve | Várható magasság | Lombszín (tavasz–nyár–ősz) | Növekedési forma | Bonsai alkalmasság | Fényigény |
 |-----------|-----------------|----------------------------|------------------|--------------------|-----------|
@@ -71,3 +73,6 @@ description: Ismerd meg a különböző japán juhar fajtákat, növekedési for
 | Acer palmatum 'Beni Maiko' | 3–4 m | Rózsaszín – zöld – narancs | Felálló | Jó | Teljes napfény vagy félárnyék |
 | Acer palmatum 'Shishigashira' | 3–5 m | Zöld – sötétzöld – narancs | Kompakt | Kiváló | Félárnyék |
 | Acer palmatum 'Emerald Lace' | 2–4 m | Világoszöld – zöld – narancs | Csüngő | Kiváló | Teljes napfény vagy félárnyék |
+
+
+{% include disclaimer.html %}

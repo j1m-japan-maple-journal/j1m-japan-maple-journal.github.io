@@ -52,7 +52,9 @@ description: Évszakokra bontott gondozási terv a japán juhar bonsai egészsé
 }
 </style>
 
-<div class="table-wrapper" markdown="block">
+### Japán juhar gondozási naptár évszakonként
+
+Átfogó gondozási naptár Japán juharokhoz az év minden szakaszára. Külön útmutatást tartalmaz kaspóban nevelt és bonsai juharok számára, részletezve az átültetés időzítését, öntözési és tápanyagozási javaslatokat, környezeti igényeket, valamint az alakítás és metszés pontos módját. Hónapról hónapra követhető teendők a sikeres növénygondozáshoz.
 
 | Évszak | Gondozási terület | Kaspóban nevelt juhar teendők | Bonsai juhar teendők | Környezeti igények (Fény/Hőmérséklet) | Öntözési és tápanyagozási tanácsok | Megjegyzések (Alakítás/Metszés)
 |------|------|------|------|------|------|------|
@@ -61,4 +63,5 @@ description: Évszakokra bontott gondozási terv a japán juhar bonsai egészsé
 | 	Ősz	 | 	Felkészítés a nyugalmi állapotra	 | 	Az öntözést fokozatosan csökkentsük. Lombgyűjtés szükséges a gombás fertőzések megelőzésére. Mulcsozás a gyökerek körül a fagyvédelem érdekében.	 | 	Drótozás lombhullás után vagy a meglévők ellenőrzése az ágvastagodás miatt. Törzstisztítás puha kefével. Téli védelem előkészítése (pl. földbe süllyesztés).	 | 	Sok közvetlen fény az intenzív őszi színekhez. Szeptembertől fokozatos szoktatás a hideghez a nyugalmi állapot beindításához.	 | 	Szeptembertől csökken a vízigény, tilos a nitrogénes tápoldatozás. Csak kálium- és foszfordús őszi táp (pl. 0:1:1 arány) adható a télállóságért.	 | 	Augusztus után már ne végezzünk nagyobb metszést. Lombhullás után a vázrendszer áttekinthető, az elhalt ágak eltávolíthatóak.	 | 
 | 	Tél	 | 	Teleltetés és strukturális alakítás	 | 	A kaspót szigetelni kell (buborékfólia, hungarocell). Szélvédett, fagymentes, de hűvös helyen (garázs, pince, max. 10 °C) teleltessük.	 | 	Védett, fűtetlen helyen (0-+5 °C) tároljuk. A gyökérlabdát -5 °C alatt óvni kell. A hótakaró védi a fát, de a nehéz havat távolítsuk el az ágtörés ellen.	 | 	A cserépben nevelt fák gyökere -6, -8 °C-nál már károsodhat. Fontos a 60 napos hideghatás a fejlődéshez, de kerüljük a fűtött szobát.	 | 	Minimális öntözés fagymentes napokon, reggel, hogy a talaj ne száradjon ki teljesen. Tápanyagozás a nyugalmi időszakban tilos.	 | 	Január a legjobb időpont a strukturális metszésre és a nagyobb ágak eltávolítására (nincs nedvfolyás). Japán sebzáró gitt használata kötelező.	 |
 
-</div>
+
+{% include disclaimer.html %}

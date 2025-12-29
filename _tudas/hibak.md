@@ -55,7 +55,9 @@ description: Tanuljunk a hibákból! Gyakori gondozási hibák és következmén
 
 <div class="table-wrapper" markdown="block">
 
-# Japán juhar bonsai gondozási hibák évszakonként
+# Gyakori hibák és megoldások japán juhar gondozásában
+
+Átfogó hibalista japán juhar bonsai gondozásához évszakonként rendszerezve. Minden hibához tartozik a várható következmény és a konkrét javítási módszer, így elkerülheted a leggyakoribb buktatókat, mint a túl korai átültetés, túlzott metszés vagy helytelen öntözés. Tanuld meg mások hibáiból, és óvd meg fádat a felesleges stressztől.
 
 ## 🌱 Tavasz
 
@@ -109,3 +111,6 @@ Az ősz a pihenés időszaka. Hagyjuk a fát természetes módon felkészülni a
 
 **💡 Jó tanács:**
 A téli pihenőidőszak kritikus. A japán juharoknak szükségük van a hidegre (0-5°C), de védjük őket az erős fagytól és a kiszáradástól!
+
+
+{% include disclaimer.html %}

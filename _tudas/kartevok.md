@@ -46,7 +46,9 @@ description: Japán juhar kártevői, betegségei és azok hatékony kezelési m
 }
 </style>
 
-<div class="table-wrapper" markdown="block">
+### A Japán juhar lehetséges kártevői betegségei
+
+Részletes növényvédelmi útmutató japán juharokhoz. Minden kártevő és betegség leírása tartalmazza a típust, a felismerhető jeleket és tüneteket, az érintett növényrészeket, valamint a hatékony védekezési és kezelési módszereket. Tanuld meg felismerni és kezelni a verticilliumos hervadást, alevéltetveket, pajzstetveket és más gyakori problémákat időben.
 
 | Kártevő / Betegség | Típus | Típus jelek és tünetek | Érintett növényrészek | Védekezés és kezelés |
 | :--- | :--- | :--- | :--- | :--- |
@@ -68,3 +70,6 @@ description: Japán juhar kártevői, betegségei és azok hatékony kezelési m
  | 	Barázdás hátú vincellérbogár	 | 	Kártevő	 | 	D-alakú rágások a levélszéleken (kifejlett bogár);  gyökerek elrágása (lárvák).	 | 	Levelek, gyökerek	 | 	Not in source	 | 	Not in source	 | 
  | 	Vírusos betegségek (Juharmozaik)	 | 	Vírus	 | 	Szabálytalan sárga foltok, mozaikmintázat, szalagos tarkázottság és levéltorzulás.	 | 	Levelek, hajtások	 | 	Nincs gyógymód; a fertőzött növény megsemmisítése szükséges lehet.	 | 	Csak egészséges szaporítóanyag használata; szívó kártevők (vektorok) elleni védekezés.	 | 
  | 	Levélperzselődés	 | 	Környezeti stressz	 | 	Levélszélek és csúcsok megbarnulása, kiszáradása és felpöndörödése. Nem fertőző állapot.	 | 	Levelek	 | 	Alapos öntözés, árnyékolás biztosítása a forró órákban.	 | 	Félárnyékos helyre ültetés, szélvédelem, mulcsozás a talajnedvesség megőrzéséért.	 | 
+
+
+{% include disclaimer.html %}
