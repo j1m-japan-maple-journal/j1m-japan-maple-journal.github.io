@@ -172,7 +172,7 @@ Kattints bármelyikre a történet, mérések és napló megtekintéséhez.
 .tree-card:nth-child(6) { animation-delay: 0.6s; }
 </style>
 
-{% assign all_tree_pages = site.pages | where: "layout", "tree" %}
+{% assign all_tree_pages = site.pages | where: "layout", "tree" | where_exp: "t", "t.published != false" %}
 {% assign trees = all_tree_pages | where_exp: "t", "t.url contains '/trees/'" | sort: "title" %}
 
 {% if trees.size > 0 %}

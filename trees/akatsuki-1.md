@@ -1,6 +1,7 @@
 ---
 layout: tree
 title: "Akatsuki #1"
+published: false
 code: "J1M-ACPA-2019-01"
 
 species:
