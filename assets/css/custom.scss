@@ -124,3 +124,27 @@
 .tree-gallery img:hover {
   transform: scale(1.04);
 }
+
+/* =========================
+   Disclaimer
+   ========================= */
+
+.disclaimer {
+  background-color: #f8f9fa;
+  border-left: 4px solid #6c757d;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
+
+.disclaimer-title {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+/* Dark mode adjustments */
+[data-mode="dark"] .disclaimer {
+  background-color: var(--card-bg, #1e1e1e);
+  border-left-color: var(--text-muted, #9e9e9e);
+}

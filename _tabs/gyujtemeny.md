@@ -170,10 +170,22 @@ Kattints bármelyikre a történet, mérések és napló megtekintéséhez.
 .tree-card:nth-child(4) { animation-delay: 0.4s; }
 .tree-card:nth-child(5) { animation-delay: 0.5s; }
 .tree-card:nth-child(6) { animation-delay: 0.6s; }
+
+/* Dark mode adjustments */
+[data-mode="dark"] .tree-info h3 {
+  color: #ffffff !important;
+}
+
+[data-mode="dark"] .tree-info h3 a {
+  color: #ffffff !important;
+}
+
+[data-mode="dark"] .tree-species em {
+  color: #e5e7eb !important;
+}
 </style>
 
-{% assign all_tree_pages = site.pages | where: "layout", "tree" | where_exp: "t", "t.published != false" %}
-{% assign trees = all_tree_pages | where_exp: "t", "t.url contains '/trees/'" | sort: "title" %}
+{% assign trees = site.trees | where_exp: "t", "t.published != false" | sort: "title" %}
 
 {% if trees.size > 0 %}
 <div class="tree-grid">

@@ -7,6 +7,13 @@ refactor: true
 
 {% include lang.html %}
 
+<style>
+/* Dark mode adjustments for post titles */
+[data-mode="dark"] .post h1 {
+  color: #ffffff !important;
+}
+</style>
+
 <article class="post px-1">
   <header>
     <h1 data-toc-skip>{{ page.title }}</h1>

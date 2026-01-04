@@ -153,7 +153,7 @@ layout: page
           </div>
 
           <div class="tree-event-description">
-            {{ entry.description }}
+            {{ entry.description | markdownify }}
           </div>
 
           {% if entry.result %}
@@ -234,7 +234,7 @@ layout: page
     </svg>
     Vízió
   </h2>
-  <p class="vision-text">{{ page.vision }}</p>
+  <div class="vision-text">{{ page.vision | markdownify }}</div>
 </div>
 {% endif %}
 
@@ -822,5 +822,24 @@ layout: page
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+}
+
+/* Dark mode adjustments */
+[data-mode="dark"] .tree-title {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background: none !important;
+}
+
+[data-mode="dark"] .section-title {
+  color: #ffffff !important;
+}
+
+[data-mode="dark"] .event-date {
+  color: #e5e7eb !important;
+}
+
+[data-mode="dark"] .meta-value {
+  color: #e5e7eb !important;
 }
 </style>

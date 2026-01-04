@@ -167,6 +167,15 @@ Kövess nyomon minden újdonságot, tapasztalatot és történetet a japán juha
     font-size: 1.25rem;
   }
 }
+
+/* Dark mode adjustments */
+[data-mode="dark"] .blog-post-title {
+  color: #ffffff !important;
+}
+
+[data-mode="dark"] .blog-post-title a {
+  color: #ffffff !important;
+}
 </style>
 
 {% assign posts = site.posts | sort: 'date' | reverse %}
