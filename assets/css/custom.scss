@@ -134,17 +134,82 @@
   border-left: 4px solid #6c757d;
   padding: 1rem;
   margin-top: 2rem;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   border-radius: 4px;
 }
 
 .disclaimer-title {
   margin-top: 0;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 /* Dark mode adjustments */
 [data-mode="dark"] .disclaimer {
   background-color: var(--card-bg, #1e1e1e);
   border-left-color: var(--text-muted, #9e9e9e);
+}
+
+/* =========================
+   Category Pills Design
+   ========================= */
+
+.category-pills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.category-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1.2rem;
+  background: linear-gradient(135deg, var(--card-bg, #f8f9fa) 0%, var(--card-bg, #e9ecef) 100%);
+  border: 1px solid var(--border-color, #dee2e6);
+  border-radius: 24px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  font-size: 0.95rem;
+}
+
+.category-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-color: var(--link-color, #0056b3);
+  text-decoration: none;
+}
+
+.category-name {
+  color: var(--text-color, #212529);
+  font-weight: 500;
+}
+
+.category-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  padding: 0 0.5rem;
+  background: var(--link-color, #007bff);
+  color: white;
+  border-radius: 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* Dark mode adjustments for category pills */
+[data-mode="dark"] .category-pill {
+  background: linear-gradient(135deg, var(--card-bg, #2a2a2a) 0%, var(--card-bg, #1e1e1e) 100%);
+  border-color: var(--border-color, #404040);
+}
+
+[data-mode="dark"] .category-pill:hover {
+  border-color: var(--link-color, #4a9eff);
+}
+
+[data-mode="dark"] .category-name {
+  color: var(--text-color, #e0e0e0);
 }

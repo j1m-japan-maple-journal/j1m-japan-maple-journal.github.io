@@ -4,17 +4,78 @@ layout: page
 
 {% include custom-styles.html %}
 
+<style>
+.category-pills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.category-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1.2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 1px solid #dee2e6;
+  border-radius: 24px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  font-size: 0.95rem;
+}
+
+.category-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-color: #0056b3;
+  text-decoration: none;
+}
+
+.category-name {
+  color: #212529;
+  font-weight: 500;
+}
+
+.category-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  padding: 0 0.5rem;
+  background: #007bff;
+  color: white;
+  border-radius: 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* Dark mode adjustments for category pills */
+[data-mode="dark"] .category-pill {
+  background: linear-gradient(135deg, #2a2a2a 0%, #1e1e1e 100%);
+  border-color: #404040;
+}
+
+[data-mode="dark"] .category-pill:hover {
+  border-color: #4a9eff;
+}
+
+[data-mode="dark"] .category-name {
+  color: #e0e0e0;
+}
+</style>
+
 <div id="page-category">
   <h1 class="dynamic-title">{{ page.title }}</h1>
 
-  <ul class="list-group">
+  <div class="category-pills-container">
     {% for category in site.categories %}
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        <a href="{{ site.baseurl }}/categories/{{ category[0] | slugify: 'pretty' }}/">
-          {{ category[0] }}
-        </a>
-        <span class="badge badge-primary badge-pill">{{ category[1].size }}</span>
-      </li>
+      <a href="{{ site.baseurl }}/categories/{{ category[0] | slugify: 'pretty' }}/" class="category-pill">
+        <span class="category-name">{{ category[0] }}</span>
+        <span class="category-count">{{ category[1].size }}</span>
+      </a>
     {% endfor %}
-  </ul>
+  </div>
 </div>
