@@ -3,136 +3,600 @@ layout: default
 refactor: true
 ---
 
-{% include custom-styles.html %}
+<!--
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║  BONSAI JOURNAL POST LAYOUT                                              ║
+║  A calm, elegant, minimal layout for Japanese maple & bonsai content    ║
+║                                                                          ║
+║  FRONT MATTER FIELDS:                                                    ║
+║  ---                                                                     ║
+║  title: "Post Title"                   (required)                        ║
+║  subtitle: "Optional subtitle"         (optional)                        ║
+║  date: YYYY-MM-DD                       (required)                        ║
+║  categories: [category]                 (optional)                        ║
+║  hero_image: /assets/blog/image.jpg    (optional - hero image)          ║
+║  youtube_id: dQw4w9WgXcQ                (optional - YouTube embed)       ║
+║  ---                                                                     ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+-->
 
 {% include lang.html %}
 
 <style>
-/* Dark mode adjustments for post titles */
-[data-mode="dark"] .post h1 {
-  color: #ffffff !important;
+/* ═══════════════════════════════════════════════════════════════════════
+   BONSAI JOURNAL TYPOGRAPHY & LAYOUT
+   A calm, minimalist aesthetic inspired by Japanese design principles
+   ═══════════════════════════════════════════════════════════════════════ */
+
+:root {
+  --bonsai-primary: #126863ff;
+  --bonsai-accent: #8b7355;
+  --bonsai-light: #f5f3f0;
+  --bonsai-border: #e0ddd8;
+  --bonsai-text: #3a3a3a;
+  --bonsai-text-muted: #6b6b6b;
+  --bonsai-shadow: rgba(0, 0, 0, 0.08);
+}
+
+[data-mode="dark"] {
+  --bonsai-primary: #7fa85f;
+  --bonsai-accent: #b89968;
+  --bonsai-light: #1a1a1a;
+  --bonsai-border: #404040;
+  --bonsai-text: #e8e8e8;
+  --bonsai-text-muted: #a0a0a0;
+  --bonsai-shadow: rgba(0, 0, 0, 0.3);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   HERO IMAGE SECTION
+   Full-width hero with soft edges and subtle shadow
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.bonsai-hero {
+  max-width: 1100px;
+  margin: 0 auto 3rem;
+  overflow: hidden;
+}
+
+.bonsai-hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px var(--bonsai-shadow);
+  transition: transform 0.3s ease;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   POST HEADER - Title, Subtitle, Meta
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.bonsai-post-header {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.bonsai-post-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--bonsai-primary);
+  margin-bottom: 0.8rem;
+  letter-spacing: -0.02em;
+}
+
+.bonsai-post-subtitle {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--bonsai-text-muted);
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.bonsai-post-meta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: var(--bonsai-text-muted);
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--bonsai-border);
+}
+
+.bonsai-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.bonsai-meta-divider {
+  color: var(--bonsai-border);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   MAIN CONTENT AREA
+   Beautiful typography for readability and calm
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.bonsai-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--bonsai-text);
+}
+
+.bonsai-content p {
+  margin-bottom: 1.6rem;
+}
+
+.bonsai-content h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: var(--bonsai-primary);
+  margin-top: 3rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.01em;
+}
+
+.bonsai-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--bonsai-accent);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.bonsai-content h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--bonsai-text);
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   BLOCKQUOTES - Calm, centered wisdom
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.bonsai-content blockquote {
+  margin: 2.5rem 0;
+  padding: 1.5rem 2rem;
+  background: var(--bonsai-light);
+  border-left: 4px solid var(--bonsai-primary);
+  border-radius: 6px;
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--bonsai-text-muted);
+  box-shadow: 0 2px 8px var(--bonsai-shadow);
+}
+
+.bonsai-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   LISTS - Minimal, elegant bullets and numbers
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.bonsai-content ul,
+.bonsai-content ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+}
+
+.bonsai-content ul li,
+.bonsai-content ol li {
+  margin-bottom: 0.8rem;
+  line-height: 1.7;
+}
+
+.bonsai-content ul {
+  list-style: none;
+}
+
+.bonsai-content ul li::before {
+  content: "◦";
+  color: var(--bonsai-primary);
+  font-weight: bold;
+  display: inline-block;
+  width: 1.2em;
+  margin-left: -1.2em;
+}
+
+.bonsai-content ol {
+  counter-reset: bonsai-counter;
+  list-style: none;
+}
+
+.bonsai-content ol li {
+  counter-increment: bonsai-counter;
+  position: relative;
+}
+
+.bonsai-content ol li::before {
+  content: counter(bonsai-counter) ".";
+  color: var(--bonsai-primary);
+  font-weight: 600;
+  display: inline-block;
+  width: 1.8em;
+  margin-left: -1.8em;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   TABLES - Clean, bordered, responsive
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.bonsai-content table {
+  width: 100%;
+  margin: 2rem 0;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px var(--bonsai-shadow);
+  font-size: 0.95rem;
+}
+
+.bonsai-content table thead {
+  background: var(--bonsai-primary);
+  color: white;
+}
+
+.bonsai-content table thead th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.bonsai-content table tbody tr {
+  border-bottom: 1px solid var(--bonsai-border);
+}
+
+.bonsai-content table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.bonsai-content table tbody tr:nth-child(even) {
+  background: var(--bonsai-light);
+}
+
+.bonsai-content table tbody td {
+  padding: 0.9rem 1rem;
+  color: var(--bonsai-text);
+}
+
+/* Responsive table wrapper */
+.bonsai-table-wrapper {
+  overflow-x: auto;
+  margin: 2rem 0;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .bonsai-table-wrapper {
+    box-shadow: 0 2px 8px var(--bonsai-shadow);
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   YOUTUBE EMBED - Responsive 16:9 container
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.bonsai-video-section {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.bonsai-video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px var(--bonsai-shadow);
+}
+
+.bonsai-video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   CALLOUT / NOTE BLOCK - Optional highlight section
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.bonsai-content .bonsai-callout {
+  margin: 2.5rem 0;
+  padding: 1.5rem 2rem;
+  background: linear-gradient(135deg, var(--bonsai-light) 0%, rgba(245, 243, 240, 0.5) 100%);
+  border: 1px solid var(--bonsai-border);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px var(--bonsai-shadow);
+}
+
+.bonsai-callout-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--bonsai-primary);
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.bonsai-callout p:last-child {
+  margin-bottom: 0;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   SECTION DIVIDER - Subtle visual break
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.bonsai-divider {
+  max-width: 200px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--bonsai-border), transparent);
+  margin: 4rem auto;
+  border: none;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   POST FOOTER - Categories and Tags
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.bonsai-post-footer {
+  max-width: 800px;
+  margin: 4rem auto 2rem;
+  padding: 2rem 1.5rem 0;
+  border-top: 1px solid var(--bonsai-border);
+}
+
+.bonsai-post-footer-section {
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.bonsai-post-footer-section a {
+  color: var(--bonsai-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.bonsai-post-footer-section a:hover {
+  color: var(--bonsai-accent);
+  text-decoration: underline;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   RESPONSIVE ADJUSTMENTS
+   ═══════════════════════════════════════════════════════════════════════ */
+
+@media (max-width: 768px) {
+  .bonsai-post-title {
+    font-size: 2rem;
+  }
+
+  .bonsai-post-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .bonsai-content {
+    font-size: 1.05rem;
+    padding: 0 1rem;
+  }
+
+  .bonsai-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .bonsai-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .bonsai-hero-image {
+    max-height: 320px;
+    border-radius: 8px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   DARK MODE REFINEMENTS
+   ═══════════════════════════════════════════════════════════════════════ */
+
+[data-mode="dark"] .bonsai-post-title {
+  color: var(--bonsai-primary);
+}
+
+[data-mode="dark"] .bonsai-content h2,
+[data-mode="dark"] .bonsai-content h3 {
+  color: var(--bonsai-primary);
+}
+
+[data-mode="dark"] .bonsai-content blockquote {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+[data-mode="dark"] .bonsai-callout {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: var(--bonsai-border);
+}
+
+[data-mode="dark"] .bonsai-content table thead {
+  background: var(--bonsai-primary);
 }
 </style>
 
-<article class="post px-1">
-  <header>
-    <h1 data-toc-skip>{{ page.title }}</h1>
+<!-- ═══════════════════════════════════════════════════════════════════════
+     HERO IMAGE SECTION (Optional)
+     Renders only if hero_image is defined in front matter
+     ═══════════════════════════════════════════════════════════════════════ -->
+{% if page.hero_image %}
+<div class="bonsai-hero">
+  <img src="{{ page.hero_image }}" alt="{{ page.title }}" class="bonsai-hero-image">
+</div>
+{% endif %}
 
-    <div class="post-meta text-muted">
-      <!-- published date -->
-      <span>
-        {% include datetime.html date=page.date tooltip=true lang=lang %}
+<!-- ═══════════════════════════════════════════════════════════════════════
+     POST HEADER - Title, Subtitle, Meta Information
+     ═══════════════════════════════════════════════════════════════════════ -->
+<article class="post">
+  <header class="bonsai-post-header">
+    <h1 class="bonsai-post-title" data-toc-skip>{{ page.title }}</h1>
+
+    {% if page.subtitle %}
+    <p class="bonsai-post-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+
+    <div class="bonsai-post-meta">
+      <!-- Date -->
+      <span class="bonsai-meta-item">
+        <span>📅</span>
+        <span>{% include datetime.html date=page.date tooltip=true lang=lang %}</span>
       </span>
 
-      <!-- lastmod date -->
-      {% if page.last_modified_at and page.last_modified_at != page.date %}
-        <span>
-          {% include datetime.html date=page.last_modified_at tooltip=true lang=lang class='lastmod' %}
-        </span>
+      <span class="bonsai-meta-divider">•</span>
+
+      <!-- Category -->
+      {% if page.categories.size > 0 %}
+      <span class="bonsai-meta-item">
+        <span>🏷️</span>
+        <span>{{ page.categories | first }}</span>
+      </span>
+
+      <span class="bonsai-meta-divider">•</span>
       {% endif %}
 
-      {% if page.image %}
-        {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
-        {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
-        {% capture alt %}alt="{{ page.image.alt | default: "Preview Image" }}"{% endcapture %}
-
-        {% if page.image.lqip %}
-          {%- capture lqip -%}lqip="{{ page.image.lqip }}"{%- endcapture -%}
-        {% endif %}
-
-        <div class="mt-3 mb-3">
-          <img {{ src }} {{ class }} {{ alt }} {{ lqip }}>
-          {%- if page.image.alt -%}
-            <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
-          {%- endif -%}
-        </div>
-      {% endif %}
-
-      <div class="d-flex justify-content-between">
-        <!-- author(s) -->
-        <span>
-          {% if page.author %}
-            {% assign authors = page.author %}
-          {% elsif page.authors %}
-            {% assign authors = page.authors %}
-          {% endif %}
-
-          {{ site.data.locales[lang].post.written_by }}
-
-          <em>
-          {% if authors %}
-            {% for author in authors %}
-              <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a>
-              {%- unless forloop.last -%},{%- endunless -%}
-            {% endfor %}
-          {% else %}
-            <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
-          {% endif %}
-          </em>
-        </span>
-
-        <div>
-          <!-- page views -->
-          {% if site.pageviews.provider and page.pageviews != false %}
-            <span>
-              <em id="pageviews">
-                <i class="fas fa-spinner fa-spin small"></i>
-              </em>
-              {{ site.data.locales[lang].post.pageview_measure }}
-            </span>
-          {% endif %}
-
-          <!-- read time -->
-          {% include read-time.html content=content prompt=true lang=lang %}
-        </div>
-      </div>
+      <!-- Reading time (uses Jekyll's built-in include if available) -->
+      <span class="bonsai-meta-item">
+        <span>⏱️</span>
+        <span>{% include read-time.html content=content prompt=false lang=lang %}</span>
+      </span>
     </div>
   </header>
 
-  <div class="content">
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       MAIN CONTENT AREA
+       Markdown content is rendered here with beautiful typography
+
+       EXAMPLE TABLE USAGE IN MARKDOWN:
+
+       | Date       | Action          | Result         |
+       |------------|-----------------|----------------|
+       | 2024-03-15 | Initial styling | Healthy growth |
+       | 2024-04-20 | Wire training   | Good shape     |
+
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <div class="bonsai-content">
     {{ content }}
   </div>
 
-  <div class="post-tail-wrapper text-muted">
-    <!-- categories -->
-    {% if page.categories.size > 0 %}
-      <div class="post-meta mb-3">
-        <i class="far fa-folder-open fa-fw me-1"></i>
-        {% for category in page.categories %}
-          <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ category }}</a>
-          {%- unless forloop.last -%}, {%- endunless -%}
-        {% endfor %}
-      </div>
-    {% endif %}
-
-    <!-- tags -->
-    {% if page.tags.size > 0 %}
-      <div class="post-tags">
-        <i class="fa fa-tags fa-fw me-1"></i>
-        {% for tag in page.tags %}
-          <a href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
-            class="post-tag no-text-decoration">
-            {{- tag -}}
-          </a>
-        {% endfor %}
-      </div>
-    {% endif %}
-
-    <div class="post-tail-bottom
-      d-flex justify-content-between align-items-center mt-5 pb-2">
-      <div class="license-wrapper">
-        {% if site.data.locales[lang].copyright.license.template %}
-          {% capture _replacement %}
-            <a href="{{ site.data.locales[lang].copyright.license.link }}">
-              {{ site.data.locales[lang].copyright.license.name }}
-            </a>
-          {% endcapture %}
-
-          {{ site.data.locales[lang].copyright.license.template | replace: ':LICENSE_NAME', _replacement }}
-        {% endif %}
-      </div>
-
-      {% include post-sharing.html lang=lang %}
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       YOUTUBE EMBED SECTION (Optional)
+       Renders only if youtube_id is defined in front matter
+       Usage in front matter: youtube_id: dQw4w9WgXcQ
+       ═══════════════════════════════════════════════════════════════════════ -->
+  {% if page.youtube_id %}
+  <div class="bonsai-video-section">
+    <div class="bonsai-video-wrapper">
+      <iframe
+        src="https://www.youtube.com/embed/{{ page.youtube_id }}"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
     </div>
   </div>
+  {% endif %}
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SECTION DIVIDER
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <hr class="bonsai-divider">
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       POST FOOTER - Categories and Tags
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <footer class="bonsai-post-footer">
+    {% if page.categories.size > 0 %}
+    <div class="bonsai-post-footer-section">
+      <i class="far fa-folder-open fa-fw me-1"></i>
+      {% for category in page.categories %}
+        <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ category }}</a>
+        {%- unless forloop.last -%}, {%- endunless -%}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if page.tags.size > 0 %}
+    <div class="bonsai-post-footer-section">
+      <i class="fa fa-tags fa-fw me-1"></i>
+      {% for tag in page.tags %}
+        <a href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/">{{ tag }}</a>
+        {%- unless forloop.last -%}, {%- endunless -%}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </footer>
 </article>
+
+<!--
+═══════════════════════════════════════════════════════════════════════════
+EXAMPLE POST TEMPLATE
+
+Copy this to your _posts folder as: YYYY-MM-DD-your-post-title.md
+
+---
+layout: post
+title: "Winter Care for Japanese Maples"
+subtitle: "Preparing your trees for the cold season"
+date: 2024-01-15
+categories: [Care]
+tags: [winter, japanese-maple, maintenance]
+hero_image: /assets/blog/winter-maple.jpg
+youtube_id: dQw4w9WgXcQ
+---
+
+## Introduction
+
+Your regular markdown content goes here. Write naturally and the styles
+will make it beautiful.
+
+## Care Schedule
+
+| Month    | Task              | Notes                    |
+|----------|-------------------|--------------------------|
+| January  | Protect roots     | Mulch heavily            |
+| February | Check for damage  | Remove dead branches     |
+| March    | Prepare for spring| Begin fertilizing        |
+
+## Important Points
+
+- Water deeply before the ground freezes
+- Protect from winter sun and wind
+- Monitor for ice damage
+- Avoid heavy pruning in winter
+
+> "Patience is the companion of wisdom."
+> — Saint Augustine
+
+## Conclusion
+
+With proper winter care, your Japanese maple will emerge stronger in spring.
+
+═══════════════════════════════════════════════════════════════════════════
+-->

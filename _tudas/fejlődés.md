@@ -39,6 +39,20 @@ description: Japán juhar bonsai fejlődési szakaszok és kritikus döntési po
   max-width: 180px;
 }
 
+/* Második oszlop specifikus stílus - ne törjön szavakat */
+.table-wrapper table th:nth-child(2),
+.table-wrapper table td:nth-child(2) {
+  min-width: 100px;
+  white-space: nowrap;
+}
+
+/* Hamradik oszlop specifikus stílus - ne törjön szavakat */
+.table-wrapper table th:nth-child(3),
+.table-wrapper table td:nth-child(3) {
+  min-width: 100px;
+  white-space: nowrap;
+}
+
 /* Mobilon kisebb padding és betűméret */
 @media (max-width: 768px) {
   .table-wrapper table td,
