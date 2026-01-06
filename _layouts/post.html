@@ -383,6 +383,87 @@ refactor: true
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
+   SUPPORT SECTION - Donably
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.bonsai-support-section {
+  max-width: 800px;
+  margin: 3rem auto 2rem;
+  padding: 0 1.5rem;
+}
+
+.bonsai-support-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--bonsai-light) 0%, rgba(245, 243, 240, 0.3) 100%);
+  border: 1px solid var(--bonsai-border);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px var(--bonsai-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bonsai-support-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--bonsai-shadow);
+}
+
+.bonsai-support-icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.bonsai-support-content {
+  flex: 1;
+}
+
+.bonsai-support-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--bonsai-primary);
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.01em;
+}
+
+.bonsai-support-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--bonsai-text-muted);
+  margin: 0 0 1rem 0;
+}
+
+.bonsai-support-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  background: var(--bonsai-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 2px 8px rgba(18, 104, 99, 0.2);
+}
+
+.bonsai-support-button:hover {
+  background: var(--bonsai-accent);
+  transform: translateX(2px);
+}
+
+.bonsai-button-icon {
+  font-size: 1.1rem;
+  transition: transform 0.2s ease;
+}
+
+.bonsai-support-button:hover .bonsai-button-icon {
+  transform: translateX(3px);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
    RESPONSIVE ADJUSTMENTS
    ═══════════════════════════════════════════════════════════════════════ */
 
@@ -412,6 +493,24 @@ refactor: true
     max-height: 320px;
     border-radius: 8px;
   }
+
+  .bonsai-support-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .bonsai-support-icon {
+    font-size: 2rem;
+  }
+
+  .bonsai-support-title {
+    font-size: 1.2rem;
+  }
+
+  .bonsai-support-text {
+    font-size: 0.9rem;
+  }
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
@@ -438,6 +537,15 @@ refactor: true
 
 [data-mode="dark"] .bonsai-content table thead {
   background: var(--bonsai-primary);
+}
+
+[data-mode="dark"] .bonsai-support-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: var(--bonsai-border);
+}
+
+[data-mode="dark"] .bonsai-support-button {
+  box-shadow: 0 2px 8px rgba(127, 168, 95, 0.3);
 }
 </style>
 
@@ -552,6 +660,24 @@ refactor: true
     </div>
     {% endif %}
   </footer>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SUPPORT SECTION - Donably
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <div class="bonsai-support-section">
+    <div class="bonsai-support-card">
+      <div class="bonsai-support-icon">🌿</div>
+      <div class="bonsai-support-content">
+        <h3 class="bonsai-support-title">Támogasd a munkámat</h3>
+        <p class="bonsai-support-text">Ha értékesnek találod a tartalmaimat, fontold meg a támogatást. A gondolatnak nincs ára – az időnek van.
+Ha szeretnéd, hogy legyen időm ilyen írásokra, itt tudsz hozzájárulni.</p>
+        <a href="https://www.donably.com/j1m" target="_blank" rel="noopener noreferrer" class="bonsai-support-button">
+          <span class="bonsai-button-text">Támogatás</span>
+          <span class="bonsai-button-icon">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
 </article>
 
 <!--
