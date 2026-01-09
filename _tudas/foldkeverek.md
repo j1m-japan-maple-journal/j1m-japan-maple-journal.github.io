@@ -83,7 +83,7 @@ Nincs „varázsrecept”, csak jól megértett alapelvek, fizikai tuljadonságo
 | BJ típus | Bonsai tálban | Normál: 1 rész vályog, 2 rész tőzegmoha, 2 rész gránittörmelék | Általános egyensúly a vízmegtartás és a levegőzés között. | Általános bonsai neveléshez. | Rendszeres öntözés és tápanyagpótlás szükséges. |
 | BK típus | Kerti tavi ültető kosár | 100% 5-8mm Pumice | Ultra levegőzés biztosítása. | Általános nevelés ás fokozott bolyhos gyökérzet képzéshez bonsaihoz. | Extrém kiszáradás veszély, ezért rendszeres, napi 2-3x öntözés és tápanyagpótlás szükséges. |
 | SZA típus | Szabadföld | 50% eredeti ültetőföld, 20% Rhododendron föld, 10-20% homok, 10% érett marhatrágya, 10% aprított fenyőkéreg | Általános egyensúly a vízmegtartás és a levegőzés között. | Általános szabadföldi ültetéshez. | Heti 1-2x öntözés ha kevés a csapadék |
-| NA típus | Nevelőtál/láda | 50% 0-4mm sóder, 50% Perlit | A hangsúly a tökéletes oxigén víz egyensúlyán a minál jobb gyökérképződésért.  | Földből kiemelt, mentett juhar (yamadori) esetén. Nincs tápozás. (1-2 év) | Akár napi 2-3x öntözés is szükséges lehet. |
+| NA típus | Nevelőtál/láda | 50% 0-4mm sóder, 50% Perlit | A hangsúly a tökéletes oxigén víz egyensúlyán a minél jobb gyökérképződésért.  | Földből kiemelt, mentett juhar (yamadori) esetén. Nincs tápozás. (1-2 év) | Akár napi 2-3x öntözés is szükséges lehet. |
 
 
 

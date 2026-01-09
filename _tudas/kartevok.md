@@ -31,6 +31,20 @@ description: Japán juhar kártevői, betegségei és azok hatékony kezelési m
   line-height: 1.6;
 }
 
+/* Első oszlop specifikus stílus */
+.table-wrapper table th:first-child,
+.table-wrapper table td:first-child {
+  min-width: 180px;
+  max-width: 180px;
+}
+
+/* Második oszlop specifikus stílus - ne törjön szavakat */
+.table-wrapper table th:nth-child(2),
+.table-wrapper table td:nth-child(2) {
+  min-width: 70px;
+  white-space: nowrap;
+}
+
 /* Mobilon kisebb padding és betűméret */
 @media (max-width: 768px) {
   .table-wrapper table td,
