@@ -16,8 +16,8 @@ origin:
 stage: "Kertészeti példány"
 status: "active"
 
-hero_image: "/assets/trees/atropurpureum-1/hero.jpg"
-thumb_image: "/assets/trees/atropurpureum-1/hero.jpg"
+hero_image: "/assets/trees/atropurpureum-1/atropurpureum.png"
+thumb_image: "/assets/trees/atropurpureum-1/atropurpureum.png"
 
 measurements:
   - date: "2022-04-10"
@@ -41,8 +41,8 @@ work_log:
     category: "átültetés"
     description: "Átültetés 10cm-rel nagyobb kaspóba, [KB típus földkeverékbe](/tudastar/foldkeverek/#talajösszetevők-és-tulajdonságaik), az eredeti talaj kissé kifésülve. A gyökérzet szép és egészséges, terebélyes, a vastag karószerű gyökér eltávolítva"
     result: "Szép új kasóban hagyom tovább fejlődni."
-    photos:
-      - "/assets/trees/arakawa-1/2025-event-1.jpg"
+#    photos:
+#      - "some.jpg"
 vision: |
   1. Hagyom növekedni, erősödni, a nebari vastagodása a cél 5-6 évig.
   2. A cél egy enyhén ívelt törzs (Moyogi) kifejlesztése, hangsúly az alsó ágakon és a természetes koronán.

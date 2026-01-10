@@ -5,8 +5,9 @@ icon: fas fa-leaf
 order: 3
 ---
 
-Az alábbi listában találod a fák adatlapjait.  
+Az alábbi listában találod a fák adatlapjait. HAMAROSAN...
 Kattints bármelyikre a történet, mérések és napló megtekintéséhez.
+
 
 <style>
 .collection-intro {
