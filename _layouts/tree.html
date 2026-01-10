@@ -825,14 +825,25 @@ html {
 }
 
 /* Dark mode adjustments */
+[data-mode="dark"] .tree-header {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%) !important;
+  border-color: #374151 !important;
+}
+
 [data-mode="dark"] .tree-title {
   color: #ffffff !important;
   -webkit-text-fill-color: #ffffff !important;
   background: none !important;
 }
 
+[data-mode="dark"] .tree-code-badge {
+  background: #374151 !important;
+  color: #d1d5db !important;
+}
+
 [data-mode="dark"] .section-title {
   color: #ffffff !important;
+  border-bottom-color: #374151 !important;
 }
 
 [data-mode="dark"] .event-date {
@@ -841,5 +852,87 @@ html {
 
 [data-mode="dark"] .meta-value {
   color: #e5e7eb !important;
+}
+
+[data-mode="dark"] .meta-value em {
+  color: #e5e7eb !important;
+}
+
+[data-mode="dark"] .meta-label {
+  color: #9ca3af !important;
+}
+
+[data-mode="dark"] .tree-meta-row {
+  border-bottom-color: #374151 !important;
+}
+
+[data-mode="dark"] .tree-event-card {
+  background: #1f2937 !important;
+  border-color: #374151 !important;
+}
+
+[data-mode="dark"] .tree-event-title {
+  color: #e5e7eb !important;
+}
+
+[data-mode="dark"] .tree-event-description {
+  color: #d1d5db !important;
+}
+
+[data-mode="dark"] .tree-event-description p {
+  color: #d1d5db !important;
+}
+
+[data-mode="dark"] .tree-event-description a {
+  color: #60a5fa !important;
+}
+
+[data-mode="dark"] .event-season {
+  background: #374151 !important;
+  color: #d1d5db !important;
+}
+
+[data-mode="dark"] .vision-text {
+  color: #d1d5db !important;
+}
+
+[data-mode="dark"] .vision-text p {
+  color: #d1d5db !important;
+}
+
+[data-mode="dark"] .vision-card {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%) !important;
+  border-left-color: #22c55e !important;
+}
+
+[data-mode="dark"] .measurements-card,
+[data-mode="dark"] .timeline-card,
+[data-mode="dark"] .health-card {
+  background: #1f2937 !important;
+  border-color: #374151 !important;
+}
+
+[data-mode="dark"] .measurements-table tbody td {
+  color: #e5e7eb !important;
+  border-bottom-color: #374151 !important;
+}
+
+[data-mode="dark"] .health-table tbody td {
+  color: #e5e7eb !important;
+  border-bottom-color: #374151 !important;
+}
+
+[data-mode="dark"] .unit {
+  color: #9ca3af !important;
+}
+
+[data-mode="dark"] .card {
+  background: #1f2937 !important;
+  border-color: #374151 !important;
+}
+
+[data-mode="dark"] .tree-hero {
+  background: #1f2937 !important;
+  border-color: #374151 !important;
 }
 </style>

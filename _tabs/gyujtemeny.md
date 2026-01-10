@@ -172,6 +172,11 @@ Kattints bármelyikre a történet, mérések és napló megtekintéséhez.
 .tree-card:nth-child(6) { animation-delay: 0.6s; }
 
 /* Dark mode adjustments */
+[data-mode="dark"] .tree-card {
+  background: #1f2937 !important;
+  border-color: #374151 !important;
+}
+
 [data-mode="dark"] .tree-info h3 {
   color: #ffffff !important;
 }
@@ -180,8 +185,32 @@ Kattints bármelyikre a történet, mérések és napló megtekintéséhez.
   color: #ffffff !important;
 }
 
+[data-mode="dark"] .tree-species {
+  color: #d1d5db !important;
+}
+
 [data-mode="dark"] .tree-species em {
   color: #e5e7eb !important;
+}
+
+[data-mode="dark"] .tree-code {
+  background: #374151 !important;
+  color: #d1d5db !important;
+}
+
+[data-mode="dark"] .collection-intro {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%) !important;
+  border-left-color: #22c55e !important;
+  color: #d1d5db !important;
+}
+
+[data-mode="dark"] .no-trees-message {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%) !important;
+  border-color: #22c55e !important;
+}
+
+[data-mode="dark"] .no-trees-message p {
+  color: #d1d5db !important;
 }
 </style>
 
