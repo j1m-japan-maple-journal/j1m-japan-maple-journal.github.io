@@ -26,7 +26,7 @@ Sokan a bonsait pusztán esztétikai művészetnek tekintik, ahol az alakítás 
 ### 1. A motor: A fotoszintézis az egyetlen energiaforrás
 A keretrendszer alapja a fizika egyik legfontosabb törvénye: az energia megmaradása. Egy fa számára az egyetlen mechanizmus, amellyel energiát képes előállítani, a fotoszintézis. A levelekre érkező napfény kémiai energiává alakul (cukrok és keményítő formájában), amely a fa szöveteiben tárolódik.
 Ebből következik egy kritikus felismerés: a levelek valójában a fa „napelemei”. Minél több és egészségesebb levéllel rendelkezik a fa, annál több energiát tud termelni a fejlődéshez, a sebek gyógyításához és a gyökérnövekedéshez.
-### 2. Tévhit: A tápanyag nem energia
+### 2. A tápanyag nem energia
 A kezdő bonsai-gyűjtők gyakran követik el azt a hibát, hogy a tápoldatozást az „energia forrásával azonosítják. Azonban a tápanyag önmagában nem tartalmaz energiát. A nitrogén, foszfor és kálium csupán építőelemek, amelyek a fotoszintézis hatékonyságát és az új lomb képzését támogatják.
 • Fontos szabály: Egy gyenge, kevés lombbal rendelkező fát nem lehet tápoldattal „meggyógyítani”. Ha nincs elegendő fotoszintetikus felület (levél), a fa nem tudja hasznosítani a tápanyagot, sőt, a túlzott sókoncentráció károsíthatja a gyökereket.
 ### 3. Éghajlat és stratégia: Miért nem működik mindenhol ugyanaz?

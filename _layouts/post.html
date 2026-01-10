@@ -45,7 +45,7 @@ refactor: true
   --bonsai-accent: #b89968;
   --bonsai-light: #1a1a1a;
   --bonsai-border: #404040;
-  --bonsai-text: #e8e8e8;
+  --bonsai-text: #e9e8e8;
   --bonsai-text-muted: #a0a0a0;
   --bonsai-shadow: rgba(0, 0, 0, 0.3);
 }
@@ -171,6 +171,11 @@ refactor: true
    Beautiful typography for readability and calm
    ═══════════════════════════════════════════════════════════════════════ */
 
+article.post {
+  text-align: justify !important;
+  direction: ltr !important;
+}
+
 .bonsai-content {
   max-width: 800px;
   margin: 0 auto;
@@ -178,10 +183,17 @@ refactor: true
   font-size: 1.1rem;
   line-height: 1.8;
   color: var(--bonsai-text);
+  text-align: justify !important;
+  direction: ltr !important;
+}
+
+.bonsai-content * {
+  text-align: justify !important;
 }
 
 .bonsai-content p {
   margin-bottom: 1.6rem;
+  text-align: justify !important;
 }
 
 .bonsai-content h2 {
@@ -191,6 +203,7 @@ refactor: true
   margin-top: 3rem;
   margin-bottom: 1.2rem;
   letter-spacing: -0.01em;
+  text-align: justify !important;
 }
 
 .bonsai-content h3 {
@@ -199,6 +212,7 @@ refactor: true
   color: var(--bonsai-accent);
   margin-top: 2.5rem;
   margin-bottom: 1rem;
+  text-align: justify !important;
 }
 
 .bonsai-content h4 {
@@ -207,6 +221,7 @@ refactor: true
   color: var(--bonsai-text);
   margin-top: 2rem;
   margin-bottom: 0.8rem;
+  text-align: justify !important;
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
@@ -223,6 +238,7 @@ refactor: true
   font-size: 1.15rem;
   color: var(--bonsai-text-muted);
   box-shadow: 0 2px 8px var(--bonsai-shadow);
+  text-align: justify !important;
 }
 
 .bonsai-content blockquote p:last-child {
@@ -243,6 +259,7 @@ refactor: true
 .bonsai-content ol li {
   margin-bottom: 0.8rem;
   line-height: 1.7;
+  text-align: justify !important;
 }
 
 .bonsai-content ul {
@@ -298,7 +315,7 @@ refactor: true
 
 .bonsai-content table thead th {
   padding: 1rem;
-  text-align: left;
+  text-align: justify;
   font-weight: 600;
   letter-spacing: 0.02em;
 }
@@ -540,7 +557,7 @@ refactor: true
 
   .bonsai-support-card {
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
     padding: 1.5rem;
   }
 
@@ -653,7 +670,7 @@ refactor: true
        | 2024-04-20 | Wire training   | Good shape     |
 
        ═══════════════════════════════════════════════════════════════════════ -->
-  <div class="bonsai-content">
+  <div class="bonsai-content" style="text-align: justify !important; direction: ltr !important;">
     {{ content }}
   </div>
 
