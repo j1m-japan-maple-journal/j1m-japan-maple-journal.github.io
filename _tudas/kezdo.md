@@ -16,14 +16,14 @@ Ha eldöntötted, hogy megvásárolod az első Japán juharod, íme egy lista ke
 
 - **Egészséges fa jelei:**
   - Épkérgű törzs (nincs repedés, sérülés, fekete folt)
-  - Élénk, fényes levelek (nem hervadt, nem sárga)
+  - Élénk, fényes levelek (nem hervadt, nem sárga, nincs "liszt"-szerű bevonat)
   - Egyenletes elágazás
-  - Jól látható, sugárirányú gyökerek (nebari) – ha lehetséges, kérj rá, hogy vedd ki a cserépből
+  - Jól látható, sugárirányú gyökerek (nebari), de ez csak akkor lényeges bonsai-nak veszed
   
 - **Kerülendő jelek:**
   - Hervadt vagy sárguló levelek
   - Repedezett, sérült kéreg
-  - Gyenge, vékony, "nyurga" levélnélküli ágak
+  - Gyenge, vékony, "nyurga" levél nélküli ágak
   - Körben futó gyökerek a cserép alján (Ha ki tudod emelni a kaspóból)
   - Gyomok vagy moha túlburjánzása az edényben
 

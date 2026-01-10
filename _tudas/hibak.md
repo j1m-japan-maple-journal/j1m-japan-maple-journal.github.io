@@ -55,7 +55,7 @@ description: Tanuljunk a hibákból! Gyakori gondozási hibák és következmén
 
 <div class="table-wrapper" markdown="block">
 
-# Gyakori hibák és megoldások japán juhar gondozásában
+# Gyakori hibák és megoldások a Japán juhar gondozásában
 
 Átfogó hibalista Japán juhar kaspós és bonsai gondozásához évszakonként rendszerezve. Minden hibához tartozik a várható következmény és a konkrét javítási módszer, így elkerülheted a leggyakoribb buktatókat, mint a túl korai átültetés, túlzott metszés vagy helytelen öntözés. Tanuld meg mások hibáiból, és óvd meg fádat a felesleges stressztől.
 

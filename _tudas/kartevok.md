@@ -60,7 +60,7 @@ description: Japán juhar kártevői, betegségei és azok hatékony kezelési m
 }
 </style>
 
-### A Japán juhar lehetséges kártevői betegségei
+### A Japán juhar lehetséges kártevői és betegségei, azok kezelései
 
 Részletes növényvédelmi útmutató japán juharokhoz. Minden kártevő és betegség leírása tartalmazza a típust, a felismerhető jeleket és tüneteket, az érintett növényrészeket, valamint a hatékony védekezési és kezelési módszereket. Tanuld meg felismerni és kezelni a verticilliumos hervadást, alevéltetveket, pajzstetveket és más gyakori problémákat időben.
 

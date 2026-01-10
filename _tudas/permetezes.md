@@ -54,9 +54,9 @@ description: Évszakokra bontott permetezési ajánlás a japán juhar védelmé
 }
 </style>
 
-### Permetezési ajánlás japán juhar védelméhez
+### Permetezési ajánlás a Japán juhar védelméhez
 
-Szakszerű permetezési útmutató japán juharokhoz. Részletes táblázat az engedélyezett hatóanyagokról és készítményekről, tiltott eljárásokról, célzott betegségekről és kártevőkről, valamint pontos alkalmazási módokról és időzítésről. Minden permetezőszer típushoz tartozik biztonsági és technológiai óvintézkedés, hogy biztonságosan és hatékonyan védd meg fádat.
+Szakszerű permetezési útmutató Japán juharokhoz. Részletes táblázat az engedélyezett hatóanyagokról és készítményekről, tiltott eljárásokról, célzott betegségekről és kártevőkről. Valamint pontos alkalmazási módokról és időzítésről. Minden permetezőszer típushoz tartozik biztonsági és technológiai óvintézkedés, hogy biztonságosan és hatékonyan védd meg fádat. Mindig olvasd el a mellékelt tájékoztatót! Használj védőferszerelést ha olyan szerekkel dolgozol ami az egészségre káros lehet!
 
 | Permetezőszer típusa | Engedélyezett hatóanyagok/készítmények | Tiltott vagy kerülendő eljárások | Célzott betegségek és kártevők | Alkalmazás módja és időzítése | Fontos biztonsági és technológiai óvintézkedések |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -68,9 +68,9 @@ Szakszerű permetezési útmutató japán juharokhoz. Részletes táblázat az e
 
  #### ⚠️ Jogi nyilatkozat és felelősségkizárás
 
-_Az ezen az oldalon található információk kizárólag **tájékoztató jellegűek** és általános útmutatásként szolgálnak. A tartalom nem minősül szakmai tanácsadásnak, és nem helyettesíti a szakképzett kertész, növényvédelmi szakember vagy más szakértő konzultációját.
+Az ezen az oldalon található információk kizárólag **tájékoztató jellegűek** és általános útmutatásként szolgálnak. A tartalom nem minősül szakmai tanácsadásnak, és nem helyettesíti a szakképzett kertész, növényvédelmi szakember vagy más szakértő konzultációját.
 **Felelősség:** Az oldal üzemeltetője nem vállal felelősséget az itt közölt információk alapján hozott döntésekből vagy intézkedésekből eredő közvetlen vagy közvetett károkért, növényegészségügyi problémákért, terméskárokért vagy bármilyen egyéb veszteségért.
 **Pontosság:** Bár törekszek a pontos és naprakész információk megosztására, nem garantálom az adatok hibátlanságát, teljességét vagy időszerűségét. A növényvédő szerek használata előtt mindig olvassa el a termék használati útmutatóját és kövesse a gyártó előírásait. <br>
 **Növényvédő szerek:** A növényvédő szerek használata előtt tájékozódjon az aktuális magyarországi jogszabályokról és engedélyekről. Az itt említett készítmények elérhetősége és engedélyezési státusza változhat.
 **Saját felelősség:** Az oldalon található információk felhasználása teljes mértékben a látogató saját felelősségére történik.
-Utolsó frissítés: 2025_
+Utolsó frissítés: 2025

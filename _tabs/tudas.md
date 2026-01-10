@@ -7,6 +7,7 @@ permalink: /tudastar/
 ---
 
 Hasznos információk, útmutatók és szakmai tudás a bonsai gondozásról.
+(Javaslom, ha teheted ezeket a cikkeket nagy monitoron olvasd, mert a nagymennyiségű, rendszerezett információt mobil méretben nehéz olvashatóan megjeleníteni.)
 
 <style>
 .knowledge-grid {
