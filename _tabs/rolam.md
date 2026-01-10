@@ -8,7 +8,7 @@ permalink: /rolam/
 
 ## Mi ez az oldal?
 
-Ez az oldal nem egy bonsai-mester oldala. Hanem valakié aki **úton van**.
+Ez az oldal nem egy bonsai-mester oldala. Hanem valakié aki még az **úton van**.
 Úton a megértés felé: hogyan alakul egy fa az időben, hogyan hatnak rá a döntések, és hogyan tanít türelemre a rohanó világunkban.
 
 ---
@@ -16,19 +16,19 @@ Ez az oldal nem egy bonsai-mester oldala. Hanem valakié aki **úton van**.
 ## Ki vagyok én?
 
 Egy olyan ember, aki szeret **megfigyelni és elmélkedni**. Aki nem a gyors eredményeket keresi, hanem az összefüggéseket. Egy forma mögötti folyamatot. A döntések következményeit, amelyekből tanulhatok. 
+Sok, nagyon sok tervemem van. Nem a pénzt hajtom, nem azért csinálom. Tanulok, tapasztalatot gyűjtök és élvezem az utazás minden egyes percét. 
 
 ---
 
 ## Miért Japán juhar?
 
-A Japán juhar számomra nem egyszerűen egy növény.
+A Japán juhar számomra nem egyszerűen egy kerti dísznövény.
 
 Hanem:
-- idő  
-- türelem  
-- alkalmazkodás  
+- türelem
+- alkalmazkodás
 - együttműködés
-- egy csoda
+- utazás az időben
 
 Egy fa, amely minden évben emlékeztet arra, milyen színes és csodálatos a bolygónk.
 
@@ -36,19 +36,19 @@ Egy fa, amely minden évben emlékeztet arra, milyen színes és csodálatos a b
 
 ## Mit találsz itt?
 
-Ez az oldal egy **Japán juhar gyűjtemény naplója**.
+Ez az oldal egy **Japán juhar tudás és gyüjtemény naplója**.
 
-Nem katalógus. Nem kirakat. Nem tanfolyam.
+Nem katalógus. Nem kirakat. Nem tanfolyam. 
 
 Hanem:
-- valódi fák, valódi állapotokkal  
-- mérések és naplók  
-- döntések és indoklásuk  
-- hibák és tanulságok  
-- rendszerezett tudás táblázatokban és útmutatókban  
+- valódi fák, valódi állapotokkal
+- mérések és naplók
+- döntések és indoklásuk
+- hibák és tanulságok
+- rendszerezett tudás táblázatokban és útmutatókban 
 
 A *Gyűjtemény* a fáim története.  
-A *Tudástár* a tapasztalat rendszere.
+A *Tudástár* az információk rendszere.
 
 ---
 
@@ -57,7 +57,7 @@ A *Tudástár* a tapasztalat rendszere.
 Azoknak,
 - akik nem kész válaszokat keresnek
 - akik szeretnek megérteni egy folyamatot
-- akik megértik hogy a bonsai nem egy termék, nem egy dekoráció, hanem egy kapcsolat
+- akik megértik hogy a Japán juhar nem egy termék, nem egy dekoráció, hanem egy kapcsolat
 
 Ha így közelítesz a Japán juharhoz és a bonsaihoz, akkor jó helyen jársz.
 
