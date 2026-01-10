@@ -7,6 +7,7 @@ categories: [Gondozás]
 tags: [tél, japán-juhar, karbantartás]
 hero_image: /assets/blog/winter-maple.jpg
 youtube_id: dQw4w9WgXcQ
+hidden: true
 ---
 
 ## Bevezetés

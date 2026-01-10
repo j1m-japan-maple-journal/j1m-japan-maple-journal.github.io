@@ -1,0 +1,22 @@
+---
+layout: page
+---
+
+{% include custom-styles.html %}
+
+<div id="page-category">
+  <h1 class="dynamic-title">{{ page.title }}</h1>
+
+  <ul class="post-content list-group">
+    {% assign posts = page.posts | where_exp: "item", "item.hidden != true" | sort: 'date' | reverse %}
+    {% for post in posts %}
+      <li class="list-group-item">
+        <span class="post-meta mr-3 d-flex justify-content-start">
+          <i class="far fa-calendar fa-fw"></i>
+          {{ post.date | date: site.data.locales[lang].date_format.post.long }}
+        </span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

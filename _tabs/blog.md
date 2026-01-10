@@ -84,7 +84,7 @@ Kövess nyomon minden újdonságot, tapasztalatot és történetet a japán juha
   padding: 0.25rem 0.75rem;
   background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
   color: white;
-  border-radius: 12px;
+  border-radius: 50px;
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -175,7 +175,7 @@ Kövess nyomon minden újdonságot, tapasztalatot és történetet a japán juha
 
 </style>
 
-{% assign posts = site.posts | sort: 'date' | reverse %}
+{% assign posts = site.posts | where_exp: "item", "item.hidden != true" | sort: 'date' | reverse %}
 
 {% if posts.size > 0 %}
 <div class="blog-grid">
