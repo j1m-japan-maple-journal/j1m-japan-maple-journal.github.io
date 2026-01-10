@@ -27,11 +27,11 @@ Sokan a bonsait pusztán esztétikai művészetnek tekintik, ahol az alakítás 
 A keretrendszer alapja a fizika egyik legfontosabb törvénye: az energia megmaradása. Egy fa számára az egyetlen mechanizmus, amellyel energiát képes előállítani, a fotoszintézis. A levelekre érkező napfény kémiai energiává alakul (cukrok és keményítő formájában), amely a fa szöveteiben tárolódik.
 Ebből következik egy kritikus felismerés: a levelek valójában a fa „napelemei”. Minél több és egészségesebb levéllel rendelkezik a fa, annál több energiát tud termelni a fejlődéshez, a sebek gyógyításához és a gyökérnövekedéshez.
 ### 2. A tápanyag nem energia
-A kezdő bonsai-gyűjtők gyakran követik el azt a hibát, hogy a tápoldatozást az „energia forrásával azonosítják. Azonban a tápanyag önmagában nem tartalmaz energiát. A nitrogén, foszfor és kálium csupán építőelemek, amelyek a fotoszintézis hatékonyságát és az új lomb képzését támogatják.
-• Fontos szabály: Egy gyenge, kevés lombbal rendelkező fát nem lehet tápoldattal „meggyógyítani”. Ha nincs elegendő fotoszintetikus felület (levél), a fa nem tudja hasznosítani a tápanyagot, sőt, a túlzott sókoncentráció károsíthatja a gyökereket.
+A kezdő bonsai-gyűjtők gyakran követik el azt a hibát, hogy a tápoldatozást az „energia forrásával azonosítják. Azonban a tápanyag önmagában nem tartalmaz energiát. A nitrogén, foszfor és kálium csupán építőelemek, amelyek a fotoszintézis hatékonyságát és az új lomb képzését támogatják.<br>
+_Fontos szabály_: Egy gyenge, kevés lombbal rendelkező fát nem lehet tápoldattal „meggyógyítani”. Ha nincs elegendő fotoszintetikus felület (levél), a fa nem tudja hasznosítani a tápanyagot, sőt, a túlzott sókoncentráció károsíthatja a gyökereket.
 ### 3. Éghajlat és stratégia: Miért nem működik mindenhol ugyanaz?
-A fényintenzitás drámaian eltér a különböző régiókban. Például az Egyesült Királyság vagy Észak-Európa kb. negyven százalékkal kevesebb napfényt kap, mint Spanyolország vagy Japán.
-• Déli régiók: A bőséges fény miatt a mesterek agresszív technikákat (erős metszés, teljes levéltelenítés) alkalmazhatnak, mert a fa gyorsan pótolja a tartalékait.
+A fényintenzitás drámaian eltér a különböző régiókban. Például az Egyesült Királyság vagy Észak-Európa kb. negyven százalékkal kevesebb napfényt kap, mint Spanyolország vagy Japán.<br>
+• Déli régiók: A bőséges fény miatt a mesterek agresszív technikákat (erős metszés, teljes levéltelenítés) alkalmazhatnak, mert a fa gyorsan pótolja a tartalékait.<br>
 • Északi régiók: Itt óvatosabbnak kell lenni. A 40%-os energiadeficitet sűrűbb lombozattal, hosszabbra hagyott hajtásokkal és kevesebb beavatkozással kell kompenzálni.
 ### 4. Az éves energiaciklus: Gazdálkodás az egységekkel
 Képzeljük el a fa energiáját egy bankszámlaként, amely az év során folyamatosan változik:<br>
@@ -39,16 +39,16 @@ Képzeljük el a fa energiáját egy bankszámlaként, amely az év során folya
 • Nyár és Ősz: Ez a felhalmozás időszaka, amikor a kifejlett levelek visszatöltik a „számlát”.<br>
 • Menedzsment: A fejlesztés alatt álló fáknál a cél a maximális (pl. 200 egységnyi) energianyerés a vastagítás érdekében. Ezzel szemben a finomított, kész bonsaioknál a cél az egyensúly fenntartása (pl. 110 egység), hogy elkerüljük a durva, esztétikát rontó hajtásokat.
 ### 5. Az energia újraelosztása és az apikális dominancia
-A fák természetes programozása a hatékonyságra törekszik: oda küldik az energiát, ahol a legtöbb fény éri őket (ez a csúcsi rész vagy apikális dominancia). Ez azonban konfliktusban áll a bonsai-esztétikával, ahol erős alsó ágakat szeretnénk. A bonsai-technikák (visszacsípés, metszés, hajlítás) valójában az auxin nevű hormonok manipulálását jelentik, amivel rákenyszerítjük a fát, hogy az energiát ne a csúcsba, hanem a gyengébb, alsóbb részekbe irányítsa.
+A fák természetes programozása a hatékonyságra törekszik: oda küldik az energiát, ahol a legtöbb fény éri őket (ez a csúcsi rész vagy apikális dominancia). Ez azonban konfliktusban áll a bonsai-esztétikával, ahol erős alsó ágakat szeretnénk. A bonsai-technikák (visszacsípés, metszés, hajlítás) valójában az `auxin` nevű hormonok manipulálását jelentik, amivel rákenyszerítjük a fát, hogy az energiát ne a csúcsba, hanem a gyengébb, alsóbb részekbe irányítsa.
 ### 6. Arany szabályok a gyakorlatban
 • Szezononként csak egy nagy beavatkozás: Minden nagy művelet (átültetés vagy komoly formázás) rengeteg energiát éget el. Ha mindkettőt egyszerre végezzük, az a fa pusztulásához vezethet.<br>
-• Olvasni a fát: A rügyek mérete, az ágak rugalmassága és a fenyőknél a másodéves tűk megtartása mind az aktuális energiatartalékról árulkodik.<br>
+• Olvassuk a fát: A rügyek mérete, az ágak rugalmassága vagy a fenyőknél a másodéves tűk megtartása mind az aktuális energiatartalékról árulkodik.<br>
 • Sorrendiség: Előbb a gyökérrendszert kell rendbe tenni (víz-oxigén egyensúly), hogy az képes legyen lombot nevelni, ami aztán energiát termel.<br>
-Összegzés: A bonsai-művészet ebben a rendszerben nem más, mint az esztétikailag tökéletes forma eléréséhez szükséges energia megtermelése és újraelosztása. Aki elsajátítja ezt a logikus, biológiai alapokon nyugvó szemléletet, az kevesebb elpusztult fával és egészségesebb, gyorsabban fejlődő példányokkal gazdagodik.
+### Analógia a megértéshez:
+Gondoljunk a fára úgy, mint egy napelemes házra, amelynek akkumulátora is van. A levelek a napelemek, amelyek töltik az akkumulátort (a fa szöveteit). Télen és kora tavasszal a ház az akkumulátorról üzemel. Ha túl sok „elektromos berendezést” (új hajtást, sebet) kapcsolunk be egyszerre, mielőtt a nap kisütne, az akkumulátor lemerül és a rendszer összeomlik. A bonsai-mester feladata tehát az, hogy szabályozza, mennyi energiát termeljenek a panelek, és melyik szobában égjen a lámpa.
+
+## Összegzés:
+A bonsai-művészet ebben a rendszerben nem más, mint az esztétikailag tökéletes forma eléréséhez szükséges energia megtermelése és újraelosztása. Aki elsajátítja ezt a logikus, biológiai alapokon nyugvó szemléletet, az kevesebb elpusztult fával és egészségesebb, gyorsabban fejlődő példányokkal gazdagodik.
 
 > A bonsai-művészet nem más, mint a Nap fényéből nyert életerő tudatos és bölcs újraelosztása az esztétikai egyensúly megteremtése érdekében.
 > Ebben a folyamatban a fa természetes növekedési vágya és a mester irányító szándéka találkozik, hogy a véges energiákból végtelen harmónia szülessen.
-
-## Analógia a megértéshez:
-
-Gondoljunk a fára úgy, mint egy napelemes házra, amelynek akkumulátora is van. A levelek a napelemek, amelyek töltik az akkumulátort (a fa szöveteit). Télen és kora tavasszal a ház az akkumulátorról üzemel. Ha túl sok „elektromos berendezést” (új hajtást, sebet) kapcsolunk be egyszerre, mielőtt a nap kisütne, az akkumulátor lemerül és a rendszer összeomlik. A bonsai-mester feladata tehát az, hogy szabályozza, mennyi energiát termeljenek a panelek, és melyik szobában égjen a lámpa.
