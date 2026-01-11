@@ -626,8 +626,10 @@ article.post {
      Renders only if hero_image is defined in front matter
      ═══════════════════════════════════════════════════════════════════════ -->
 {% if page.hero_image %}
-<div class="bonsai-hero">
-  <img src="{{ page.hero_image }}" alt="{{ page.title }}" class="bonsai-hero-image" loading="eager">
+<div class="bonsai-hero-wrapper">
+  <div class="bonsai-hero">
+    <img src="{{ page.hero_image }}" alt="{{ page.title }}" class="bonsai-hero-image" loading="eager">
+  </div>
 </div>
 {% endif %}
 
