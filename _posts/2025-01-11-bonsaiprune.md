@@ -32,8 +32,8 @@ Módszerek, amelyekkel irányíthatjuk fánk fejlődését:
 1. Az „áldozati ágak” használata: Ha bizonyos részeken vastagabb törzset szeretnénk, hagyjunk meg egy-egy ágat (gyakran a törzs alsó részén), és engedjük szabadon nőni. Ezek az ágak „energiaelvezetőként” működnek, és jelentősen felgyorsítják a törzs vastagodását, valamint segítik a természetes elvékonyodás (taper) kialakulását a csúcs felé.
 
 <figure style="text-align: center; margin: 20px 0;">
-  <img src="/assets/blog/260111_prune3.jpg" alt="Leírás" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <figcaption style="margin-top: 10px; font-style: italic; color: #666;">Áldozati ág (secrefice branch)</figcaption>
+  <img src="/assets/blog/260111_prune3.jpg" alt="Leírás" style="width: 120%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <figcaption style="margin-top: 10px; font-style: italic; color: #666;">Áldozati ág (sacrificial branch)</figcaption>
 </figure>
 
 2. Irányított metszés (Directional Pruning): Ezzel a technikával a növekedés irányát határozhatjuk meg. A metszés helyének megválasztásával – például egy adott irányba néző rügy felett – eldönthetjük, merre fejlődjön tovább az ág.
