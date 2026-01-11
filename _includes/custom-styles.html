@@ -21,11 +21,11 @@
 [data-mode="dark"] p,
 [data-mode="dark"] li,
 [data-mode="dark"] td,
-[data-mode="dark"] span,
-[data-mode="dark"] div,
-[data-mode="dark"] article {
+[data-mode="dark"] span {
   color: #e9e8e8 !important;
 }
+
+/* Note: div and article are NOT set here to avoid overriding specific heading colors */
 
 [data-mode="dark"] .card-title,
 [data-mode="dark"] .card-text {
@@ -36,6 +36,7 @@
   color: #a0a0a0 !important;
 }
 
+/* Headings in dark mode - set to light color */
 [data-mode="dark"] h1,
 [data-mode="dark"] h2,
 [data-mode="dark"] h3,
@@ -51,11 +52,11 @@
   html:not([data-mode="light"]) p,
   html:not([data-mode="light"]) li,
   html:not([data-mode="light"]) td,
-  html:not([data-mode="light"]) span,
-  html:not([data-mode="light"]) div,
-  html:not([data-mode="light"]) article {
+  html:not([data-mode="light"]) span {
     color: #e9e8e8 !important;
   }
+
+  /* Note: div and article are NOT set here to avoid overriding specific heading colors */
 
   html:not([data-mode="light"]) .card-title,
   html:not([data-mode="light"]) .card-text {
@@ -66,6 +67,7 @@
     color: #a0a0a0 !important;
   }
 
+  /* Headings in dark mode via system preference */
   html:not([data-mode="light"]) h1,
   html:not([data-mode="light"]) h2,
   html:not([data-mode="light"]) h3,

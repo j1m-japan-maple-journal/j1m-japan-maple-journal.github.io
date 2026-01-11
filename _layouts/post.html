@@ -595,7 +595,7 @@ article.post {
 
 [data-mode="dark"] .bonsai-content h2,
 [data-mode="dark"] .bonsai-content h3 {
-  color: var(--bonsai-primary);
+  color: var(--bonsai-primary) !important;
 }
 
 [data-mode="dark"] .bonsai-content blockquote {
@@ -607,7 +607,7 @@ article.post {
   color: #a0a0a0 !important;
 }
 
-/* Media query for blockquotes when data-mode is not set yet */
+/* Media query for blockquotes and headings when data-mode is not set yet */
 @media (prefers-color-scheme: dark) {
   html:not([data-mode="light"]) .bonsai-content blockquote {
     background: rgba(255, 255, 255, 0.03);
@@ -616,6 +616,11 @@ article.post {
 
   html:not([data-mode="light"]) .bonsai-content blockquote p {
     color: #a0a0a0 !important;
+  }
+
+  html:not([data-mode="light"]) .bonsai-content h2,
+  html:not([data-mode="light"]) .bonsai-content h3 {
+    color: var(--bonsai-primary) !important;
   }
 }
 
