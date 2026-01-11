@@ -182,7 +182,7 @@
 }
 
 .category-name {
-  color: var(--text-color, #212529);
+  color: var(--text-color, #212529) !important;
   font-weight: 500;
 }
 
@@ -211,5 +211,5 @@
 }
 
 [data-mode="dark"] .category-name {
-  color: var(--text-color, #e0e0e0);
+  color: var(--text-color, #e0e0e0) !important;
 }

@@ -22,6 +22,7 @@ refactor: true
 ╚══════════════════════════════════════════════════════════════════════════╝
 -->
 
+{% include custom-styles.html %}
 {% include lang.html %}
 
 <style>
@@ -182,7 +183,7 @@ article.post {
   padding: 0 1.5rem;
   font-size: 1.1rem;
   line-height: 1.8;
-  color: var(--bonsai-text);
+  color: var(--bonsai-text) !important;
   text-align: justify !important;
   direction: ltr !important;
 }
@@ -580,6 +581,16 @@ article.post {
 
 [data-mode="dark"] .bonsai-post-title {
   color: var(--bonsai-primary);
+}
+
+[data-mode="dark"] .bonsai-content {
+  color: var(--bonsai-text) !important;
+}
+
+[data-mode="dark"] .bonsai-content p,
+[data-mode="dark"] .bonsai-content li,
+[data-mode="dark"] .bonsai-content td {
+  color: var(--bonsai-text) !important;
 }
 
 [data-mode="dark"] .bonsai-content h2,

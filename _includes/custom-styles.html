@@ -9,4 +9,37 @@
   margin-right: auto !important;
   max-width: 100% !important;
 }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   GLOBAL DARK MODE TEXT COLOR FIX
+   Ensures all text is white/light in dark mode across all layouts
+   ═══════════════════════════════════════════════════════════════════════ */
+
+[data-mode="dark"] body,
+[data-mode="dark"] p,
+[data-mode="dark"] li,
+[data-mode="dark"] td,
+[data-mode="dark"] span,
+[data-mode="dark"] div,
+[data-mode="dark"] article {
+  color: var(--text-color, #e9e8e8) !important;
+}
+
+[data-mode="dark"] .card-title,
+[data-mode="dark"] .card-text {
+  color: var(--text-color, #e9e8e8) !important;
+}
+
+[data-mode="dark"] .post-meta {
+  color: var(--text-muted-color, #a0a0a0) !important;
+}
+
+[data-mode="dark"] h1,
+[data-mode="dark"] h2,
+[data-mode="dark"] h3,
+[data-mode="dark"] h4,
+[data-mode="dark"] h5,
+[data-mode="dark"] h6 {
+  color: var(--heading-color, #e9e8e8) !important;
+}
 </style>
