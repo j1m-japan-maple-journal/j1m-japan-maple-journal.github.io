@@ -16,6 +16,12 @@ A bonsai fák nevelése és fejlesztése, legyen szó természetes környezetrő
 ### Mikor metsszünk? Minden az életkoron múlik
 
 A metszési döntéseket mindig a fa fejlettségi állapota és a kitűzött cél határozza meg.
+
+<figure style="text-align: center; margin: 20px 0;">
+  <img src="/assets/blog/260111_prune4.jpg" alt="Leírás" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <figcaption style="margin-top: 10px; font-style: italic; color: #666;"></figcaption>
+</figure>
+
 - Fiatal fák: Ebben a szakaszban az elsődleges cél a növekedés ösztönzése és egy erős váz kialakítása. A metszés ilyenkor háttérbe szorul, és főként a sérült vagy egymást keresztező ágak eltávolítására korlátozódik. Fontos a szabad növekedés hagyása, mert a nagy lombtömeg által termelt energia segít a törzs vastagításában.
 - Középkorú fák: Ahogy a fa érik, a beavatkozás tudatosabbá válik. A cél a forma finomítása, az elágazások sűrítése és az energia egyenletes elosztása. Itt már vigyázni kell: ha túl korán kezdjük el a finom elágazásrendszer (ramifikáció) fejlesztését, a törzs vékony maradhat.
 - Idős, fejlett fák: Itt a cél a forma fenntartása és az életerő frissen tartása. A metszést óvatosan kell végezni, mert a túlzott ágeltávolítás felboríthatja a fa egyensúlyát.
@@ -23,11 +29,11 @@ A metszési döntéseket mindig a fa fejlettségi állapota és a kitűzött cé
 ### Speciális technikák a tökéletes formáért
 
 Módszerek, amelyekkel irányíthatjuk fánk fejlődését:
-1. Az „áldozati ágak” használata: Ha vastagabb törzset szeretnénk, hagyjunk meg egy-egy ágat (gyakran a törzs alsó részén), és engedjük szabadon nőni. Ezek az ágak „energiaelvezetőként” működnek, és jelentősen felgyorsítják a törzs vastagodását, valamint segítik a természetes elvékonyodás (taper) kialakulását a csúcs felé.
+1. Az „áldozati ágak” használata: Ha bizonyos részeken vastagabb törzset szeretnénk, hagyjunk meg egy-egy ágat (gyakran a törzs alsó részén), és engedjük szabadon nőni. Ezek az ágak „energiaelvezetőként” működnek, és jelentősen felgyorsítják a törzs vastagodását, valamint segítik a természetes elvékonyodás (taper) kialakulását a csúcs felé.
 
 <figure style="text-align: center; margin: 20px 0;">
   <img src="/assets/blog/260111_prune3.jpg" alt="Leírás" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <figcaption style="margin-top: 10px; font-style: italic; color: #666;">Áldozati ág(secrefice branch)</figcaption>
+  <figcaption style="margin-top: 10px; font-style: italic; color: #666;">Áldozati ág (secrefice branch)</figcaption>
 </figure>
 
 2. Irányított metszés (Directional Pruning): Ezzel a technikával a növekedés irányát határozhatjuk meg. A metszés helyének megválasztásával – például egy adott irányba néző rügy felett – eldönthetjük, merre fejlődjön tovább az ág.
@@ -59,6 +65,6 @@ A metszés hatékonysága mögött az auxin hormon áll. Ez a hormon a hajtáscs
 ### Összegzés
 
 A metszést mindig egyensúly és mértékletesség jellemezze. A túl sok metszés legyengítheti a fát, míg a kontroll nélküli növekedés káoszhoz vezet. A fa egyedi igényeinek és növekedési mintáinak megértése a kulcs ahhoz, hogy hosszú távon is esztétikus és egészséges bonsait neveljünk.
-A bonsai metszése olyan, mint egy rept;ri forgalomirányító munkája: nem állítja meg az életet, csupán a megfelelő irányba tereli az energia áramlását, hogy elkerülje a torlódásokat és biztosítsa a folyamatos, harmonikus haladást.
+A bonsai metszése olyan, mint egy reptéri forgalomirányító munkája: nem állítja meg az életet, csupán a megfelelő irányba tereli az energia áramlását, hogy elkerülje a torlódásokat és biztosítsa a folyamatos, harmonikus haladást.
 
 > A metszés a természet lényegének élő művészetté formálása, ahol minden vágás az esztétika és a hosszú távú egészség közötti egyensúlyt keresi. Az igazi harmónia a fa szabad növekedésének tisztelete és a formáló beavatkozás közötti bölcs mértékletességben születik meg.
