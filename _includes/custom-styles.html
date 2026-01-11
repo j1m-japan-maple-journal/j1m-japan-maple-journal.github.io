@@ -13,8 +13,10 @@
 /* ═══════════════════════════════════════════════════════════════════════
    GLOBAL DARK MODE TEXT COLOR FIX
    Ensures all text is white/light in dark mode across all layouts
+   Uses both data-mode attribute AND media query for system preference
    ═══════════════════════════════════════════════════════════════════════ */
 
+/* Dark mode via data-mode attribute (set by theme toggle) */
 [data-mode="dark"] body,
 [data-mode="dark"] p,
 [data-mode="dark"] li,
@@ -41,6 +43,37 @@
 [data-mode="dark"] h5,
 [data-mode="dark"] h6 {
   color: #e9e8e8 !important;
+}
+
+/* Dark mode via system preference (when data-mode is not set yet) */
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) body,
+  html:not([data-mode="light"]) p,
+  html:not([data-mode="light"]) li,
+  html:not([data-mode="light"]) td,
+  html:not([data-mode="light"]) span,
+  html:not([data-mode="light"]) div,
+  html:not([data-mode="light"]) article {
+    color: #e9e8e8 !important;
+  }
+
+  html:not([data-mode="light"]) .card-title,
+  html:not([data-mode="light"]) .card-text {
+    color: #e9e8e8 !important;
+  }
+
+  html:not([data-mode="light"]) .post-meta {
+    color: #a0a0a0 !important;
+  }
+
+  html:not([data-mode="light"]) h1,
+  html:not([data-mode="light"]) h2,
+  html:not([data-mode="light"]) h3,
+  html:not([data-mode="light"]) h4,
+  html:not([data-mode="light"]) h5,
+  html:not([data-mode="light"]) h6 {
+    color: #e9e8e8 !important;
+  }
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
