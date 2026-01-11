@@ -21,8 +21,8 @@ A téli felkészítésre egy körülbelül négy-hat hetes időablak áll rendel
 ### Tisztítás és kártevővédelem
 
 A téli egészségmegőrzés alapja a higiénia. Érdemes a következő lépéseket elvégezni:
-- Gyomlálás és mohairtás: Távolítsuk el a gyomokat és a mohát a talajfelszínről. A moha, bár esztétikus lehet, tartós nedvességet tart a kéregnél, ami különösen az idős, érdes kérgű fajoknál kéregrothadást okozhat.
-- Lemosó permetezés: Kora ősszel érdemes olajos vagy szappanalapú permetet alkalmazni. Ez megfojtja az ágakon telelő rovarpetéket, így drasztikusan csökkenthető a tavaszi kártevőinvázió. Fontos, hogy ezt száraz időben végezzük, hogy ne mossa le az eső.
+- Távolítsuk el a gyomokat és a mohát a talajfelszínről. A moha, bár esztétikus lehet, tartós nedvességet tart a kéregnél, ami különösen az idős, érdes kérgű fajoknál kéregrothadást okozhat.
+- Kora ősszel érdemes olajos vagy szappanalapú permetet alkalmazni. Ez megfojtja az ágakon telelő rovarpetéket, így jelentősen csökkenthető a tavaszi kártevőinvázió. Fontos, hogy száraz időben végezzük.
 - Kerti higiénia: Tisztítsuk meg a növény környezetét a lehullott lombtól és szennyeződésektől, hogy megszüntessük a kórokozók búvóhelyeit.
 
 ### Metszés és formázás: Mit szabad és mit nem?
@@ -30,34 +30,35 @@ A téli egészségmegőrzés alapja a higiénia. Érdemes a következő lépése
 Az őszi felkészítés során kerülni kell a nagyobb szerkezeti metszéseket. Ilyenkor a fa nedvkeringése már visszahúzódott, és nincs energiája a nagy sebfelületek lezárására, ami kaput nyithat a fertőzéseknek.
 - Kizárólag az elhalt, beteg vagy sérült részeket távolítsuk el.
 - A vágást mindig az egészséges részig végezzük, majd egy rügyet hagyjunk rá, hogy a metszlap megfelelően kiszáradhasson.
-- A nagyobb alakító metszéseket hagyjuk a téli nyugalmi időszakra (november-január), amikor a nedvkeringés teljesen leáll, és nincs „vérzésveszély”.
+- A nagyobb alakító metszéseket hagyjuk a téli nyugalmi időszakra végére (március), amikor a nedvkeringés teljesen leáll, de még épp nem indult be, és nincs „vérzésveszély”.
 
 ### Védelem a fagyok ellen
 
 Bár a Japán juhar alapvetően télálló, a cserépben vagy bonsai tálban nevelt példányok sokkal sérülékenyebbek, mint a szabadföldiek.
-1. Hőszigetelés: Ha a hőmérséklet tartósan -5 fok alá süllyed, a cserepeket vegyük le a padokról és helyezzük közvetlenül a talajra, amely természetes szigetelést biztosít.
-2. Mulcsozás: A gyökérzónát védjük 5-10 cm vastag mulcsréteggel (szalma, fenyőkéreg, falevél). Ez segít megőrizni a talaj nedvességét és szabályozza a hőmérsékletet.
-3. Kiszáradás elleni védelem: A tartós hidegben a fagyott gyökér nem tud vizet felvenni. Ilyenkor az erős szél vagy a napsütés gyorsan kiszáríthatja az ágakat. A fákat helyezzük árnyékos, szélvédett pozícióba.
-4. Beltéri teleltetés: A cserepes példányokat egy fűtetlen garázsba vagy verandára is vihetjük, ahol a hőmérséklet 0-5°C között marad. Ennél melegebb helyen a fa idő előtt kihajthat, ami felborítja az életritmusát.
+- Talajra helyezés: Ha a hőmérséklet tartósan –5 °C alá süllyed, a cserepeket vegyük le a padokról, és helyezzük közvetlenül a talajra, amely természetes hőszigetelést biztosít.
+- Mulcsozás: A gyökérzónát védjük 5–10 cm vastag mulcsréteggel (szalma, fenyőkéreg, száraz falevél). Ez segít kiegyenlíteni a talaj hőmérsékletét és megőrizni a nedvességet.
+- Szél- és napvédelem: A fagyott gyökér nem tud vizet felvenni, miközben az ágak a szél és a napsütés hatására tovább párologtatnak. A fákat árnyékos, szélvédett helyre kell mozgatni.
+- Beltéri teleltetés: A cserepes példányokat fűtetlen garázsba, verandára vagy faházba is vihetjük, ahol a hőmérséklet 0–5 °C (maximum 8 °C) között marad. Ennél melegebb helyen a fa idő előtt kihajthat.
 
-### Elhelyezés és fizikai védelem
-- Talajra helyezés: Ha a hőmérséklet tartósan -5 fok alá süllyed, a cserepeket vegyük le a padokról, és helyezzük őket közvetlenül a talajra. A föld hőtároló képessége nagyobb, így természetes szigetelést nyújt a gyökereknek.
-- Szél- és napvédelem: A fagyott gyökérzet nem tud vizet felvenni, ezért az erős szél vagy a napsütés gyorsan kiszáríthatja az ágakat. A cserepeket árnyékos, szélvédett pozícióba kell mozgatni.
-- Behordás védett helyre: A legbiztonságosabb megoldás, ha a növényt egy fűtetlen garázsba, verandára vagy faházba visszük, ahol a hőmérséklet 0 és 5 °C (maximum 8 °C) között marad. Ebben a nyugalmi állapotban a fának nincs szüksége fényre.
-#### Szigetelőanyagok használata
-- A cserép körbetekerése: Ha a növény kint marad, a kaspót érdemes buborékfóliával vagy jutazsákkal szorosan körbecsomagolni.
-- Mulcsozás: A talaj felszínét védjük egy vastag, 5–10 cm-es réteggel, amely állhat szalmából, fenyőkéregből vagy száraz falevelekből. Ez segít kiegyenlíteni a talaj hőmérsékletét.
+### Szigetelő és kiegészítő technikák
+
+- A cserép körbetekerése: Buborékfólia vagy jutazsák használata hatékony védelmet nyújt.
+- Szigetelt ládák: Erkélyen tartott növényeknél jó megoldás a cserép behelyezése egy nagyobb ládába, a köztes teret fakéreggel vagy fűrészporral kitöltve.
+- A cserép földbe süllyesztése: A tál pereméig a földbe ásva, a tetejét avarral vagy szalmával takarva kiváló hőstabilitás érhető el.
+- Anyagválasztás: A fa ládák természetes hőszigetelő képessége hosszú távon is mérsékli a fagyhatást.
 - Szigetelt ládák: Erkélyen tartott növényeknél hatékony módszer a cserép behelyezése egy nagyobb ládába, ahol a köztes teret nedves fakéreggel vagy fűrészporral töltjük ki.
-#### Különleges technikák
-- A cserép földbe süllyesztése: A tálat a pereméig a földbe áshatjuk, a tetejét pedig avarral vagy szalmával takarhatjuk le.
-- Anyagválasztás: Hosszú távú segítség, ha a növényt fa ládában neveljük, mivel a fa természetes hőszigetelő képessége télen mérsékli a fagyhatást.
-A téli védekezés lényege az egyensúly: nem bonyolult fűtésre, hanem elsősorban a gyökérzet hőszigetelésére és az ágak kiszáradásának megelőzésére van szükség.
-A fagyott gyökérzettel álló fa olyan, mint egy vándor a sivatagban, akinek a kulacsában jéggé fagyott a víz: bár ott van előtte az éltető nedvesség, mégis szomjan halhat, mert nem tudja elfogyasztani
+- Betonról elemelés: A hideg burkolat és a beton elszívja a hőt a cserépből, ezért a gyökérlabda gyorsabban és mélyebben átfagy. Érdemes a kaspót szigetelő rétegre helyezni (fa lap, polisztirol, hungarocell, raklap), így csökkenthető az alulról érkező hideg és a hőingadozás.
+- Hótakaró „használata”: Ha leesik a hó, az nem ellenség: laza hóréteg a cserép körül természetes hőszigetelésként működik. (A nehéz, vizes havat viszont söpörjük le az ágakról.) Az elolvadt hó, - ha a jó vízelvezetés biztosított - nem okoz problémát.
+- Északi fal mellé helyezés: Egy épület északi oldala télen stabilabb, kevesebb direkt napsütést kap, így kisebb a nappali felmelegedés és az éjszakai visszafagyás kockázata, azaz a hőingadozás.
+
+A téli védekezés lényege az egyensúly: nem fűteni kell, hanem a gyökérzetet szigetelni, és megelőzni az ágak kiszáradását. A téli nyugalom másik része pedig, hogy átfagyott állapotban ne mozgassuk és ne forgassuk a cserepet, a rideg gyökerek könnyen mikrosérülnek.
 
 ### A téli „kiszáradás” jelensége
 
-A tél egyik legveszélyesebb állapota, amikor a fa szó szerint „szomjan halhat” bőséges nedvesség mellett is. Ha a gyökérzet teljesen átfagy, a növény képtelen vizet felvenni, miközben az ágak a szél és a nap hatására továbbra is párologtatnak. Olyan ez, mintha egy jégtömbbe fagyott kulaccsal próbálnánk oltani a szomjunkat a sivatagban: a víz ott van, de elérhetetlen. Ezért kritikus a szélvédelem és a gyökérzet szigetelése.
-A gondos őszi felkészítés és a tudatos téli védelem biztosítja, hogy tavasszal a Japán juhar egészségesen, erőteljesen és látványos új hajtásokkal ébredjen fel
+A tél egyik legveszélyesebb állapota, amikor a fa szó szerint „szomjan halhat” bőséges nedvesség mellett is.
+Ha a gyökérzet teljesen átfagy, a növény képtelen vizet felvenni, miközben az ágak a szél és a nap hatására továbbra is párologtatnak.
+
+Olyan ez, mintha egy jégtömbbe fagyott kulaccsal próbálnánk oltani a szomjunkat a sivatagban: a víz ott van, de elérhetetlen. Ezért kritikus a szélvédelem és a gyökérzet szigetelése.
 
 > A téli nyugalom nem az élet megállása, hanem a természet alázatos párbeszéde az idővel és a mulandóság szépségével. 
 > Ahogy a juhar elengedi lombját, a wabi-sabi szellemében tanít meg minket a csendes türelemre és a megújulás erejére.
