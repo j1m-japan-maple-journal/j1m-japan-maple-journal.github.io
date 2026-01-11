@@ -600,6 +600,23 @@ article.post {
 
 [data-mode="dark"] .bonsai-content blockquote {
   background: rgba(255, 255, 255, 0.03);
+  color: #a0a0a0 !important;
+}
+
+[data-mode="dark"] .bonsai-content blockquote p {
+  color: #a0a0a0 !important;
+}
+
+/* Media query for blockquotes when data-mode is not set yet */
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .bonsai-content blockquote {
+    background: rgba(255, 255, 255, 0.03);
+    color: #a0a0a0 !important;
+  }
+
+  html:not([data-mode="light"]) .bonsai-content blockquote p {
+    color: #a0a0a0 !important;
+  }
 }
 
 [data-mode="dark"] .bonsai-callout {
