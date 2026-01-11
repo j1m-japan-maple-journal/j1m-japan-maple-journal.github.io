@@ -5,7 +5,7 @@ subtitle: "Így készítsd fel a Japán juharod a hideg hónapokra"
 date: 2026-01-10
 categories: [Gondozás]
 tags: [Tél, japanese-maple, Gondozás]
-hero_image: /assets/blog/260110_wintercare.png
+hero_image: /assets/blog/260111_wintercare2.jpg
 youtube_id: 
 hidden: false
 ---

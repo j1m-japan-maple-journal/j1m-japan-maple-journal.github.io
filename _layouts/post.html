@@ -580,7 +580,7 @@ article.post {
    ═══════════════════════════════════════════════════════════════════════ */
 
 [data-mode="dark"] .bonsai-post-title {
-  color: var(--bonsai-primary);
+  color: #e9e8e8;
 }
 
 [data-mode="dark"] .bonsai-content {
@@ -593,9 +593,11 @@ article.post {
   color: var(--bonsai-text) !important;
 }
 
-[data-mode="dark"] .bonsai-content h2,
-[data-mode="dark"] .bonsai-content h3 {
-  color: var(--bonsai-primary) !important;
+[data-mode="dark"] .post .bonsai-content h2,
+[data-mode="dark"] .post .bonsai-content h3,
+[data-mode="dark"] h2,
+[data-mode="dark"] h3 {
+  color: #606060 !important;
 }
 
 [data-mode="dark"] .bonsai-content blockquote {
@@ -609,6 +611,10 @@ article.post {
 
 /* Media query for blockquotes and headings when data-mode is not set yet */
 @media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .bonsai-post-title {
+    color: #e9e8e8;
+  }
+
   html:not([data-mode="light"]) .bonsai-content blockquote {
     background: rgba(255, 255, 255, 0.03);
     color: #a0a0a0 !important;
@@ -620,7 +626,7 @@ article.post {
 
   html:not([data-mode="light"]) .bonsai-content h2,
   html:not([data-mode="light"]) .bonsai-content h3 {
-    color: var(--bonsai-primary) !important;
+    color: #606060 !important;
   }
 }
 
