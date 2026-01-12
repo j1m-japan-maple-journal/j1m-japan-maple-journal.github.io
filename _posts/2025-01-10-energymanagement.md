@@ -61,7 +61,7 @@ A fák természetes programozása a hatékonyságra törekszik: oda küldik az e
   </figure>
 </div>
 
-### 6. Arany szabályok a gyakorlatban
+### 6. Aranyszabályok a gyakorlatban
 
 - Szezononként csak egy nagy beavatkozás: Minden nagy művelet (átültetés vagy komoly formázás) rengeteg energiát éget el. Ha mindkettőt egyszerre végezzük, az a fa pusztulásához vezethet.<br>
 - Olvassuk a fát: A rügyek mérete, az ágak rugalmassága vagy a fenyőknél a másodéves tűk megtartása mind az aktuális energiatartalékról árulkodik.<br>
