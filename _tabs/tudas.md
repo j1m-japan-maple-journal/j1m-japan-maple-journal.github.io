@@ -34,7 +34,7 @@ Hasznos információk, útmutatók és szakmai tudás a bonsai gondozásról.
 
 .knowledge-header {
   width: 100%;
-  height: 50px;
+  height: 20px;
   background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
 }
 
@@ -123,7 +123,7 @@ Hasznos információk, útmutatók és szakmai tudás a bonsai gondozásról.
   }
 
   .knowledge-header {
-    height: 50px;
+    height: 8px;
   }
 }
 </style>
