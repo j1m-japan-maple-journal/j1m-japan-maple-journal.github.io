@@ -252,47 +252,42 @@ article.post {
 
 .bonsai-content ul,
 .bonsai-content ol {
-  margin: 1.5rem 0;
-  padding-left: 2rem;
+  margin: 1.2rem 0;
+  padding-left: 0;
+  list-style-position: outside;
 }
 
 .bonsai-content ul li,
 .bonsai-content ol li {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.6rem;
+  margin-left: 1.5rem;
+  padding-left: 0.5rem;
   line-height: 1.7;
   text-align: justify !important;
 }
 
 .bonsai-content ul {
-  list-style: none;
+  list-style: disc;
+  list-style-position: outside;
 }
 
-.bonsai-content ul li::before {
-  content: "◦";
+.bonsai-content ul li {
+  padding-left: 0.3rem;
+}
+
+.bonsai-content ul li::marker {
   color: var(--bonsai-primary);
-  font-weight: bold;
-  display: inline-block;
-  width: 1.2em;
-  margin-left: -1.2em;
+  font-size: 0.8em;
 }
 
 .bonsai-content ol {
-  counter-reset: bonsai-counter;
-  list-style: none;
+  list-style: decimal;
+  list-style-position: outside;
 }
 
-.bonsai-content ol li {
-  counter-increment: bonsai-counter;
-  position: relative;
-}
-
-.bonsai-content ol li::before {
-  content: counter(bonsai-counter) ".";
+.bonsai-content ol li::marker {
   color: var(--bonsai-primary);
   font-weight: 600;
-  display: inline-block;
-  width: 1.8em;
-  margin-left: -1.8em;
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
