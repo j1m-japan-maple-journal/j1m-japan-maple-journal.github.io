@@ -8,7 +8,11 @@ layout: page
   <h1 class="dynamic-title">{{ page.title }}</h1>
 
   <ul class="post-content list-group">
-    {% assign posts = page.posts | where_exp: "item", "item.hidden != true" | sort: 'date' | reverse %}
+    {% if jekyll.environment == "production" %}
+      {% assign posts = page.posts | where_exp: "item", "item.hidden != true" | sort: 'date' | reverse %}
+    {% else %}
+      {% assign posts = page.posts | sort: 'date' | reverse %}
+    {% endif %}
     {% for post in posts %}
       <li class="list-group-item">
         <span class="post-meta mr-3 d-flex justify-content-start">

@@ -10,7 +10,11 @@ refactor: true
 {% include home-hero.html %}
 
 {% assign pinned = site.posts | where: 'pin', 'true' %}
-{% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
+{% if jekyll.environment == "production" %}
+  {% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
+{% else %}
+  {% assign default = site.posts | where_exp: 'item', 'item.pin != true' %}
+{% endif %}
 
 {% assign posts = '' | split: '' %}
 

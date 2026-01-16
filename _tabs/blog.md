@@ -175,7 +175,11 @@ Kövess nyomon minden újdonságot, tapasztalatot és történetet a japán juha
 
 </style>
 
-{% assign posts = site.posts | where_exp: "item", "item.hidden != true" | sort: 'date' | reverse %}
+{% if jekyll.environment == "production" %}
+  {% assign posts = site.posts | where_exp: "item", "item.hidden != true" | sort: 'date' | reverse %}
+{% else %}
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+{% endif %}
 
 {% if posts.size > 0 %}
 <div class="blog-grid">
