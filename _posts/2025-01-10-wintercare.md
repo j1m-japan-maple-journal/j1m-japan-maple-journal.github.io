@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Japán Juhar Téli Védelme"
+title: "A Japán juhar téli védelme"
 subtitle: "Így készítsd fel a Japán juharod a hideg hónapokra"
 date: 2026-01-10
 categories: [Gondozás, Évszakok]

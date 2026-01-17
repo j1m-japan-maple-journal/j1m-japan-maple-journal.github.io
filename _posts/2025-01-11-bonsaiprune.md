@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "A Bonsai Metszés Művészete"
-subtitle: "Útmutató az Egyensúlyhoz és a Formához"
+title: "A bonsai metszés művészete"
+subtitle: "Útmutató az egyensúlyhoz és a formához"
 date: 2026-01-11
 categories: [Gondozás, Kezdőknek]
 tags: [japán juhar, gondozás]

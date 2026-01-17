@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Bonsai Energia-menedzsment"
+title: "A bonsai energia-menedzsment"
 subtitle: "A művészeten túl, a fizika és biológia nyelvén"
 date: 2024-01-15
 categories: [Megfigyelések, Szemlélet]

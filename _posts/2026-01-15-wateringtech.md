@@ -27,7 +27,7 @@ A bonsai nevelésének legkritikusabb pontja az öntözés, hiszen több fa pusz
     <img src="/assets/blog/260116_wateringtech1.jpg" alt="Gyökérrothadás" style="width: 145px; height: 145px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
     <div>
       <h3 style="margin: 0 0 10px 0; font-size: 1.2em;">Ismerd a Japán juhar igényeit</h3>
-      <p style="margin: 0;">A Japán juharnak megvannak az egyedi igényei. Például savanyú talaj, ezért rosszul viselik a meszes csapvizet, számukra az esővíz vagy algás kerti tó vize az ideális.</p>
+      <p style="margin: 0;">A Japán juharnak megvannak az egyedi igényei. Savanyú talajt kedvel, ezért rosszul viseli a meszes csapvizet; számára az esővíz vagy az algás kerti tó vize az ideális.</p>
     </div>
   </div>
 
