@@ -3,8 +3,8 @@ layout: post
 title: "A Japán Juhar Téli Védelme"
 subtitle: "Így készítsd fel a Japán juharod a hideg hónapokra"
 date: 2026-01-10
-categories: [Gondozás]
-tags: [Tél, japanese-maple, Gondozás]
+categories: [Gondozás, Évszakok]
+tags: [tél, japanese-maple, gondozás]
 hero_image: /assets/blog/260111_wintercare2.jpg
 youtube_id: 
 hidden: false

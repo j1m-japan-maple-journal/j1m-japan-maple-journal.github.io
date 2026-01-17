@@ -3,8 +3,8 @@ layout: post
 title: "A Bonsai Metszés Művészete"
 subtitle: "Útmutató az Egyensúlyhoz és a Formához"
 date: 2026-01-11
-categories: [Care]
-tags: [japanese-maple, maintenance]
+categories: [Gondozás, Kezdőknek]
+tags: [japán juhar, gondozás]
 hero_image: /assets/blog/260111_prune0.jpg
 youtube_id:
 ---

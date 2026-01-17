@@ -101,4 +101,143 @@
   width: 100% !important;
   max-width: 100% !important;
 }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   RESPONSIVE TABLE WRAPPER
+   Makes wide tables horizontally scrollable on mobile/narrow screens
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.table-responsive {
+  display: block !important;
+  width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.5rem 0 !important;
+  border: 1px solid var(--border-color, #dee2e6);
+  border-radius: 8px;
+  box-sizing: border-box !important;
+}
+
+.table-responsive table {
+  width: auto !important;
+  min-width: 100% !important;
+  margin-bottom: 0 !important;
+  border-collapse: collapse !important;
+  display: table !important;
+  table-layout: auto !important;
+}
+
+.table-responsive table th,
+.table-responsive table td {
+  padding: 0.75rem !important;
+  vertical-align: top !important;
+  border: 1px solid var(--border-color, #dee2e6);
+  white-space: normal !important;
+  max-width: 300px !important;
+  min-width: 150px !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  hyphens: auto;
+}
+
+.table-responsive table th {
+  background-color: var(--card-bg, #f8f9fa);
+  font-weight: 600 !important;
+  color: var(--text-color, #212529) !important;
+}
+
+.table-responsive table th:first-child,
+.table-responsive table td:first-child {
+  white-space: nowrap !important;
+  min-width: 120px !important;
+  max-width: 150px !important;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .table-responsive {
+    font-size: 0.85rem !important;
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .table-responsive table th,
+  .table-responsive table td {
+    padding: 0.5rem !important;
+    font-size: 0.8rem !important;
+    max-width: 180px !important;
+    min-width: 120px !important;
+  }
+
+  .table-responsive table th:first-child,
+  .table-responsive table td:first-child {
+    min-width: 100px !important;
+    max-width: 120px !important;
+  }
+}
+
+[data-mode="dark"] .table-responsive {
+  border-color: var(--border-color, #404040);
+}
+
+[data-mode="dark"] .table-responsive table th {
+  background-color: var(--card-bg, #2a2a2a);
+  color: #e9e8e8 !important;
+}
+
+[data-mode="dark"] .table-responsive table th,
+[data-mode="dark"] .table-responsive table td {
+  border-color: var(--border-color, #404040);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   WIDE TABLE - for tables with many columns (7+)
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.table-responsive-wide table th,
+.table-responsive-wide table td {
+  min-width: 180px !important;
+  max-width: 400px !important;
+}
+
+.table-responsive-wide table th:first-child,
+.table-responsive-wide table td:first-child {
+  min-width: 150px !important;
+  max-width: 200px !important;
+}
+
+@media (max-width: 768px) {
+  .table-responsive-wide table th,
+  .table-responsive-wide table td {
+    min-width: 150px !important;
+    max-width: 250px !important;
+  }
+
+  .table-responsive-wide table th:first-child,
+  .table-responsive-wide table td:first-child {
+    min-width: 120px !important;
+    max-width: 150px !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   SOURCE REFERENCE - for book/article citations
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.source-reference {
+  font-size: 0.85rem !important;
+  font-style: italic !important;
+  color: #6c757d !important;
+  margin-top: 2rem !important;
+  padding-top: 1rem !important;
+  border-top: 1px solid #dee2e6 !important;
+}
+
+[data-mode="dark"] .source-reference {
+  color: #9e9e9e !important;
+  border-top-color: #404040 !important;
+}
 </style>

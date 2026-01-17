@@ -3,25 +3,14 @@ layout: post
 title: "A Bonsai Energia-menedzsment"
 subtitle: "A művészeten túl, a fizika és biológia nyelvén"
 date: 2024-01-15
-categories: [Elmélet]
+categories: [Megfigyelések, Szemlélet]
 tags: [japanese-maple, bonsai]
 hero_image: /assets/blog/260110.png
 youtube_id:
 hidden: false
 ---
 
-## Bonsai Energia-menedzsment: A művészeten túl, a fizika és biológia nyelvén
-
 Sokan a bonsait pusztán esztétikai művészetnek tekintik, ahol az alakítás az intuíción és a hagyományokon alapul. Azonban létezik egy rendszerszintű, logikus megközelítés, amely a fát egy energia-alapú keretrendszerben szemléli. A bonsai lényege egyetlen alapelvbe sűríthető: az energia termelésébe és tudatos újraelosztásába az esztétikai céljaink elérése érdekében. A cikk Peter Warren bonsai mester „A Bonsai Energy management” elmélete nyomán született.
-
-### Energia menedzsmentje rendszerezve
-
-| 	Fejlődési szakasz vagy stílus	 | 	Elsődleges cél	 | 	Energiaszint változása az év végére	 | 	Alkalmazott technikák	 | 	Tápanyag-utánpótlási stratégia	 | 	Fényigény és lombozat kezelése	 | 	Élettani hatás (Inferred)	 | 
-|---------------------|-------------------|------------|----|-------|------|------|
-| 	Fejlesztés alatt álló (Development)	 | 	Maximális energianyerés, sebek gyógyítása, törzs- és ágvastagítás, szerkezeti ágrendszer kialakítása.	 | 	Jelentős növekedés (pl.  $100$ -ról  $200$  egységre).	 | 	Korlátlan növekedés hagyása, minden lehetséges levél megtartása, metszés minimalizálása.	 | 	Intenzív és bőséges tápanyagellátás a növekedés támogatására.	 | 	Maximális napfénynek való kitettség és a fotoszintetikus felület (lomb) maximalizálása.	 | 	Magas auxinszint a hajtáscsúcsokban, ami serkenti a szállítószövetek fejlődését és a gyors sejtosztódást a vastagodáshoz.	 | 
-| 	Finomítás alatt álló (Refined)	 | 	Kontrollált növekedés, finom elágazásrendszer fenntartása, a túlzott vitalitás megakadályozása.	 | 	Minimális többlet (pl.  $100$ -ról  $105-110$  egységre).	 | 	Részleges defoliálás, tűritkítás, gyertyák visszacsípése, stratégiai metszés.	 | 	Mérsékelt vagy korlátozott tápanyagbevitel a durva növekedés elkerülésére.	 | 	Lombfelület szezon közbeni csökkentése az energiatermelés korlátozására.	 | 	Az apikális dominancia és az auxinkoncentráció tudatos csökkentése az energia egyenletesebb, finomabb elosztása érdekében.	 | 
-| 	Literáti	 | 	A küzdelem és a ritka lombozat esztétikájának fenntartása, a fa „majdnem-éhezés” állapotában tartása.	 | 	Alig változik (pl.  $100$ -ról  $105$  egységre).	 | 	Minimális cserépméret, korlátozott öntözés, minimális lommennyiség meghagyása.	 | 	Gyakorlatilag nulla tápoldatozás.	 | 	A túléléshez szükséges legkisebb fotoszintetikus felület fenntartása.	 | 	Lassult anyagcsere és minimális tartalékfelhalmozás, ami megőrzi a törzs és ágak szikár karakterét.	 | 
-| 	Begyűjtött fa (Yamadori) regeneráció	 | 	Életképesség helyreállítása, alvórügyek aktiválása, új gyökérzet fejlesztése.	 | 	Kezdeti drasztikus csökkenés utáni lassú stabilizáció.	 | 	Szél elleni védelem, párologtatás csökkentése, rügyválogatás halogatása.	 | 	Lassú lebomlású tápanyag, de csak a megfelelő gyökér-oxigén egyensúly beállta után.	 | 	Lomb megtartása a fotoszintézis maximalizálásához a gyökérképződés érdekében.	 | 	A csúcsi auxinforrás kiesése miatti gátlás megszűnése, ami az alvórügyek hormonális aktiválódásához vezet.	 | 
 
 ### 1. A motor: A fotoszintézis az egyetlen energiaforrás
 
@@ -71,9 +60,26 @@ A fák természetes programozása a hatékonyságra törekszik: oda küldik az e
 
 Gondoljunk a fára úgy, mint egy napelemes házra, amelynek akkumulátora is van. A levelek a napelemek, amelyek töltik az akkumulátort (a fa szöveteit). Télen és kora tavasszal a ház az akkumulátorról üzemel. Ha túl sok „elektromos berendezést” (új hajtást, sebet) kapcsolunk be egyszerre, mielőtt a nap kisütne, az akkumulátor lemerül és a rendszer összeomlik. A bonsai-mester feladata tehát az, hogy szabályozza, mennyi energiát termeljenek a panelek, és melyik szobában égjen a lámpa.
 
+### Az Energia menedzsmentje rendszerezve
+
+<div class="table-responsive table-responsive-wide" markdown="1">
+
+| 	Fejlődési szakasz vagy stílus	 | 	Elsődleges cél	 | 	Energiaszint változása az év végére	 | 	Alkalmazott technikák	 | 	Tápanyag-utánpótlási stratégia	 | 	Fényigény és lombozat kezelése	 | 	Élettani hatás	 |
+|---------------------|-------------------|------------|----|-------|------|------|
+| 	Fejlesztés alatt álló	 | 	Maximális energianyerés, sebek gyógyítása, törzs- és ágvastagítás, szerkezeti ágrendszer kialakítása.	 | 	Jelentős növekedés (pl.  100 -ról  200  egységre).	 | 	Korlátlan növekedés hagyása, minden lehetséges levél megtartása, metszés minimalizálása.	 | 	Intenzív és bőséges tápanyagellátás a növekedés támogatására.	 | 	Maximális napfénynek való kitettség és a fotoszintetikus felület (lomb) maximalizálása.	 | 	Magas auxinszint a hajtáscsúcsokban, ami serkenti a szállítószövetek fejlődését és a gyors sejtosztódást a vastagodáshoz.	 | 
+| 	Finomítás alatt álló (Refined)	 | 	Kontrollált növekedés, finom elágazásrendszer fenntartása, a túlzott vitalitás megakadályozása.	 | 	Minimális többlet (pl.  100 -ról  105-110  egységre).	 | 	Részleges defoliálás, tűritkítás, gyertyák visszacsípése, stratégiai metszés.	 | 	Mérsékelt vagy korlátozott tápanyagbevitel a durva növekedés elkerülésére.	 | 	Lombfelület szezon közbeni csökkentése az energiatermelés korlátozására.	 | 	Az apikális dominancia és az auxinkoncentráció tudatos csökkentése az energia egyenletesebb, finomabb elosztása érdekében.	 | 
+| 	Literáti	 | 	A küzdelem és a ritka lombozat esztétikájának fenntartása, a fa „majdnem-éhezés” állapotában tartása.	 | 	Alig változik (pl.  100 -ról  105  egységre).	 | 	Minimális cserépméret, korlátozott öntözés, minimális lommennyiség meghagyása.	 | 	Gyakorlatilag nulla tápoldatozás.	 | 	A túléléshez szükséges legkisebb fotoszintetikus felület fenntartása.	 | 	Lassult anyagcsere és minimális tartalékfelhalmozás, ami megőrzi a törzs és ágak szikár karakterét.	 | 
+| 	Begyűjtött fa regeneráció	 | 	Életképesség helyreállítása, alvórügyek aktiválása, új gyökérzet fejlesztése.	 | 	Kezdeti drasztikus csökkenés utáni lassú stabilizáció.	 | 	Szél elleni védelem, párologtatás csökkentése, rügyválogatás halogatása.	 | 	Lassú lebomlású tápanyag, de csak a megfelelő gyökér-oxigén egyensúly beállta után.	 | 	Lomb megtartása a fotoszintézis maximalizálásához a gyökérképződés érdekében.	 | 	A csúcsi auxinforrás kiesése miatti gátlás megszűnése, ami az alvórügyek hormonális aktiválódásához vezet.	 | 
+
+</div>
+
 ## Összegzés:
 
 A bonsai-művészet ebben a rendszerben nem más, mint az esztétikailag tökéletes forma eléréséhez szükséges energia megtermelése és újraelosztása. Aki elsajátítja ezt a logikus, biológiai alapokon nyugvó szemléletet, az kevesebb elpusztult fával és egészségesebb, gyorsabban fejlődő példányokkal gazdagodik.
 
 > A bonsai-művészet nem más, mint a Nap fényéből nyert életerő tudatos és bölcs újraelosztása az esztétikai egyensúly megteremtése érdekében.
 > Ebben a folyamatban a fa természetes növekedési vágya és a mester irányító szándéka találkozik, hogy a véges energiákból végtelen harmónia szülessen.
+
+<div class="source-reference" markdown="1">
+A cikkben részletezett alapvető szemlélet Peter Warren bonsai mester, *„A Bonsai Energy Management”* elmélete nyomán született. A cikk nem szó szerinti fordítás, hanem a leírt elvek saját megfogalmazású, gyakorlati értelmezése.
+</div>

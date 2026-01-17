@@ -4,7 +4,7 @@ title: "Öt bonsai öntözési módszer előnyei és hátrányai"
 subtitle: 
 date: 2026-01-15
 categories: [Gondozás]
-tags: [Gondozás, Japán juhar]
+tags: [gondozás, japán juhar]
 hero_image: /assets/blog/260114_watering_hero2.png
 youtube_id: 
 hidden: true
