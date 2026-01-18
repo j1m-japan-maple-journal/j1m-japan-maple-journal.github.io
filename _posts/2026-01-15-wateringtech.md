@@ -35,6 +35,13 @@ A bonsai nevelésének legkritikusabb pontja az öntözés, hiszen több fa pusz
     .pot-grid p {
       font-size: 0.9em !important;
     }
+
+    /* Two-column sections on mobile */
+    div[style*="grid-template-columns: 1fr 1fr"] {
+      grid-template-columns: 1fr !important;
+      gap: 20px !important;
+      padding: 15px !important;
+    }
   }
 </style>
 
