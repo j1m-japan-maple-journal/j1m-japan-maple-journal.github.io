@@ -7,7 +7,7 @@ categories: [Gondozás]
 tags: [gondozás, japán juhar]
 hero_image: /assets/blog/260114_watering_hero2.png
 youtube_id: 
-hidden: true
+hidden: false
 ---
 
 A bonsai nevelésének legkritikusabb pontja az öntözés, hiszen több fa pusztul el a kiszáradás, mint a túlöntözés miatt. Nincs egyetlen, minden helyzetre érvényes szabály; a vízigény függ a fafajtól, az évszaktól, a tál méretétől és az ültetőközeg típusától is. A cél minden esetben az, hogy a víz teljesen átjárja a talajt, és a felesleg távozzon a vízelvezető nyílásokon.<br>
