@@ -2,7 +2,7 @@
 layout: post
 title: "A bonsai energia-menedzsment"
 subtitle: "A művészeten túl, a fizika és biológia nyelvén"
-date: 2024-01-15
+date: 2025-12-10
 categories: [Megfigyelések, Szemlélet]
 tags: [japanese-maple, bonsai]
 hero_image: /assets/blog/260110.png

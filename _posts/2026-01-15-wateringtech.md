@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Öt bonsai öntözési módszer előnyei és hátrányai"
-subtitle: 
+subtitle: "Gyakorlati szempontok kezdőknek és haladóknak az öntözéshez"
 date: 2026-01-15
 categories: [Gondozás]
 tags: [gondozás, japán juhar]
@@ -10,21 +10,37 @@ youtube_id:
 hidden: true
 ---
 
-## A Bonsai öntözési módszerek előnyei és hátrányai
-
 A bonsai nevelésének legkritikusabb pontja az öntözés, hiszen több fa pusztul el a kiszáradás, mint a túlöntözés miatt. Nincs egyetlen, minden helyzetre érvényes szabály; a vízigény függ a fafajtól, az évszaktól, a tál méretétől és az ültetőközeg típusától is. A cél minden esetben az, hogy a víz teljesen átjárja a talajt, és a felesleg távozzon a vízelvezető nyílásokon.<br>
 
-### Fontos tudnivalók mielőtt a módszerekre kitérnék:
+### Alapelvek, amelyeket minden öntözési módszer megelőz:
 
 <style>
   @media (max-width: 768px) {
-    .pot-grid { grid-template-columns: 1fr !important; }
+    .pot-grid {
+      grid-template-columns: 1fr !important;
+      gap: 20px !important;
+      padding: 15px !important;
+    }
+    .pot-grid > div {
+      gap: 10px !important;
+    }
+    .pot-grid img {
+      width: 80px !important;
+      height: 80px !important;
+      min-width: 80px !important;
+    }
+    .pot-grid h3 {
+      font-size: 1em !important;
+    }
+    .pot-grid p {
+      font-size: 0.9em !important;
+    }
   }
 </style>
 
 <div class="pot-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; margin: 40px 0; padding: 20px; background: #f9f9f9; border-radius: 8px;">
   <div style="display: flex; align-items: flex-start; gap: 15px;">
-    <img src="/assets/blog/260116_wateringtech1.jpg" alt="Ismerd meg a növényt" style="width: 145px; height: 145px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
+    <img src="/assets/blog/260116_wateringtech1.jpg" alt="Ismerd meg a növényt" style="width: 145px; height: 145px; min-width: 145px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
     <div>
       <h3 style="margin: 0 0 10px 0; font-size: 1.2em;">Ismerd a Japán juhar igényeit</h3>
       <p style="margin: 0;">A Japán juharnak megvannak az egyedi igényei. Savanyú talajt kedvel, ezért rosszul viseli a meszes csapvizet; számára az esővíz vagy az algás kerti tó vize az ideális.</p>
@@ -32,7 +48,7 @@ A bonsai nevelésének legkritikusabb pontja az öntözés, hiszen több fa pusz
   </div>
 
   <div style="display: flex; align-items: flex-start; gap: 15px;">
-    <img src="/assets/blog/260116_wateringtech2.jpg" alt="ujjpróba" style="width: 145px; height: 145px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
+    <img src="/assets/blog/260116_wateringtech2.jpg" alt="ujjpróba" style="width: 145px; height: 145px; min-width: 145px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
     <div>
       <h3 style="margin: 0 0 10px 0; font-size: 1.2em;">Ellenőrízd a talajt</h3>
       <p style="margin: 0;">Az 'ujjpróba' a legbiztosabb módszer. Csak akkor öntözz, ha a talaj pár cm mélyen már száraznak érződik. Az Akadama világos színe szintén jelzi az öntözés szükségegességét.</p>
@@ -40,7 +56,7 @@ A bonsai nevelésének legkritikusabb pontja az öntözés, hiszen több fa pusz
   </div>
 
   <div style="display: flex; align-items: flex-start; gap: 15px;">
-    <img src="/assets/blog/260116_wateringtech3.jpg" alt="Vízminőség" style="width: 145px; height: 145px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
+    <img src="/assets/blog/260116_wateringtech3.jpg" alt="Vízminőség" style="width: 145px; height: 145px; min-width: 145px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
     <div>
       <h3 style="margin: 0 0 10px 0; font-size: 1.2em;">Figyelj a vízminőségre</h3>
       <p style="margin: 0;">Az esővíz a legjobb. Ha csapvizet használunk, hagyjuk állni 2-3 napig, hogy a klór eltávozzon belőle.</p>
@@ -48,7 +64,7 @@ A bonsai nevelésének legkritikusabb pontja az öntözés, hiszen több fa pusz
   </div>
 
   <div style="display: flex; align-items: flex-start; gap: 15px;">
-    <img src="/assets/blog/260116_wateringtech4.jpg" alt="Évszakok" style="width: 145px; height: 145px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
+    <img src="/assets/blog/260116_wateringtech4.jpg" alt="Évszakok" style="width: 145px; height: 145px; min-width: 145px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
     <div>
       <h3 style="margin: 0 0 10px 0; font-size: 1.2em;">Alkalmazkodj a környezethez</h3>
       <p style="margin: 0;">Az öntözés gyakoriságát befolyásolja az évszak, az éghajlat, a tál mérete, az ültetőközeg</p>
