@@ -36,7 +36,7 @@ Egy fa, amely minden évben emlékeztet arra, milyen színes és csodálatos a b
 
 ## Mit találsz itt?
 
-Ez az oldal egy **japán juhar tudás és gyüjtemény naplója**.
+Ez az oldal a **japán juharral kapcsolatos tudás és gyüjtemény naplója**.
 
 Nem katalógus. Nem kirakat. Nem tanfolyam. 
 
@@ -47,6 +47,7 @@ Hanem:
 - hibák és tanulságok
 - rendszerezett tudás táblázatokban és útmutatókban 
 
+A *Blog* a tudásom megosztása.  
 A *Gyűjtemény* a fáim története.  
 A *Tudástár* az információk rendszere.
 
