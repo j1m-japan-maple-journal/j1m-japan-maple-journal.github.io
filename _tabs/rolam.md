@@ -20,9 +20,9 @@ Sok, nagyon sok tervemem van. Nem a pénzt hajtom, nem azért csinálom. Tanulok
 
 ---
 
-## Miért Japán juhar?
+## Miért japán juhar?
 
-A Japán juhar számomra nem egyszerűen egy kerti dísznövény.
+A japán juhar számomra nem egyszerűen egy kerti dísznövény.
 
 Hanem:
 - türelem
@@ -36,7 +36,7 @@ Egy fa, amely minden évben emlékeztet arra, milyen színes és csodálatos a b
 
 ## Mit találsz itt?
 
-Ez az oldal egy **Japán juhar tudás és gyüjtemény naplója**.
+Ez az oldal egy **japán juhar tudás és gyüjtemény naplója**.
 
 Nem katalógus. Nem kirakat. Nem tanfolyam. 
 
@@ -57,9 +57,9 @@ A *Tudástár* az információk rendszere.
 Azoknak,
 - akik nem kész válaszokat keresnek
 - akik szeretnek megérteni egy folyamatot
-- akik megértik hogy a Japán juhar nem egy termék, nem egy dekoráció, hanem egy kapcsolat
+- akik megértik hogy a japán juhar nem egy termék, nem egy dekoráció, hanem egy kapcsolat
 
-Ha így közelítesz a Japán juharhoz és a bonsaihoz, akkor jó helyen jársz.
+Ha így közelítesz a japán juharhoz és a bonsaihoz, akkor jó helyen jársz.
 
 ---
 
