@@ -68,3 +68,9 @@ A metszést mindig egyensúly és mértékletesség jellemezze. A túl sok metsz
 A bonsai metszése olyan, mint egy reptéri forgalomirányító munkája: nem állítja meg az életet, csupán a megfelelő irányba tereli az energia áramlását, hogy elkerülje a torlódásokat és biztosítsa a folyamatos, harmonikus haladást.
 
 > A metszés a természet lényegének élő művészetté formálása, ahol minden vágás az esztétika és a hosszú távú egészség közötti egyensúlyt keresi. Az igazi harmónia a fa szabad növekedésének tisztelete és a formáló beavatkozás közötti bölcs mértékletességben születik meg.
+
+---
+
+**Kapcsolódó cikkek:**
+- [A bonsai energia-menedzsment](/posts/energymanagement/) - Megismerheted a metszés hatását a fa energiaháztartására
+- [A téli védelem](/posts/wintercare/) - Mikor és hogyan végezz metszést a nyugalmi időszakban

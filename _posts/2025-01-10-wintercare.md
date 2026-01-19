@@ -60,5 +60,10 @@ Ha a gyökérzet teljesen átfagy, a növény képtelen vizet felvenni, miközbe
 
 Olyan ez, mintha egy jégtömbbe fagyott kulaccsal próbálnánk oltani a szomjunkat a sivatagban: a víz ott van, de elérhetetlen. Ezért kritikus a szélvédelem és a gyökérzet szigetelése.
 
-> A téli nyugalom nem az élet megállása, hanem a természet alázatos párbeszéde az idővel és a mulandóság szépségével. 
+> A téli nyugalom nem az élet megállása, hanem a természet alázatos párbeszéde az idővel és a mulandóság szépségével.
 > Ahogy a juhar elengedi lombját, a wabi-sabi szellemében tanít meg minket a csendes türelemre és a megújulás erejére.
+
+---
+
+**Kapcsolódó cikkek:**
+- [A bonsai energia-menedzsment](/posts/energymanagement/) - Megismerheted, miért kritikus a fa energiakészletének megőrzése télen

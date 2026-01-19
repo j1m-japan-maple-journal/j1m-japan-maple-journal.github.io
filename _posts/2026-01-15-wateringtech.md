@@ -160,3 +160,8 @@ Nincs tehát egyetlen univerzális megoldás. A legjobb eredményt a módszerek 
   <img src="/assets/blog/260116_wateringtech10.jpg" alt="Egészséges, gondozott japán juhar" style="width: 100%; max-width: 800px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.15);">
   <figcaption style="margin-top: 15px; font-style: italic; color: #666; font-size: 0.95em;">A folyamatos megfigyelés és gondos öntözés eredménye: egészséges, életerős japán juhar</figcaption>
 </figure>
+
+---
+
+**Kapcsolódó cikkek:**
+- [A japán juhar öntözésének titka](/posts/watering/) - Alapelvek és részletes útmutató az öntözéshez

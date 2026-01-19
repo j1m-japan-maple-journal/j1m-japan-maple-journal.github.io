@@ -137,3 +137,8 @@ Mindezek az elvek nem merev szabályok, hanem segédeszközök, amelyek segíten
 ## Összegzés
 
 Az esztétikai alapelvek ismerete nélkülözhetetlen minden bonsai-művész számára, aki túl szeretne lépni a puszta „növénygondozáson". Ezek az elvek - a nebari, taper, deadwood, ramifikáció és a karakter meghatározása - segítenek megérteni, mit lát szépnek a szemünk, és hogyan kommunikálhatunk egy fa formanyelvével. Idővel, ahogy egyre több fát vizsgálunk és formálunk, ezek az elvek természetessé válnak, és ösztönösen fogjuk látni, hogy egy adott kompozíció miben erős, és miben van még fejlesztési lehetőség.
+
+---
+
+**Kapcsolódó cikkek:**
+- [A 8 leggyakoribb bonsai stílus](/posts/style2/) - Az esztétikai alapelvek gyakorlati alkalmazása különböző stílusokban
