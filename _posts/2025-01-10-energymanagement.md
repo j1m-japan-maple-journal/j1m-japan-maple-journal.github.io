@@ -24,7 +24,7 @@ _Fontos szabály_: Egy gyenge, kevés lombbal rendelkező fát nem lehet tápold
 
 ### 3. Éghajlat és stratégia: Miért nem működik mindenhol ugyanaz?
 
-A fényintenzitás drámaian eltér a különböző régiókban. Például az Egyesült Királyság vagy Észak-Európa kb. negyven százalékkal kevesebb napfényt kap, mint Spanyolország vagy Japán.<br>
+A fényintenzitás drámaian eltér a különböző régiókban. Például az Egyesült Királyság vagy Észak-Európa kb. negyven százalékkal kevesebb napfényt kap, mint Spanyolország vagy japán.<br>
 - Déli régiók: A bőséges fény miatt a mesterek agresszív technikákat (erős metszés, teljes levéltelenítés) alkalmazhatnak, mert a fa gyorsan pótolja a tartalékait.<br>
 - Északi régiók: Itt óvatosabbnak kell lenni. A 40%-os energiadeficitet sűrűbb lombozattal, hosszabbra hagyott hajtásokkal és kevesebb beavatkozással kell kompenzálni.
 

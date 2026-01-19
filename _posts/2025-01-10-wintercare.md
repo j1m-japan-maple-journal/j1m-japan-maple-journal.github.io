@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "A Japán juhar téli védelme"
-subtitle: "Így készítsd fel a Japán juharod a hideg hónapokra"
+title: "A japán juhar téli védelme"
+subtitle: "Így készítsd fel a japán juharod a hideg hónapokra"
 date: 2026-01-10
 categories: [Gondozás, Évszakok]
 tags: [tél, japanese-maple, gondozás]
@@ -12,7 +12,7 @@ hidden: false
 
 ### Téli álomra felkészítés
 
-A Japán juharok az ősz beköszöntével adják leglátványosabb formájukat, amikor lombjuk tüzes színekbe öltözik. Ez a színváltás azonban nemcsak esztétikai élmény, hanem egy fontos jelzés is: a fa megkezdte a nyugalmi ciklusát, és elérkezett az idő a téli felkészítésre. A sikeres átteleltetés kulcsa az időzítés és a megfelelő védelem kombinációja.
+A japán juharok az ősz beköszöntével adják leglátványosabb formájukat, amikor lombjuk tüzes színekbe öltözik. Ez a színváltás azonban nemcsak esztétikai élmény, hanem egy fontos jelzés is: a fa megkezdte a nyugalmi ciklusát, és elérkezett az idő a téli felkészítésre. A sikeres átteleltetés kulcsa az időzítés és a megfelelő védelem kombinációja.
 
 ### Mikor kezdjük el a munkát?
 
@@ -34,7 +34,7 @@ Az őszi felkészítés során kerülni kell a nagyobb szerkezeti metszéseket. 
 
 ### Védelem a fagyok ellen
 
-Bár a Japán juhar alapvetően télálló, a cserépben vagy bonsai tálban nevelt példányok sokkal sérülékenyebbek, mint a szabadföldiek.
+Bár a japán juhar alapvetően télálló, a cserépben vagy bonsai tálban nevelt példányok sokkal sérülékenyebbek, mint a szabadföldiek.
 - Talajra helyezés: Ha a hőmérséklet tartósan –5 °C alá süllyed, a cserepeket vegyük le a padokról, és helyezzük közvetlenül a talajra, amely természetes hőszigetelést biztosít.
 - Mulcsozás: A gyökérzónát védjük 5–10 cm vastag mulcsréteggel (szalma, fenyőkéreg, száraz falevél). Ez segít kiegyenlíteni a talaj hőmérsékletét és megőrizni a nedvességet.
 - Szél- és napvédelem: A fagyott gyökér nem tud vizet felvenni, miközben az ágak a szél és a napsütés hatására tovább párologtatnak. A fákat árnyékos, szélvédett helyre kell mozgatni.

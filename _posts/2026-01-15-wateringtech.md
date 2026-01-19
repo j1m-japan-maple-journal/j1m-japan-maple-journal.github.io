@@ -49,8 +49,8 @@ A bonsai nevelésének legkritikusabb pontja az öntözés, hiszen több fa pusz
   <div style="display: flex; align-items: flex-start; gap: 15px;">
     <img src="/assets/blog/260116_wateringtech1.jpg" alt="Ismerd meg a növényt" style="width: 145px; height: 145px; min-width: 145px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
     <div>
-      <h3 style="margin: 0 0 10px 0; font-size: 1.2em;">Ismerd a Japán juhar igényeit</h3>
-      <p style="margin: 0;">A Japán juharnak megvannak az egyedi igényei. Savanyú talajt kedvel, ezért rosszul viseli a meszes csapvizet; számára az esővíz vagy az algás kerti tó vize az ideális.</p>
+      <h3 style="margin: 0 0 10px 0; font-size: 1.2em;">Ismerd meg a japán juhar igényeit</h3>
+      <p style="margin: 0;">A japán juharnak megvannak az egyedi igényei. Savanyú talajt kedvel, ezért rosszul viseli a meszes csapvizet; számára az esővíz vagy az algás kerti tó vize az ideális.</p>
     </div>
   </div>
 
@@ -157,6 +157,6 @@ A bonsai nevelésének legkritikusabb pontja az öntözés, hiszen több fa pusz
 Nincs tehát egyetlen univerzális megoldás. A legjobb eredményt a módszerek tudatos kombinálása adja: használd az öntözőkannát a különleges igényű fákhoz, a slagot a nagy állomány gyors locsolásához, és a kanócos vagy automata rendszert a nyaralások idejére. Ne feledd: ha bizonytalan vagy, érintsd meg a talajt – ha nem érzed nedvesnek, alaposan öntözzd meg!
 
 <figure style="text-align: center; margin: 40px 0;">
-  <img src="/assets/blog/260116_wateringtech10.jpg" alt="Egészséges, gondozott Japán juhar" style="width: 100%; max-width: 800px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.15);">
-  <figcaption style="margin-top: 15px; font-style: italic; color: #666; font-size: 0.95em;">A folyamatos megfigyelés és gondos öntözés eredménye: egészséges, életerős Japán juhar</figcaption>
+  <img src="/assets/blog/260116_wateringtech10.jpg" alt="Egészséges, gondozott japán juhar" style="width: 100%; max-width: 800px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.15);">
+  <figcaption style="margin-top: 15px; font-style: italic; color: #666; font-size: 0.95em;">A folyamatos megfigyelés és gondos öntözés eredménye: egészséges, életerős japán juhar</figcaption>
 </figure>
