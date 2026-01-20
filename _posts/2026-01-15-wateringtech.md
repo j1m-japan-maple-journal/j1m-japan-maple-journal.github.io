@@ -113,7 +113,7 @@ A bonsai nevelésének legkritikusabb pontja az öntözés, hiszen több fa pusz
   <div>
     <h3 style="margin-top: 0;">3. Bemerítéses öntözés</h3>
     <p>Ilyenkor az egész bonsai edényt víz alá merítik, amíg a talaj felszíne alá nem kerül, majd 5–10 percig így hagyják.
-      <li>Előnyei: Kiválóan alkalmas a teljesen kiszáradt, vizet taszító közeg (pl. tőzegmoha) alapos visszanedvesítésére. A felszálló buborékokból pontosan látható, mennyire volt száraz a talaj.</li>
+      <li>Előnyei: Kiválóan alkalmas a kiszáradt, vizet taszító közeg (pl. tőzegmoha) alapos visszanedvesítésére. A felszálló buborékokból pontosan látható, mennyire volt száraz a talaj.</li>
       <li>Hátrányai: A vízbe merítés során a talajszerkezet felborulhat, a könnyebb szemcsék pedig felúszhatnak. Sok fa esetén körülményes, ráadásul az ismételt használat miatt ásványi sók halmozódhatnak fel a talaj felszínén és az edény peremén.</li>
     </p>
   </div>
@@ -126,7 +126,7 @@ A bonsai nevelésének legkritikusabb pontja az öntözés, hiszen több fa pusz
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: center; margin: 30px 0; padding: 20px; background: #f9f9f9; border-radius: 8px;">
   <div>
     <img src="/assets/blog/260116_wateringtech9.jpg" alt="Broom (Hokidachi)" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-    <p style="margin-top: 10px; font-style: italic; color: #666; text-align: center; font-size: 0.9em;">Broom (Hokidachi)</p>
+    <p style="margin-top: 10px; font-style: italic; color: #666; text-align: center; font-size: 0.9em;">Hydro bonsai</p>
   </div>
   <div>
     <h3 style="margin-top: 0;">4. Kanócos megoldás (Hydro Bonsai)</h3>
