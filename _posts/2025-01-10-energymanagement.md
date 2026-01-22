@@ -10,7 +10,7 @@ youtube_id:
 hidden: false
 ---
 
-Sokan a bonsait pusztán esztétikai művészetnek tekintik, ahol az alakítás az intuíción és a hagyományokon alapul. Azonban létezik egy rendszerszintű, logikus megközelítés, amely a fát egy energia-alapú keretrendszerben szemléli. A bonsai lényege egyetlen alapelvbe sűríthető: az energia termelésébe és tudatos újraelosztásába az esztétikai céljaink elérése érdekében. A cikk Peter Warren bonsai mester „A Bonsai Energy management” elmélete nyomán született.
+Sokan a bonsait pusztán esztétikai művészetnek tekintik, ahol az alakítás az intuíción és a hagyományokon alapul. Azonban létezik egy rendszerszintű, logikus megközelítés, amely a fát egy energia-alapú keretrendszerben szemléli. A bonsai lényege egyetlen alapelvbe sűríthető: az energia termelésébe és tudatos újraelosztásába az esztétikai céljaink elérése érdekében.
 
 ### 1. A motor: A fotoszintézis az egyetlen energiaforrás
 
@@ -75,11 +75,11 @@ Gondoljunk a fára úgy, mint egy napelemes házra, amelynek akkumulátora is va
 
 ## Összegzés:
 
-A bonsai-művészet ebben a rendszerben nem más, mint az esztétikailag tökéletes forma eléréséhez szükséges energia megtermelése és újraelosztása. Aki elsajátítja ezt a logikus, biológiai alapokon nyugvó szemléletet, az kevesebb elpusztult fával és egészségesebb, gyorsabban fejlődő példányokkal gazdagodik.
+A bonsai-művészet ebben a rendszerben valójában az esztétikailag tökéletes forma eléréséhez szükséges energia megtermelése és újraelosztása. Aki elsajátítja ezt a logikus, biológiai alapokon nyugvó szemléletet, az kevesebb elpusztult fával és egészségesebb, gyorsabban fejlődő példányokkal gazdagodik.
 
 > A bonsai-művészet nem más, mint a Nap fényéből nyert életerő tudatos és bölcs újraelosztása az esztétikai egyensúly megteremtése érdekében.
 > Ebben a folyamatban a fa természetes növekedési vágya és a mester irányító szándéka találkozik, hogy a véges energiákból végtelen harmónia szülessen.
 
 <div class="source-reference" markdown="1">
-A cikkben részletezett alapvető szemlélet Peter Warren bonsai mester, *„A Bonsai Energy Management”* elmélete nyomán született. A cikk nem szó szerinti fordítás, hanem a leírt elvek saját megfogalmazású, gyakorlati értelmezése.
+A cikkben részletezett alapvető szemlélet Peter Warren bonsai mester, *„A Bonsai Energy Management”* elmélete nyomán született. A cikk nem szó szerinti fordítás, hanem a leírt elvek saját megfogalmazású értelmezése.
 </div>
