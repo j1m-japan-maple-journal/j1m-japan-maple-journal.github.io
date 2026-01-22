@@ -14,9 +14,9 @@ timezone: Europe/Budapest
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: "Japán Juhar Stúdió" # the main title
+title: "Japán Juhar Műhely" # the main title
 
-tagline: "Japán juharok, bonsaiok és történeteik" # it will display as the subtitle
+tagline: "japán juhar | bonsai | gondozás" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Japán juhar fáim életútja: ültetés, nevelés, bonsai átváltozás, sikerek, kudarcok és tanulságok.

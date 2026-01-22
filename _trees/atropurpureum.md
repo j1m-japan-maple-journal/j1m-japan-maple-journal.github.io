@@ -23,12 +23,12 @@ measurements:
   - date: "2022-04-10"
     height_cm: 20
     nebari_mm: 10
-    trunk_mm: 15
+    trunk_mm: 10
     canopy_width_cm: 15
   - date: "2025-03-04"
     height_cm: 70
     nebari_mm: 20
-    trunk_mm: 30
+    trunk_mm: 20
     canopy_width_cm: 55
 work_log:
   - date: "2022-04-10"

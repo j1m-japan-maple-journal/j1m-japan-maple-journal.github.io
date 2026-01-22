@@ -6,10 +6,10 @@ order: 1
 permalink: /rolam/
 ---
 
-## Mi ez az oldal?
+## Miről szól ez az oldal?
 
-Ez az oldal nem egy bonsai-mester oldala. Hanem valakié aki még az **úton van**.
-Úton a megértés felé: hogyan alakul egy fa az időben, hogyan hatnak rá a döntések, és hogyan tanít türelemre a rohanó világunkban.
+Ez az oldal nem egy bonsai-mester oldala. Hanem valakié aki még **úton van**.
+Úton a megértés felé: hogyan alakul egy fa az időben, hogyan hatnak rá a döntések, és hogyan tanít türelemre a rohanó világunkban. Nem csak bonsai, de minden a japán juharokról.
 
 ---
 
@@ -66,4 +66,4 @@ Ha így közelítesz a japán juharhoz és a bonsaihoz, akkor jó helyen jársz.
 
 ## Egy gondolat a végére
 
-Nem az a célom, hogy megmondjam, mit kell csinálnod. Hanem hogy megmutassam, **én mit csináltam – és mi lett belőle**. Én tervezek, a fák pedig eldöntik a többit.
+Nem az a célom, hogy megmondjam, mit kell csinálnod. Hanem hogy megmutassam, **én mit és hogyan csináltam – és mi lett belőle**. Metszés, gondozás, szaporítás, oltás, átültetés. Én tervezek, a fák pedig eldöntik a többit.
