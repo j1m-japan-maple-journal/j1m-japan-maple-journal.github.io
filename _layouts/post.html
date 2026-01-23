@@ -186,6 +186,12 @@ article.post {
   color: var(--bonsai-text) !important;
   text-align: justify !important;
   direction: ltr !important;
+  /* Content protection - disable text selection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .bonsai-content * {
@@ -776,6 +782,76 @@ Ha szeretnéd, hogy legyen időm ilyen írásokra, itt tudsz hozzájárulni.</p>
     </div>
   </div>
 </article>
+
+<!-- ═══════════════════════════════════════════════════════════════════════
+     CONTENT PROTECTION SCRIPT
+     Prevents text selection, right-click, and copy operations
+     ═══════════════════════════════════════════════════════════════════════ -->
+<script>
+(function() {
+  'use strict';
+
+  const contentElement = document.querySelector('.bonsai-content');
+
+  if (contentElement) {
+    // Prevent right-click context menu
+    contentElement.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+      return false;
+    }, false);
+
+    // Prevent text selection via mouse
+    contentElement.addEventListener('selectstart', function(e) {
+      e.preventDefault();
+      return false;
+    }, false);
+
+    // Prevent copy operation (Ctrl+C, Cmd+C)
+    contentElement.addEventListener('copy', function(e) {
+      e.preventDefault();
+      return false;
+    }, false);
+
+    // Prevent cut operation (Ctrl+X, Cmd+X)
+    contentElement.addEventListener('cut', function(e) {
+      e.preventDefault();
+      return false;
+    }, false);
+
+    // Additional protection: prevent drag selection
+    contentElement.addEventListener('mousedown', function(e) {
+      if (e.detail > 1) {
+        e.preventDefault();
+        return false;
+      }
+    }, false);
+
+    // Prevent keyboard shortcuts for selection (Ctrl+A, Cmd+A)
+    contentElement.addEventListener('keydown', function(e) {
+      // Prevent Ctrl+A / Cmd+A (Select All)
+      if ((e.ctrlKey || e.metaKey) && e.keyCode === 65) {
+        e.preventDefault();
+        return false;
+      }
+      // Prevent Ctrl+C / Cmd+C (Copy)
+      if ((e.ctrlKey || e.metaKey) && e.keyCode === 67) {
+        e.preventDefault();
+        return false;
+      }
+      // Prevent Ctrl+X / Cmd+X (Cut)
+      if ((e.ctrlKey || e.metaKey) && e.keyCode === 88) {
+        e.preventDefault();
+        return false;
+      }
+      // Prevent Ctrl+U / Cmd+U (View Source)
+      if ((e.ctrlKey || e.metaKey) && e.keyCode === 85) {
+        e.preventDefault();
+        return false;
+      }
+    }, false);
+  }
+})();
+</script>
 
 <!--
 ═══════════════════════════════════════════════════════════════════════════
