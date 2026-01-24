@@ -112,7 +112,7 @@ A bonsai nevelésének legkritikusabb pontja az öntözés, hiszen több fa pusz
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: center; margin: 30px 0; padding: 20px; background: #f9f9f9; border-radius: 8px;">
   <div>
     <h3 style="margin-top: 0;">3. Bemerítéses öntözés</h3>
-    <p>Ilyenkor az egész bonsai edényt víz alá merítik, amíg a talaj felszíne alá nem kerül, majd 5–10 percig így hagyják.
+    <p>Ilyenkor az egész bonsai edényt víz alá merítik, amíg a talaj felszíne alá nem kerül, körülbelül addig kell víz alatt tartani amíg buborékol, érezhetően amíg telítődött a tál, majd hagyni kell a felesleget szabadon távozni.
       <li>Előnyei: Kiválóan alkalmas a kiszáradt, vizet taszító közeg (pl. tőzegmoha) alapos visszanedvesítésére. A felszálló buborékokból pontosan látható, mennyire volt száraz a talaj.</li>
       <li>Hátrányai: A vízbe merítés során a talajszerkezet felborulhat, a könnyebb szemcsék pedig felúszhatnak. Sok fa esetén körülményes, ráadásul az ismételt használat miatt ásványi sók halmozódhatnak fel a talaj felszínén és az edény peremén.</li>
     </p>
