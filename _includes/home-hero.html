@@ -66,6 +66,40 @@
   }
 }
 
+/* Social follow text */
+.home-hero-social {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: var(--text-color, #4b5563);
+  line-height: 1.6;
+}
+
+.home-hero-social a {
+  color: #1877f2;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.2s ease;
+}
+
+.home-hero-social a:hover {
+  border-bottom-color: #1877f2;
+}
+
+@media (prefers-color-scheme: dark) {
+  .home-hero-social {
+    color: var(--text-color, #9ca3af);
+  }
+
+  .home-hero-social a {
+    color: #60a5fa;
+  }
+
+  .home-hero-social a:hover {
+    border-bottom-color: #60a5fa;
+  }
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .home-hero {
@@ -80,6 +114,11 @@
   .home-hero-description {
     font-size: 1rem;
   }
+
+  .home-hero-fb-btn {
+    font-size: 0.9rem;
+    padding: 0.65rem 1.25rem;
+  }
 }
 </style>
 
@@ -89,10 +128,13 @@
     Ahol a természet művészetté válik: Üdvözöllek a japán juharok világában!
   </h2>
   <p class="home-hero-description">
-    Ez az oldal az én <strong>japán juhar műhelyem</strong> – itt dokumentálom a fáim útját, rendszerezem a tudásom. 
+    Ez az oldal az én <strong>japán juhar műhelyem</strong> – itt dokumentálom a fáim útját, rendszerezem a tudásom.
     Sok hasznos információt találhatsz a japán juhar gondozásával kapcsolatban, itt osztom meg tapasztalataimat és tudásomat. <br>
     Üdvözlettel,<br>
     J1M
+  </p>
+  <p class="home-hero-social">
+    Ha szeretnél értesülni új posztokról kövess be a <a href="https://www.facebook.com/JapanJuharInspiraciok" target="_blank" rel="noopener noreferrer"> facebook oldalamon</a>.
   </p>
   <hr class="home-hero-divider">
 </div>
