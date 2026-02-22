@@ -648,6 +648,42 @@ article.post {
 [data-mode="dark"] .bonsai-support-button {
   box-shadow: 0 2px 8px rgba(127, 168, 95, 0.3);
 }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   LANGUAGE SWITCHER - Bilingual post link
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.bonsai-lang-switch {
+  max-width: 800px;
+  margin: 0 auto 1.8rem;
+  padding: 0 1.5rem;
+  text-align: right;
+}
+
+.bonsai-lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 1rem;
+  border: 1px solid var(--bonsai-border);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: var(--bonsai-primary);
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease;
+  letter-spacing: 0.01em;
+}
+
+.bonsai-lang-btn:hover {
+  background: var(--bonsai-light);
+  border-color: var(--bonsai-primary);
+  color: var(--bonsai-primary);
+  text-decoration: none;
+}
+
+[data-mode="dark"] .bonsai-lang-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
 </style>
 
 <!-- ═══════════════════════════════════════════════════════════════════════
@@ -659,6 +695,44 @@ article.post {
   <div class="bonsai-hero">
     <img src="{{ page.hero_image }}" alt="{{ page.title }}" class="bonsai-hero-image" loading="eager">
   </div>
+</div>
+{% endif %}
+
+<!-- ═══════════════════════════════════════════════════════════════════════
+     LANGUAGE SWITCHER
+     Detects HU ↔ EN post pairs by URL convention:
+       Hungarian: /posts/slug/
+       English:   /posts/slug-en/
+     Does NOT rely on page.slug — uses page.url for reliable detection.
+     ═══════════════════════════════════════════════════════════════════════ -->
+{% assign _url_parts = page.url | split: '/' %}
+{% assign _post_slug = _url_parts[2] %}
+{% assign _url_tail  = page.url | slice: -4, 4 %}
+
+{% if _url_tail == '-en/' %}
+  {% comment %} This is the EN post — compute the HU counterpart URL {% endcomment %}
+  {% assign _slug_len    = _post_slug.size %}
+  {% assign _hu_slug_len = _slug_len | minus: 3 %}
+  {% assign _hu_slug     = _post_slug | slice: 0, _hu_slug_len %}
+  {% assign _counterpart_url   = '/posts/' | append: _hu_slug | append: '/' %}
+  {% assign _counterpart_label = '🇭🇺 Magyar verzió' %}
+{% else %}
+  {% comment %} This is the HU post — compute the EN counterpart URL {% endcomment %}
+  {% assign _counterpart_url   = '/posts/' | append: _post_slug | append: '-en/' %}
+  {% assign _counterpart_label = '🇬🇧 Read in English' %}
+{% endif %}
+
+{% assign _counterpart_exists = false %}
+{% for _p in site.posts %}
+  {% if _p.url == _counterpart_url %}
+    {% assign _counterpart_exists = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if _counterpart_exists %}
+<div class="bonsai-lang-switch">
+  <a href="{{ _counterpart_url }}" class="bonsai-lang-btn">{{ _counterpart_label }}</a>
 </div>
 {% endif %}
 
@@ -771,6 +845,15 @@ article.post {
     <div class="bonsai-support-card">
       <div class="bonsai-support-icon">🌿</div>
       <div class="bonsai-support-content">
+        {% if _url_tail == '-en/' %}
+        <h3 class="bonsai-support-title">Support my work</h3>
+        <p class="bonsai-support-text">If you find this content valuable, please consider supporting me.
+Ideas are free — time is not. Your contribution helps me keep writing.</p>
+        <a href="https://www.donably.com/j1m" target="_blank" rel="noopener noreferrer" class="bonsai-support-button">
+          <span class="bonsai-button-text">Support</span>
+          <span class="bonsai-button-icon">→</span>
+        </a>
+        {% else %}
         <h3 class="bonsai-support-title">Támogasd a munkámat</h3>
         <p class="bonsai-support-text">Ha értékesnek találod a tartalmaimat, kérlek fontold meg a támogatást. A gondolatnak nincs ára – az időnek van.
 Ha szeretnéd, hogy legyen időm ilyen írásokra, itt tudsz hozzájárulni.</p>
@@ -778,6 +861,7 @@ Ha szeretnéd, hogy legyen időm ilyen írásokra, itt tudsz hozzájárulni.</p>
           <span class="bonsai-button-text">Támogatás</span>
           <span class="bonsai-button-icon">→</span>
         </a>
+        {% endif %}
       </div>
     </div>
   </div>
