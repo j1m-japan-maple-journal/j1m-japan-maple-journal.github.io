@@ -252,6 +252,82 @@
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
+   HOME PAGE LANGUAGE FILTER BAR
+   ═══════════════════════════════════════════════════════════════════════ */
+
+#home-lang-filter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.home-lang-label {
+  font-size: 0.85rem;
+  color: var(--text-muted, #6b7280);
+  margin-right: 0.25rem;
+}
+
+.home-lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.9rem;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  background: transparent;
+  color: var(--text-secondary, #4b5563);
+  transition: all 0.2s ease;
+}
+
+.home-lang-btn:hover {
+  border-color: #22c55e;
+  color: #16a34a;
+}
+
+.home-lang-btn.active {
+  background: #22c55e;
+  border-color: #22c55e;
+  color: #fff;
+}
+
+[data-mode="dark"] .home-lang-btn {
+  border-color: #404040;
+  color: #a0a0a0;
+}
+
+[data-mode="dark"] .home-lang-btn:hover {
+  border-color: #22c55e;
+  color: #22c55e;
+}
+
+[data-mode="dark"] .home-lang-btn.active {
+  background: #22c55e;
+  border-color: #22c55e;
+  color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .home-lang-btn {
+    border-color: #404040;
+    color: #a0a0a0;
+  }
+  html:not([data-mode="light"]) .home-lang-btn:hover {
+    border-color: #22c55e;
+    color: #22c55e;
+  }
+  html:not([data-mode="light"]) .home-lang-btn.active {
+    background: #22c55e;
+    border-color: #22c55e;
+    color: #fff;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
    POST TITLES ON HOME PAGE - Friendly, warm color
    ═══════════════════════════════════════════════════════════════════════ */
 

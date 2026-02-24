@@ -48,9 +48,22 @@ refactor: true
   {% endfor %}
 {% endif %}
 
+<div id="home-lang-filter">
+  <span class="home-lang-label">Nyelv / Language:</span>
+  <button class="home-lang-btn active" data-filter="all">🌍 Mind / All</button>
+  <button class="home-lang-btn" data-filter="hu">🇭🇺 Magyar</button>
+  <button class="home-lang-btn" data-filter="en">🇬🇧 English</button>
+</div>
+
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
-    <article class="card-wrapper card">
+    {% assign _post_url_tail = post.url | slice: -4, 4 %}
+    {% if _post_url_tail == '-en/' %}
+      {% assign _home_post_lang = 'en' %}
+    {% else %}
+      {% assign _home_post_lang = 'hu' %}
+    {% endif %}
+    <article class="card-wrapper card" data-lang="{{ _home_post_lang }}">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
         {% assign card_body_col = '12' %}
 
@@ -121,3 +134,25 @@ refactor: true
 {% if paginator.total_pages > 1 %}
   {% include post-paginator.html %}
 {% endif %}
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('#home-lang-filter .home-lang-btn');
+  var cards   = document.querySelectorAll('#post-list .card-wrapper');
+
+  function applyFilter(filter) {
+    cards.forEach(function (card) {
+      var lang = card.getAttribute('data-lang');
+      card.style.display = (filter === 'all' || lang === filter) ? '' : 'none';
+    });
+  }
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      buttons.forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      applyFilter(btn.getAttribute('data-filter'));
+    });
+  });
+})();
+</script>
