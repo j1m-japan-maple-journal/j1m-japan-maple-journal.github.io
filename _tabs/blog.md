@@ -173,6 +173,71 @@ Kövess nyomon minden újdonságot, tapasztalatot és történetet a japán juha
   color: #ffffff !important;
 }
 
+/* ── Language filter bar ── */
+.lang-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.lang-filter-label {
+  font-size: 0.85rem;
+  color: var(--text-muted, #6b7280);
+  margin-right: 0.25rem;
+}
+
+.lang-filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.9rem;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  background: transparent;
+  color: var(--text-secondary, #4b5563);
+  transition: all 0.2s ease;
+}
+
+.lang-filter-btn:hover {
+  border-color: #22c55e;
+  color: #16a34a;
+}
+
+.lang-filter-btn.active {
+  background: #22c55e;
+  border-color: #22c55e;
+  color: #fff;
+}
+
+[data-mode="dark"] .lang-filter-btn {
+  border-color: #404040;
+  color: #a0a0a0;
+}
+
+[data-mode="dark"] .lang-filter-btn:hover {
+  border-color: #22c55e;
+  color: #22c55e;
+}
+
+[data-mode="dark"] .lang-filter-btn.active {
+  background: #22c55e;
+  border-color: #22c55e;
+  color: #fff;
+}
+
+.no-posts-filtered {
+  display: none;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-muted, #6b7280);
+  font-size: 1.125rem;
+}
+
 </style>
 
 {% if jekyll.environment == "production" %}
@@ -182,9 +247,27 @@ Kövess nyomon minden újdonságot, tapasztalatot és történetet a japán juha
 {% endif %}
 
 {% if posts.size > 0 %}
-<div class="blog-grid">
+
+<div class="lang-filter-bar">
+  <span class="lang-filter-label">Nyelv / Language:</span>
+  <button class="lang-filter-btn active" data-filter="all">🌍 Mind / All</button>
+  <button class="lang-filter-btn" data-filter="hu">🇭🇺 Magyar</button>
+  <button class="lang-filter-btn" data-filter="en">🇬🇧 English</button>
+</div>
+
+<div class="no-posts-filtered" id="no-posts-filtered">
+  <p>Nincs találat / No posts found.</p>
+</div>
+
+<div class="blog-grid" id="blog-grid">
   {% for post in posts %}
-  <article class="blog-post-card">
+  {% assign _post_url_tail = post.url | slice: -4, 4 %}
+  {% if _post_url_tail == '-en/' %}
+    {% assign _post_lang = 'en' %}
+  {% else %}
+    {% assign _post_lang = 'hu' %}
+  {% endif %}
+  <article class="blog-post-card" data-lang="{{ _post_lang }}">
     {% if post.image %}
     <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="blog-post-image">
     {% else %}
@@ -215,7 +298,7 @@ Kövess nyomon minden újdonságot, tapasztalatot és történetet a japán juha
       {% endif %}
 
       <a href="{{ post.url | relative_url }}" class="blog-read-more">
-        Tovább olvasom
+        {% if _post_lang == 'en' %}Read more{% else %}Tovább olvasom{% endif %}
         <svg fill="currentColor" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
         </svg>
@@ -229,3 +312,30 @@ Kövess nyomon minden újdonságot, tapasztalatot és történetet a japán juha
   <p>📝 Még nincs blogbejegyzés – hamarosan érkeznek az első történetek! 🌱</p>
 </div>
 {% endif %}
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.lang-filter-btn');
+  var cards   = document.querySelectorAll('#blog-grid .blog-post-card');
+  var noPostsMsg = document.getElementById('no-posts-filtered');
+
+  function applyFilter(filter) {
+    var visible = 0;
+    cards.forEach(function (card) {
+      var lang = card.getAttribute('data-lang');
+      var show = filter === 'all' || lang === filter;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    noPostsMsg.style.display = visible === 0 ? 'block' : 'none';
+  }
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      buttons.forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      applyFilter(btn.getAttribute('data-filter'));
+    });
+  });
+})();
+</script>
