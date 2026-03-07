@@ -251,6 +251,49 @@
   border-top-color: #404040 !important;
 }
 
+.source-reference-collapsible {
+  all: unset;
+  display: block;
+}
+
+.source-reference-collapsible > summary {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  cursor: pointer;
+  font-style: normal !important;
+  font-weight: 600;
+  color: #6c757d;
+  user-select: none;
+  list-style: none;
+  padding: 0.1rem 0;
+}
+
+.source-reference-collapsible > summary::-webkit-details-marker {
+  display: none;
+}
+
+.source-reference-collapsible > summary .sr-arrow {
+  display: inline-block;
+  font-size: 0.65em;
+  transition: transform 0.2s ease;
+  transform: rotate(0deg);
+}
+
+.source-reference-collapsible[open] > summary .sr-arrow {
+  transform: rotate(90deg);
+}
+
+[data-mode="dark"] .source-reference-collapsible > summary {
+  color: #9e9e9e;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .source-reference-collapsible > summary {
+    color: #9e9e9e;
+  }
+}
+
 /* ═══════════════════════════════════════════════════════════════════════
    HOME PAGE LANGUAGE FILTER BAR
    ═══════════════════════════════════════════════════════════════════════ */
@@ -373,3 +416,28 @@ html[data-mode="dark"] #post-list .card-wrapper .card-title:hover {
   }
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.source-reference').forEach(function (ref) {
+    var links = ref.querySelectorAll('a');
+    if (links.length <= 5) return;
+
+    var details = document.createElement('details');
+    details.className = 'source-reference-collapsible';
+
+    var summary = document.createElement('summary');
+    summary.innerHTML =
+      '<span class="sr-arrow">&#9654;</span> Források (' + links.length + ')';
+
+    var content = document.createElement('div');
+    while (ref.firstChild) {
+      content.appendChild(ref.firstChild);
+    }
+
+    details.appendChild(summary);
+    details.appendChild(content);
+    ref.appendChild(details);
+  });
+});
+</script>
