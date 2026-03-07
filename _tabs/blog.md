@@ -250,8 +250,9 @@ Kövess nyomon minden újdonságot, tapasztalatot és történetet a japán juha
 
 <div class="lang-filter-bar">
   <span class="lang-filter-label">Nyelv / Language:</span>
-  <button class="lang-filter-btn active" data-filter="all">🌍 Mind / All</button>
-  <button class="lang-filter-btn" data-filter="hu">🇭🇺 Magyar</button>
+  <button class="lang-filter-btn" data-filter="all">🌍 Mind / All</button>
+  <!-- default to magyar on every page -->
+  <button class="lang-filter-btn active" data-filter="hu">🇭🇺 Magyar</button>
   <button class="lang-filter-btn" data-filter="en">🇬🇧 English</button>
 </div>
 
@@ -337,5 +338,8 @@ Kövess nyomon minden újdonságot, tapasztalatot és történetet a japán juha
       applyFilter(btn.getAttribute('data-filter'));
     });
   });
+
+  // ensure default filter applies on load (Magyar)
+  applyFilter('hu');
 })();
 </script>
