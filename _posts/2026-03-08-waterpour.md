@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Japán bonsai mester: három év kell a bonsai helyes öntözésének tanulására!"
+title: "A legegyszerűbb bonsai feladat, amely megtanuláshoz három év szükséges."
 subtitle:
 date: 2026-03-08
 categories: [Gondozás, Megfigyelések, Szemlélet, Kezdőknek, Évszakok]
