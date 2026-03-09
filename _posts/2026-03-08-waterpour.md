@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "A legegyszerűbb bonsai feladat, amely megtanuláshoz három év szükséges."
+title: "A legegyszerűbb bonsai feladat, amely megtanuláshoz három év szükséges!"
 subtitle:
 date: 2026-03-08
 categories: [Gondozás, Megfigyelések, Szemlélet, Kezdőknek, Évszakok]
 tags: [Japán juhar, japanese-maple, Gondozás]
 hero_image: /assets/blog/270308_wateringpour_hero.jpg
 youtube_id: 
-hidden: true
+hidden: false
 ---
 
-A japán bonsai világában van egy mondás, amely első hallásra szinte nevetségesnek tűnik: három év kell ahhoz, hogy valaki megtanuljon rendesen öntözni. Aki először hallja ezt, általában ugyanazt gondolja: mi lehet ebben olyan bonyolult? Egy kannából vizet önteni egy cserépbe nem tűnik különösebb tudománynak. Éppen ezért döbbenti meg az embert, amikor kiderül, hogy a bonsai mesterek szerint ez az egyik legnehezebb dolog az egész művészetben.
+A japán bonsai világában a mester úgy tartják, amely első hallásra szinte nevetségesnek tűnik: három év kell ahhoz, hogy valaki megtanuljon rendesen öntözni. Aki először hallja ezt, általában ugyanazt gondolja: mi lehet ebben olyan bonyolult? Egy kannából vizet önteni egy cserépbe nem tűnik különösebb tudománynak. Éppen ezért döbbenti meg az embert, amikor kiderül, hogy a bonsai mesterek szerint ez az egyik legnehezebb dolog az egész művészetben.
 Az öntözés ugyanis nem technika. Hanem megfigyelés. És ezt nem lehet könyvből megtanulni. De mégis tekintsük át, melyek azok az alapelvek, amelyek segítenek az öntözés technikájának elsajátításában. Nem minden bonsai rajongó tölthet el éveket egy japán nagymester mellett.
 
 ### A bonsai talajának speciális összetevője
