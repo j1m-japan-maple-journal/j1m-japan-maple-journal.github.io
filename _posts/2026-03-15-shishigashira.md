@@ -1,9 +1,9 @@
 ---
 layout: post
-title: “Az oroszlánnő fája - Acer palmatum 'Shishigashira'”
-subtitle: “Ismerd meg a bonsai világ egyik legkülönlegesebb japán juhar fajtáját”
+title: "Japán juhar bonsai fajták – III. rész 'Shishigashira'"
+subtitle: "Acer palmatum 'Shishigashira'"
 date: 2026-03-15
-categories: [Gondozás, Kezdőknek, Bonsai fajták]
+categories: [Bonsai fajták]
 tags: [Japán juhar, japanese-maple, Gondozás, Shishigashira]
 hero_image: /assets/blog/260315_shishigashira_hero.jpg
 youtube_id:
@@ -87,7 +87,7 @@ Az idősebb fáknál a vastag, sűrű ágrendszer a drótozást is megnehezíti 
 
 ### Elhelyezés és fényigény
 
-A reggeli napfény és a délutáni szűrt fény az ideális. Különösen forró nyári napokon érdemes félárnyékba helyezni, bár - mint fentebb szó volt róla - a kultivár napos állást is tolerál.
+A reggeli napfény és a délutáni szűrt fény az ideális. Különösen forró nyári napokon érdemes félárnyékba helyezni, bár - mint azt korábban említettem - a kultivár jobban tolerálja a napos helyeket mint egyéb társai.
 
 ### Öntözés és talaj
 
