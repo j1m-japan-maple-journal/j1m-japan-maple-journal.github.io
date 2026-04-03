@@ -24,7 +24,7 @@ Ezzel szemben az ektomikorrhiza (ECM) gombák nem hatolnak be a sejtek belsejéb
 
 
 | Tulajdonság | Arbuszkuláris Mikorrhiza (AM) | Ektomikorrhiza (ECM)     |
-|-------------|-------------------------------|------------------------- -|
+|-------------|-------------------------------|--------------------------|
 | Gombatörzs | Glomeromycota                  | Basidiomycota, Ascomycota |
 | Anatómiai szerkezet | Arbuszkulumok, vezikulumok | Hartig-háló, gombaköpeny |
 | Sejtbehatolás | Intracelluláris (sejten belüli) | Extracelluláris (sejtek közötti) |
@@ -43,7 +43,7 @@ Az élettani előnyök közé tartozik a foszfor felvételének fokozása. A fos
 
 A fenyőfélék (Pinaceae család, például Pinus, Picea, Abies, Larix) élettani stratégiája alapvetően eltér a juharokétól. Számukra az ektomikorrhiza (ECM) a meghatározó és elengedhetetlen társulási forma. A fenyők annyira függenek ezektől a gombáktól, hogy mikorrhiza nélkül a csemeték gyakran sárgulnak, növekedésük leáll, és végül elpusztulnak. Az ECM kapcsolatban a gomba egy látható köpenyt hoz létre a rövid, módosult gyökérvégek körül, ami gyakran fehér, selymes bevonatként jelenik meg az átültetéskor.
 
-A fenyőfélék esetében a szimbiózis egyik legfontosabb funkciója a nitrogén felvétele szerves forrásokból, ami az erdőtalajokon, ahol a lebomlás lassú, kulcsfontosságú túlélési előny.Az ECM gombák képesek lebontani a komplex fehérjéket és aminosavakat, átadva a nitrogént a fának. További jelentős különbség, hogy a fenyők ektomikorrhizája fizikai védelmet is nyújt: a vastag gombaköpeny mechanikai gátat képez a patogén gombák (például a Fusarium vagy Pythium) és a fonálférgek ellen.
+A fenyőfélék esetében a szimbiózis egyik legfontosabb funkciója a nitrogén felvétele szerves forrásokból, ami az erdőtalajokon, ahol a lebomlás lassú, kulcsfontosságú túlélési előny. Az ECM gombák képesek lebontani a komplex fehérjéket és aminosavakat, átadva a nitrogént a fának. További jelentős különbség, hogy a fenyők ektomikorrhizája fizikai védelmet is nyújt: a vastag gombaköpeny mechanikai gátat képez a patogén gombák (például a Fusarium vagy Pythium) és a fonálférgek ellen.
 Érdekes jelenség a fenyőféléknél az úgynevezett ektendomikorrhiza, amely főleg a Pinus és Picea nemzetségekre jellemző. Ez egy átmeneti forma, ahol a Hartig-háló mellett a hifák korlátozottan be is hatolnak a sejtbe. Ez a rugalmasság lehetővé teszi a fenyők számára, hogy rendkívül szélsőséges, tápanyagszegény vagy savas talajokon is megtelepedjenek.
 
 A japán juhar esetében a mikorrhiza szimbiózis létrejöttét szabad szemmel nem lehet közvetlenül látni, a gombafonalak (hifák) behatolnak a gyökérsejtek belsejébe, így a kapcsolat csak mikroszkóppal vizsgálható.
@@ -55,7 +55,7 @@ Látványos fejlődés és szín: A sikeresen kolonizált japán juharok egészs
 - A mikorrhiza gombák glomalin nevű fehérjét termelnek, amely „biológiai ragasztóként” működik. Ha a juhar körül a talaj morzsalékosabbá, jobb vízelvezetésűvé és levegősebbé válik, az a gombák aktív tevékenységére utal.
 - A kolonizáció általában 2–4 hét alatt kezdődik el, de a növényen látható pozitív változásokhoz gyakran több hónapra is szükség lehet.
 
-Fontos különbség más fafajokkal szemben: Míg a fenyőfélék (ektomikorrhiza típus) esetében a gyökérvégeken látható fehér, vattaszerű bevonat vagy selymes gombafonal-tömeg jelzi a sikert, a japán juharnál ilyen külső jelet hiába keresnénk a gyökereken. Ha a juhar gyökerén fehér pamacsokat látunk, az nem a juhar saját mikorrhizája (hanem esetleg más gomba vagy kártevő), mivel a juhar gombapartnere a sejteken belül él
+Fontos különbség más fafajokkal szemben: Míg a fenyőfélék (ektomikorrhiza típus) esetében a gyökérvégeken látható fehér, vattaszerű bevonat vagy selymes gombafonal-tömeg jelzi a sikert, a japán juharnál ilyen külső jelet hiába keresnénk a gyökereken. Ha a juhar gyökerén fehér pamacsokat látunk, az nem a juhar saját mikorrhizája (hanem esetleg más gomba vagy kártevő), mivel a juhar gombapartnere a sejteken belül él.
 
 Életre szóló szövetség: A szakirodalom kiemeli, hogy ez egy életre szóló kapcsolat. Ha a szimbiózis egyszer már sikeresen kialakult, a gombát a növény életében csak egyszer kell telepíteni, és a kapcsolat a növény későbbi átültetései során is fennmarad. Fontos azonban megérteni, hogy bár a juhar a gyökereiben „szállítja” a gombát, az átültetés során a talajban lévő kiterjedt, külső gombafonal-hálózat (a „Wood Wide Web”) elszakad. Az új helyen a növénynek a gyökereiben hordozott gombapartner segítségével újra ki kell építenie ezt a külső hálózatot, hogy ismét hatékonyan tudja felvenni a vizet és a tápanyagokat.
 
@@ -78,9 +78,9 @@ Igen, képes életben maradni, de jelentős hátrányokkal:
 
 ### A mikorrhiza telepítésének gyakorlati módszerei
 
-A mikorrhiza telepítésének gyakorlati módszerei
 A mikorrhiza gombák sikeres telepítésének alapfeltétele a spórák vagy hifák közvetlen érintkezése az élő növényi gyökérrel. A spórák nem mozognak aktívan a talajban, így ha csak a talaj felszínére szórjuk őket, a szimbiózis nem alakul ki.
-Telepítés új ültetéskor
+
+#### Telepítés új ültetéskor
 Az új növények kiültetése a legideálisabb időpont az inokulációra. Ekkor a gyökérzet hozzáférhető, és a gomba már a kezdetektől segítheti a növényt az átültetési sokk leküzdésében.
 - Granulált készítmények alkalmazása: Az ültetőgödör aljába szórjunk egy egyenletes réteg mikorrhiza granulátumot, majd erre helyezzük közvetlenül a növény gyökérlabdáját.
 - Por alapú inokuláció: A port közvetlenül a nedvesített gyökérlabdára is szórhatjuk, biztosítva a tapadást.
