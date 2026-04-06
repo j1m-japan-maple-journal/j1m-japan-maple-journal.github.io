@@ -39,6 +39,20 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install translation dependencies
+        run: pip install anthropic pyyaml
+
+      - name: Auto-translate missing EN posts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python .github/scripts/batch_translate.py
+        continue-on-error: true
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
