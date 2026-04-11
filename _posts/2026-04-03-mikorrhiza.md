@@ -165,24 +165,22 @@ A mikorrhiza jelentősége túlmutat az egyedi növény szintjén. Az erdőkben 
 
 <div class="source-reference" markdown="1">
 
-[Complete Guide to Mycorrhizal Fungi - BBC Gardeners World Magazine](https://gardenersworld.com)
+Peter Wohlleben - A fák titkos élete - Mit éreznek, hogyan kommunikálnak? Egy rejtett világ felfedezése
 
-[Mycorrhizae: Everything You Want and Need to Know - Trifecta Natural](https://trifectanatural.com)
+[Ranges of trees and mycorrhizal status - tallcoleman](https://tallcoleman.me/ecology/ranges-of-trees-and-mycorrhizal-status/)
 
-[What is Mycorrhizae - Prairie State Bonsai Society](https://prairiestatebonsai.com)
+[Effects of Nitrogen and Phosphorus Levels on Arbuscular Mycorrhizal Symbiosis and Associated Bacterial Communities in Culture - MDPI](https://pmc.ncbi.nlm.nih.gov/articles/PMC3810610/)
 
-[Mycorrhiza and bonsai - Bonsaischule Wenddorf](https://bonsai-shop.com)
+[Mycorrhizal types - David Moore's World of Fung](https://www.davidmoore.org.uk/assets/mostly_mycology/diane_howarth/mycorrhizal%20types.htm)
 
-[Mycorrhizae for Maples - UBC Botanical Garden Forums](https://forums.botanicalgarden.ubc.ca)
+[Deep Root Fertilization: Nourishing Your Trees from the Ground Up](https://cincinnatilandscaping.com/deep-root-fertilization/)
 
-[Mycorrhizae in forest tree nurseries - USDA Forest Service](https://fs.usda.gov)
+[Fungicides for Disease Management in the Home Landscape](https://pnwhandbooks.org/plantdisease/pesticide-articles/fungicides-disease-management-home-landscape)
 
-[Effects of Nitrogen and Phosphorus Levels on Arbuscular Mycorrhizal Symbiosis - MDPI](https://mdpi.com)
+[Molecular interactions of Trichoderma: from microbial competition to soil health promotion](https://medcraveonline.com/IJMBOA/molecular-interactions-of-trichoderma-from-microbial-competition-to-soil-health-promotion.html)
 
-[Micorrhiza Fungi for Bonsai: An Overview - BonsaiOutlet.com](https://bonsai-outlet.com)
+[Gomba gombának farkasa: Trichoderma-alapú mikofungicidek a biológiai védekezésben](https://www.biokontroll.hu/gomba-gombanak-farkasa-trichoderma-alapu-mikofungicidek-a-biologiai-vedekezesben/)
 
-[How Mycorrhizal Fungi Improve Phosphorus & Zinc Uptake in Plants - Kay Bee Bio](https://kaybeebio.com)
-
-[How to Apply Mycorrhizal Fungi: A Beginners Guide - GreenEden](https://greeneden.co)
+[Effects of Nitrogen and Phosphorus Levels on Arbuscular Mycorrhizal Symbiosis  MDPI](https://www.mdpi.com/2309-608X/11/11/757)
 
 </div>
