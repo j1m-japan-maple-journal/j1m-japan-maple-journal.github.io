@@ -12,7 +12,7 @@ tags:
 - japanese-maple
 - Care
 youtube_id:
-hidden: false
+hidden: true
 lang: en
 ---
 

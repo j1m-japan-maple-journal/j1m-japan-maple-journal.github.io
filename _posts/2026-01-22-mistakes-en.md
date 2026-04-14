@@ -11,7 +11,7 @@ tags:
 - bonsai
 - Care
 hero_image: /assets/blog/260122_mistakes_hero2.jpg
-hidden: false
+hidden: true
 youtube_id:
 lang: en
 ---

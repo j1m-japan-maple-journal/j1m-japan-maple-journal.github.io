@@ -13,7 +13,7 @@ tags:
 - bonsai
 hero_image: /assets/blog/260118_principles_hero.jpeg
 youtube_id:
-hidden: false
+hidden: true
 lang: en
 ---
 

@@ -15,7 +15,7 @@ tags:
 - japanese maple
 hero_image: /assets/blog/260114_watering_hero.jpg
 youtube_id:
-hidden: false
+hidden: true
 lang: en
 ---
 

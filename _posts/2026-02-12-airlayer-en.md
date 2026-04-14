@@ -13,7 +13,7 @@ tags:
 - Care
 hero_image: /assets/blog/legbujthero2.jpeg
 youtube_id:
-hidden: false
+hidden: true
 lang: en
 ---
 

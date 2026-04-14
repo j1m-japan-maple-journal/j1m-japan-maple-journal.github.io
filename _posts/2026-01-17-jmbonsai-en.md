@@ -11,7 +11,7 @@ tags:
 - japanese-maple
 hero_image: /assets/blog/260116_jmbonsai_hero.jpeg
 youtube_id:
-hidden: false
+hidden: true
 lang: en
 ---
 

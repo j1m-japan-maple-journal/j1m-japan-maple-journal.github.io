@@ -11,7 +11,7 @@ tags:
 - bonsai
 hero_image: /assets/blog/260110.png
 youtube_id:
-hidden: false
+hidden: true
 lang: en
 ---
 

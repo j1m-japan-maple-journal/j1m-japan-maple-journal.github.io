@@ -13,7 +13,7 @@ tags:
 - care
 hero_image: /assets/blog/260127_socialize_hero.jpeg
 youtube_id:
-hidden: false
+hidden: true
 lang: en
 ---
 

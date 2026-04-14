@@ -12,7 +12,7 @@ tags:
 - care
 hero_image: /assets/blog/260111_wintercare2.jpg
 youtube_id:
-hidden: false
+hidden: true
 lang: en
 ---
 

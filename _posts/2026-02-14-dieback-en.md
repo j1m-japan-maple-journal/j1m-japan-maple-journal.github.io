@@ -14,7 +14,7 @@ tags:
 - japanese-maple
 - Care
 hero_image:
-hidden: false
+hidden: true
 lang: en
 ---
 

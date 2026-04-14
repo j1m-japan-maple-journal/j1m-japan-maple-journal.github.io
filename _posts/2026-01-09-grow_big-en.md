@@ -10,6 +10,7 @@ tags:
 hero_image: /assets/blog/260109.jpg
 youtube_id:
 lang: en
+hidden: true
 ---
 
 In this poem, I present the process of bonsai transformation not merely as a horticultural metaphor, but as a deeply human, almost spiritual journey. The bonsai stands as a symbol of flourishing through limitation, of infinity found within narrow boundaries, of a deeper harmony and beauty born from patience, discipline, and deliberate constraint — pruning, wiring, root restriction.

@@ -11,6 +11,7 @@ tags:
 - care
 hero_image: /assets/blog/260111_prune0.jpg
 youtube_id:
+hidden: true
 lang: en
 ---
 

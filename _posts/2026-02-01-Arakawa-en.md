@@ -14,7 +14,7 @@ tags:
 - Arakawa
 hero_image: /assets/blog/260201_arakawa_hero.jpg
 youtube_id:
-hidden: false
+hidden: true
 lang: en
 ---
 
