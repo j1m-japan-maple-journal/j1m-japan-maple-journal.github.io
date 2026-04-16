@@ -34,7 +34,7 @@ A 'Shishigashira' elnevezés a japán színház mitikus oroszlánnő alakjára u
 
 ## Morfológia: ami igazán különlegessé teszi
 
-Az *Acer palmatum* palmatum alfajának ez a törpe kultivárja egyik legfontosabb megkülönböztető jegye, hogy levelei a rövid ágak mentén rendkívül kis távolságokra helyezkednek el egymástól. Ez az aprónak tűnő tulajdonság az, ami a 'Shishigashirát' szinte az összes többi japánjuhar-fajtától elválasztja, és ami a sűrű, finom ágrendszert eredményezi.
+Az *Acer palmatum* alfajának ez a törpe kultivárja egyik legfontosabb megkülönböztető jegye, hogy levelei a rövid ágak mentén rendkívül kis távolságokra helyezkednek el egymástól. Ez az aprónak tűnő tulajdonság az, ami a 'Shishigashirát' szinte az összes többi japánjuhar-fajtától elválasztja, és ami a sűrű, finom ágrendszert eredményezi.
 
 ### A levelek részletei
 
