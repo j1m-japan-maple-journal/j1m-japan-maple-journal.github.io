@@ -18,22 +18,22 @@ A földi élet evolúciójának egyik legfontosabb, mégis láthatatlan esemény
 
 A gombafonalak és a gyökérsejtek közötti anatómiai kapcsolat jellege alapján a tudomány több fő kategóriát különít el. Ezek közül a kertészeti és erdészeti szempontból a két legfontosabb az arbuszkuláris mikorrhiza (endomikorrhiza) és az ektomikorrhiza. A különbség nem csupán morfológiai, hanem rendszertani is, mivel eltérő gombatörzsek és növénycsaládok vesznek részt bennük.
 
-Az arbuszkuláris mikorrhiza (AM) a legelterjedtebb forma, amely a lágyszárú növények többségét és számos fásszárú nemzetséget, köztük a juharokat (Acer) is érinti. Ebben a kapcsolatban a gomba hifái behatolnak a gyökérsejtek falán, és ott speciális, elágazó képleteket, úgynevezett arbuszkulumokat hoznak létre. Ezek az arbuszkulumok a tápanyagcsere elsődleges helyszínei, ahol a növényi membrán és a gomba membránja közvetlen közel kerül egymáshoz, lehetővé téve a hatékony molekuláris transzportot. Mivel a gomba a sejteken belül helyezkedik el, jelenléte szabad szemmel nem látható.
+Az arbuszkuláris mikorrhiza (AM) a legelterjedtebb forma, amely a lágyszárú növények többségét és számos fásszárú nemzetséget, köztük a juharokat (*Acer*) is érinti. Ebben a kapcsolatban a gomba hifái behatolnak a gyökérsejtek falán, és ott speciális, elágazó képleteket, úgynevezett arbuszkulumokat hoznak létre. Ezek az arbuszkulumok a tápanyagcsere elsődleges helyszínei, ahol a növényi membrán és a gomba membránja közvetlen közel kerül egymáshoz, lehetővé téve a hatékony molekuláris transzportot. Mivel a gomba a sejteken belül helyezkedik el, jelenléte szabad szemmel nem látható.
 
-Ezzel szemben az ektomikorrhiza (ECM) gombák nem hatolnak be a sejtek belsejébe, hanem egy vastag gombaköpenyt (mantle) alkotnak a gyökér felszínén, a sejtek közötti járatokban pedig kialakítják az úgynevezett Hartig-hálót. Ez a típus jellemző a fenyőfélékre (Pinaceae), a tölgyekre (Quercus), a bükkökre (Fagus) és a nyírfákra (Betula). Az ECM gombák gyakran látványos termőtesteket, közismert kalapos gombákat növesztenek az erdőtalajon.
+Ezzel szemben az ektomikorrhiza (ECM) gombák nem hatolnak be a sejtek belsejébe, hanem egy vastag gombaköpenyt (mantle) alkotnak a gyökér felszínén, a sejtek közötti járatokban pedig kialakítják az úgynevezett Hartig-hálót. Ez a típus jellemző a fenyőfélékre (*Pinaceae*), a tölgyekre (*Quercus*), a bükkökre (*Fagus*) és a nyírfákra (*Betula*). Az ECM gombák gyakran látványos termőtesteket, közismert kalapos gombákat növesztenek az erdőtalajon.
 
 
 | Tulajdonság | Arbuszkuláris Mikorrhiza (AM) | Ektomikorrhiza (ECM)     |
 |-------------|-------------------------------|--------------------------|
-| Gombatörzs | Glomeromycota                  | Basidiomycota, Ascomycota |
+| Gombatörzs | *Glomeromycota*                  | *Basidiomycota*, *Ascomycota* |
 | Anatómiai szerkezet | Arbuszkulumok, vezikulumok | Hartig-háló, gombaköpeny |
 | Sejtbehatolás | Intracelluláris (sejten belüli) | Extracelluláris (sejtek közötti) |
 | Láthatóság | Csak mikroszkóppal | Szabad szemmel is látható lehet |
 | Fő gazdanövények | Juhar, kőris, gyümölcsfák, zöldségek | Fenyő, bükk, tölgy, nyír |
 
-### A japán juhar (Acer palmatum) és a mikorrhiza kapcsolata
+### A japán juhar (*Acer palmatum*) és a mikorrhiza kapcsolata
 
-A japán juhar (Acer palmatum) díszkerti alkalmazása során alapvető fontosságú a talajélet támogatása. A juharok nemzetsége az arbuszkuláris mikorrhiza (AM) obligát partnere, ami azt jelenti, hogy természetes élőhelyükön szinte elképzelhetetlen a fejlődésük e szimbiózis nélkül. A japán juharok sekélyen gyökereznek, és különösen érzékenyek a környezeti stresszre, például a szárazságra vagy a talaj tömörödésére.
+A japán juhar (*Acer palmatum*) díszkerti alkalmazása során alapvető fontosságú a talajélet támogatása. A juharok nemzetsége az arbuszkuláris mikorrhiza (AM) obligát partnere, ami azt jelenti, hogy természetes élőhelyükön szinte elképzelhetetlen a fejlődésük e szimbiózis nélkül. A japán juharok sekélyen gyökereznek, és különösen érzékenyek a környezeti stresszre, például a szárazságra vagy a talaj tömörödésére.
 
 A mikorrhiza gombák jelenléte a japán juhar esetében drasztikusan megnöveli a gyökérzet abszorpciós felületét, egyes becslések szerint akár 700-szorosára. A gombafonalak (hifák) sokkal vékonyabbak, mint a növényi gyökérszőrök, így bejutnak a legkisebb talajpórusokba is, ahonnan vizet és olyan tápanyagokat mobilizálnak, amelyek a növény számára egyébként elérhetetlenek lennének. Ez a képesség különösen kritikus a japán juhar számára, amely az egyenletesen nedves, de jó vízelvezetésű talajokat kedveli. A mikorrhiza hálózat pufferként működik: aszály idején vizet szállít, míg tápanyagbőség esetén raktározza azokat.
 
@@ -41,12 +41,10 @@ Az élettani előnyök közé tartozik a foszfor felvételének fokozása. A fos
 
 ### A fenyőfélék (Pinaceae) speciális ektomikorrhiza igényei
 
-A fenyőfélék (Pinaceae család, például Pinus, Picea, Abies, Larix) élettani stratégiája alapvetően eltér a juharokétól. Számukra az ektomikorrhiza (ECM) a meghatározó és elengedhetetlen társulási forma. A fenyők annyira függenek ezektől a gombáktól, hogy mikorrhiza nélkül a csemeték gyakran sárgulnak, növekedésük leáll, és végül elpusztulnak. Az ECM kapcsolatban a gomba egy látható köpenyt hoz létre a rövid, módosult gyökérvégek körül, ami gyakran fehér, selymes bevonatként jelenik meg az átültetéskor.
+A fenyőfélék (*Pinaceae* család, például *Pinus*, *Picea*, *Abies*, *Larix*) élettani stratégiája alapvetően eltér a juharokétól. Számukra az ektomikorrhiza (ECM) a meghatározó és elengedhetetlen társulási forma. A fenyők annyira függenek ezektől a gombáktól, hogy mikorrhiza nélkül a csemeték gyakran sárgulnak, növekedésük leáll, és végül elpusztulnak. Az ECM kapcsolatban a gomba egy látható köpenyt hoz létre a rövid, módosult gyökérvégek körül, ami gyakran fehér, selymes bevonatként jelenik meg az átültetéskor.
 
-A fenyőfélék esetében a szimbiózis egyik legfontosabb funkciója a nitrogén felvétele szerves forrásokból, ami az erdőtalajokon, ahol a lebomlás lassú, kulcsfontosságú túlélési előny. Az ECM gombák képesek lebontani a komplex fehérjéket és aminosavakat, átadva a nitrogént a fának. További jelentős különbség, hogy a fenyők ektomikorrhizája fizikai védelmet is nyújt: a vastag gombaköpeny mechanikai gátat képez a patogén gombák (például a Fusarium vagy Pythium) és a fonálférgek ellen.
-Érdekes jelenség a fenyőféléknél az úgynevezett ektendomikorrhiza, amely főleg a Pinus és Picea nemzetségekre jellemző. Ez egy átmeneti forma, ahol a Hartig-háló mellett a hifák korlátozottan be is hatolnak a sejtbe. Ez a rugalmasság lehetővé teszi a fenyők számára, hogy rendkívül szélsőséges, tápanyagszegény vagy savas talajokon is megtelepedjenek.
-
-A japán juhar esetében a mikorrhiza szimbiózis létrejöttét szabad szemmel nem lehet közvetlenül látni, a gombafonalak (hifák) behatolnak a gyökérsejtek belsejébe, így a kapcsolat csak mikroszkóppal vizsgálható.
+A fenyőfélék esetében a szimbiózis egyik legfontosabb funkciója a nitrogén felvétele szerves forrásokból, ami az erdőtalajokon, ahol a lebomlás lassú, kulcsfontosságú túlélési előny. Az ECM gombák képesek lebontani a komplex fehérjéket és aminosavakat, átadva a nitrogént a fának. További jelentős különbség, hogy a fenyők ektomikorrhizája fizikai védelmet is nyújt: a vastag gombaköpeny mechanikai gátat képez a patogén gombák (például a *Fusarium* vagy *Pythium*) és a fonálférgek ellen.
+Érdekes jelenség a fenyőféléknél az úgynevezett ektendomikorrhiza, amely főleg a *Pinus* és *Picea* nemzetségekre jellemző. Ez egy átmeneti forma, ahol a Hartig-háló mellett a hifák korlátozottan be is hatolnak a sejtbe. Ez a rugalmasság lehetővé teszi a fenyők számára, hogy rendkívül szélsőséges, tápanyagszegény vagy savas talajokon is megtelepedjenek.
 
 A szimbiózis sikerességére az alábbi közvetett jelekből következtethetünk:
 Látványos fejlődés és szín: A sikeresen kolonizált japán juharok egészségesebb lombozattal, élénkebb levélszínnel és erőteljesebb növekedéssel hálálják meg a gombák jelenlétét.
@@ -179,7 +177,7 @@ Peter Wohlleben - A fák titkos élete - Mit éreznek, hogyan kommunikálnak? Eg
 
 [Molecular interactions of Trichoderma: from microbial competition to soil health promotion](https://medcraveonline.com/IJMBOA/molecular-interactions-of-trichoderma-from-microbial-competition-to-soil-health-promotion.html)
 
-[Gomba gombának farkasa: Trichoderma-alapú mikofungicidek a biológiai védekezésben](https://www.biokontroll.hu/gomba-gombanak-farkasa-trichoderma-alapu-mikofungicidek-a-biologiai-vedekezesben/)
+[Gomba gombának farkasa: *Trichoderma*-alapú mikofungicidek a biológiai védekezésben](https://www.biokontroll.hu/gomba-gombanak-farkasa-trichoderma-alapu-mikofungicidek-a-biologiai-vedekezesben/)
 
 [Effects of Nitrogen and Phosphorus Levels on Arbuscular Mycorrhizal Symbiosis  MDPI](https://www.mdpi.com/2309-608X/11/11/757)
 
