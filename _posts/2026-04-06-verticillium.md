@@ -148,3 +148,35 @@ A súlyosan fertőzött példányokat érdemes teljes egészében, gyökérrel e
 #### Összegzés
 
 A gyökériskoláztatás nem ellensége a japán juharnak - de a verticillium jelenlétében könnyen azzá válhat. A különbséget nem maga a technika, hanem annak kivitelezése jelenti. Faiskolai nevelés esetén, elengedhetetlen egy szigorú, következetes rendszer kialakítása. A higiénia, a tudatos talajkezelés és a növények állapotának folyamatos figyelése együtt alkotják azt a védelmi hálót, amely képes kordában tartani ezt a láthatatlan, de rendkívül kitartó ellenséget.
+
+<div class="source-reference" markdown="1">
+
+[Verticillium Wilt of Ornamental Trees and Shrubs - CT.gov](https://portal.ct.gov/-/media/CAES/DOCUMENTS/Publications/Fact_Sheets/Plant_Pathology_and_Ecology/VERTICILLIUMWILTOFTREESANDSHRUBS050808pdf.pdf)
+
+[Verticillium Wilt Japanese Maple - Strobert Tree Services](https://stroberttree.com/blog/verticillium-wilt-japanese-maple)
+
+[Verticillium Wilt of Landscape Trees Arboriculture & Urban Forestry](https://auf.isa-arbor.com/content/5/9/193)
+
+[Verticillium Wilt of Landscape Trees and Shrubs - Ohio Woodland Stewards Program](https://woodlandstewards.osu.edu/sites/woodlands/files/imce/3053%20verticillium.pdf)
+
+[Verticillium Wilt: Prevention & Care RHS Advice](https://www.rhs.org.uk/disease/verticillium-wilt)
+
+[Verticillium wilt refresher - MSU Extension](https://www.canr.msu.edu/news/verticillium_wilt_refresher)
+
+[Maple (Acer spp.)-Verticillium Wilt Pacific Northwest Pest Management Handbooks](https://pnwhandbooks.org/plantdisease/host-disease/maple-acer-spp-verticillium-wilt)
+
+[Comparative Assessment of Verticillium dahliae Tolerance in 77 Olive Cultivars - MDPI](https://www.mdpi.com/2673-7655/6/1/9)
+
+[Verticillium Wilt - Cornell Cooperative Extension Nassau County](https://ccenassau.org/resources/-verticillium-wilt)
+
+[Wilt Threatens Japanese Maples](https://ucanr.edu/?legacy-file=321518.pdf&legacy-file-path=sites/ccmg/files/)
+
+[Verticillium dahliae Inoculation and in vitro Propagation Modify the Xylem Microbiome and Disease Reaction to Verticillium Wilt in a Wild Olive Genotype - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7966730/)
+
+[Improved Management of Verticillium Wilt in Smoke Trees Through the Use of a Combination of Fungicide and Bioagent Treatments - MDPI](https://www.mdpi.com/1999-4907/16/6/914)
+
+[(PDF) Biological Control of Tomato Verticillium Wilt by Using Indigenous Trichoderma spp.](https://www.researchgate.net/publication/228490072_Biological_Control_of_Tomato_Verticillium_Wilt_by_Using_Indigenous_Trichoderma_spp)
+
+[Biological Control of Tomato Verticillium Wilt by Using Indigenous Trichoderma spp. - Global Science Books](http://www.globalsciencebooks.info/Online/GSBOnline/images/0906/AJPSB_3(SI1)/AJPSB_3(SI1)26-36o.pdf)
+
+</div>
