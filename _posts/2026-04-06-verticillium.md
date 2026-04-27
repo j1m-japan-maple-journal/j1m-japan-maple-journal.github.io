@@ -12,7 +12,7 @@ hidden: false
 
 A japán juhar (*Acer palmatum*) a mérsékelt égövi díszkertészet egyik legmeghatározóbb eleme, amelynek esztétikai értéke, finom lombozata és változatos őszi lombszíne világszerte kiemelt figyelmet kap a tájépítészek és hobbikertészek körében. Ugyanakkor ezen értékes fafaj fennmaradását az egyik legsúlyosabb biotikus kockázati tényező, a verticilliumos hervadás fenyegeti. Ez a betegség, amelyet elsősorban a *Verticillium dahliae*, kisebb mértékben pedig a *Verticillium albo-atrum* gombafajok okoznak, az edénynyalábok elzáródásával és a vízszállítás összeomlásával jár, ami gyakran a növény pusztulásához vezet. Két módon is károsít: egyrészt fizikailag elzárja a víz útját, másrészt toxinokat termel. A kettő együtt azt eredményezi, hogy a fa szó szerint „szomjan hal", még akkor is, ha a talaj nedves. A verticilliumos hervadás nem csupán egy lokális probléma; világszerte elterjedt, több mint 300 gazdanövényt érintő kórfolyamat, amely a faiskolai termesztéstől a városi parkok fenntartásáig mindenhol jelentős gazdasági és ökológiai veszteségeket okoz. 
 
-### Tünetek: amikor már eszlelhető a tünet - de már későn
+### Tünetek: amikor már észlelhető a tünet - de már későn
 
 A verticilliumos hervadás alattomos, mert két különböző formában jelentkezhet.
 Az akut fertőzés szinte sokkoló. Gyakran a nyári hőség idején egy teljes ág - vagy akár a korona egy része - hirtelen elhervad, majd megbarnul. A levelek sokszor nem is hullanak le, hanem szárazon az ágon maradnak. Ezt a jelenséget nevezik „zászlósságnak".
